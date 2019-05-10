@@ -225,6 +225,7 @@ Combat is divided up into rounds, which use the following procedure. Usage dice 
 * Quick Actions
 * Enemy Actions
     * Slow characters using missile or spells may be interrupted if damaged
+    * Players roll to defend, although the GM rolls for monster damage or effects
 * Slow Actions
 * Morale Check
     * Single Enemy: First hit, 1/2 hp lost, 3/4 hp lost
@@ -234,30 +235,56 @@ Actions are chosen from the list below. In general, movement is possible in addi
 
 ## Melee
 
-* Critical: Double damage, bypass armor, and armor is degraded if possible
+Test Strength.
+
+* Critical: Double damage and bypass armor
 * Complete: Bypass armor
 * Partial: Choose one
-   * Absorbed (subtract opponent's armor from damage roll)
-   * Armor check (armor usage)
+   * Body blow (subtract opponent's armor from damage roll)
+   * Counterattack (opponent does damage)
    * Exposed position
 * Fumble: Weapon effectiveness degrades one die
 
 ## Missile
 
-* Critical: Double damage, bypass armor, and armor is degraded if possible
+Test Dexterity.
+
+* Critical: Double damage and bypass armor
 * Complete: Bypass armor
 * Partial: Choose one
-   * Absorbed (subtract opponent's armor from damage roll)
+   * Body blow (subtract opponent's armor from damage roll)
    * Ammo check (ammunition usage)
    * Exposed position
 * Fumble: Weapon effectiveness degrades one die
 
+## Defend
+
+Used whenever an enemy makes a physically damaging attack. This is a player facing game, so the player rolls. Test Constitution.
+
+* Critical: No damage and enemy is in an exposed position
+* Complete: No damage
+* Partial: Subtract armor from damage, but lower armor value by one
+    * For example, if a player rolls a 5 for chain mail at the start of combat, it is now a 4
+    * Armor may not lower below a 1
+* Fail: Full damage
+* Fumble: Enemy does double damage
+
 ## Spell
+
+Test Int (wizards) or Wis (clerics)
 
 * Critical: Double effect and keep spell
 * Complete: Effect and keep spell
 * Partial: Effect and lose spell
 * Fumble: Lose spell
+
+## After Combat
+
+Any armor dice showing a 1 must make a usage test. A failure degrades the armor one step.
+
+# General Tests and Saves
+
+For most tests and saves, just use success (8+) or failure. If a player has an appropriate background for the test, they get advantage.
 
 # Adventure
 
@@ -266,9 +293,11 @@ Each day is divided into four hour watches, for a total of six watches each day 
 ## End of Watch
 
 * Check for encounters
-* Dusk
+* Resource usage dice
+    * Torches, rope, spikes, etc
+* Dusk only
     * Spend one food
-* Dawn
+* Dawn only
     * Spellcasters memorize spells if they rested for two watches
 
 ## Wilderness
@@ -281,10 +310,10 @@ Each day is divided into four hour watches, for a total of six watches each day 
         * Scout makes a Wis check
         * If failed, lose a day, return to where you are
 * Rest (Each character may choose one)
-    * Roll hit die and regain that many hit points
-    * Test to repair armor or weapon (Con), on success, improve usage die up to max
-    * Test to memorize spell (Int) / beseech prayer (Wis), on success, gain one spell or prayer up to max
-    * May forage (Wis)
+    * Heal. Roll hit die and regain that many hit points
+    * Repair. Test to repair armor or weapon (Con), on success, improve usage die up to max
+    * Memorize. Test to memorize spell (Int) / beseech prayer (Wis), on success, gain one spell or prayer up to max
+    * Forage. Test (Wis)
         * On success, gain one food or random herb / plant of interest
         * On failure, there's an encounter
 
@@ -303,8 +332,8 @@ At the end of each watch in the dungeon, test any usage die for light sources or
     * May cover three times as much ground as exploration
     * Automatically surprised and disadvantage if traps are triggered
 * Rest (Each character may choose one)
-    * Roll hit die with disadvantage and regain that many hit points
-    * Test to learn spell or prayer (Int/Wis) with disadvantage, on success, gain one spell or prayer
+    * Heal. Roll hit die with disadvantage and regain that many hit points
+    * Memorize. Test to learn spell or prayer (Int/Wis) with disadvantage, on success, gain one spell or prayer
 
 # Enemies
 
