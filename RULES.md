@@ -34,7 +34,7 @@ There are certain situations where bonuses and penalties are applied to test rol
 
 ## Usage Dice
 
-These are taken from _Black Hack_, although 1-3 is a downgrade. These are used to track resources or items which can be damaged, like armor. The dice degrade from d12 / d10 / d8 / d6 / d4 each time 1-3 is rolled.
+These are taken from _Black Hack_, although 1-3 is a downgrade. These are used to track resources or items which can be damaged, like armor. The dice degrade from (d12 --> d10 --> d8 --> d6 --> d4 --> Broken / Used Up) each time 1-3 is rolled or a specific effect calls for it.
 
 # Character Creation
 
