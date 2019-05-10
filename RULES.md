@@ -2,7 +2,7 @@
 
 This document will eventually be broken out into multiple sections. For now, though, it is consolidated here. This is mostly based on _B/X Essentials_, so use that to fill in gaps. The big difference is that rolling an 8+ on a d20 is a general metric for success, rather than having a variety of resolution mechanics. There are also more granular procedures for many situations.
 
-# The Core Mechanic
+# Core Mechanics
 
 The core mechanic for Lavender Hack is a player facing d20 system. Most rolls use one of six standard attributes: Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma. You roll the d20, add an ability modifier, and compare against a fixed set of results. These attributes are on the 3-18 scale, and have the same bonuses as in B/X D&D.
 
@@ -26,132 +26,231 @@ The “natural” language above references a d20 test roll that shows the numbe
 
 ## Advantage/Disadvantage
 
-Some situations can result in a test roll having *advantage* or *disadvantage*. If a player has advantage on a test, they roll two d20s and take the higher result. If they have disadvantage, they roll two d20s and take the lower result.
+Some situations can result in a test roll having *advantage* or *disadvantage*. If a player has advantage on a test, they roll two dice and take the result they wish. If they have disadvantage, they roll two dice and the GM takes the result they wish. This frequently applies to tests, but could apply to any other rolls, such as damage or usage, as appropriate.
 
 ## Bonuses/Penalties
 
-There are certain situations where bonuses and penalties are applied to test roll. These are just additional modifiers added to the result. The main source of bonuses and penlties are attributes.
+There are certain situations where bonuses and penalties are applied to test roll. These are just additional modifiers added to the result. The main source of bonuses and penlties are attributes. No test roll may have a bonus higher than +5 for any reason.
+
+## Usage Dice
+
+These are taken from _Black Hack_, although 1-3 is a downgrade. These are used to track resources or items which can be damaged, like armor. The dice degrade from d12 / d10 / d8 / d6 / d4 each time 1-3 is rolled.
 
 # Character Creation
 
 * Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma.
+    * Note bonuses / penalties.
 * Roll or choose a background.
-* Choose one a class (Warrior, Thief, Cleric, Wizard).
-* Starting hit points use the class die plus constitution. Roll with advantage.
+* Choose a class (Warrior, Thief, Cleric, Wizard).
+* Roll hit points.
+    * Use the class die plus constitution.
+    * Roll with advantage.
+* Roll for starting gear.
+* Note class abilities.
+    * If cleric / wizard, roll for spells.
 
 ## Backgrounds and Connections
 
-Can use occupations from _Into the Odd_ page 36. Then roll a connection (player to your left) from _Into the Odd_ page 37.
+Can use occupations from _Into the Odd_ page 36 or from _Dungeon Crawl Classics_ page 22. Then roll a connection (player to your left) from _Into the Odd_ page 37.
 
 # Classes
+
+May choose one of the four following classes. The prime attribute is used during the level up procedure.
 
 ## Warrior
 
 HP: d8
-Attribute: Strength
+Primary: Strength
 Armor: Any
 Weapons: Any
-Special: Counterattack, Mighty Deeds
+
+### Special Abilities
+
+Counterattack: If an opponent misses an attack against a warrior, they take damage equal to the warrior's level.
+
+Dealer of Death: May attack with disadvantage, if successful, roll additional d6 damage equal to warrior's level.
+
+Mighty Deeds: On complete success in melee, may also disarm, push, sunder, or grapple opponent.
+
+### Starting Equipment
+
+TBD. Use _Black Hack_ starting equipment.
+
+## Level Progression
+
+TBD. Use _B/X_ progression (levels, xp totals, titles).
 
 ## Thief
 
 HP: d6
-Attribute: Dexterity
+Primary: Dexterity
 Armor: Leather
 Weapon: Sword, Dagger, Bows
-Special: Backstab, Filching
+
+### Special Abilities
+
+Sneak attack: Automatically hit and double damage if enemy is unaware
+
+Roguish talents: Gain advantage when filching, moving silently, reading languages, climbing, or picking locks
+
+### Starting Equipment
+
+TBD. Use _Black Hack_ starting equipment.
+
+## Level Progression
+
+TBD. Use _B/X_ progression (levels, xp totals, titles).
+
+## Spellcasters
+
+After a full rest (two watches, see below), clerics and wizards may memorize a number of spells equal to their level. The spells memorized must be of a level equal to or less than their current level (a level two wizard can't memorize level three spells).
+
+Starting spellcasters know two random first level spells. At each level thereafter, they may learn one random spell of a level they are able to cast.
 
 ## Cleric
 
 HP: d6
-Attribute: Wisdom
+Primary: Wisdom
 Armor: Any
 Weapons: Blunt
-Special: Prayers, Turning
+
+### Special Abilities
+
+Prayers: Choose diety (_DCC_). Use _Black Hack_ prayers. No continual light or create food or water!
+
+Turning: Choose creature type (demons, devils, undead, elementals). May attempt to turn them as a special action during combat.
+
+* Critical: Creatures with total HD equal to 4 X Level are destroyed
+* Complete: Creatures with total HD equal to 2 X Level are destroyed
+* Partial: Creatures with total HD equal to 2 X Level flee
+* Fumble: Creatures heal all damage and focus all attacks on cleric
+
+### Starting Equipment
+
+TBD. Use _Black Hack_ starting equipment.
+
+## Level Progression
+
+TBD. Use _B/X_ progression (levels, xp totals, titles).
 
 ## Wizard
 
 HP: d4
-Attribute: Intelligence
+Primary: Intelligence
 Armor: None
 Weapons: Staff, Torch, Dagger
-Special: Familiar, Spells
+
+### Special Abilities
+
+Familiar: Roll for familiar using AD&D 1E or _Black Hack_.
+
+Spells: Use _Black Hack_ or B/X or AD&D 1E for spells. No continual light or create food or water!
+
+### Starting Equipment
+
+TBD. Use _Black Hack_ starting equipment.
+
+## Level Progression
+
+TBD. Use _B/X_ progression (levels, xp totals, titles).
 
 # Level Up Procedure
 
-* Roll 2d20 and compare to favored attribute. If higher, increase by one.
-* Roll d20 for any other attribute. If higher, increase by one.
+* Roll d20 with advantage and compare to favored attribute. If higher, increase attribute by one.
+* Choose any attribute, roll d20 and compare. If higher, increase attribute by one.
 * Roll a number of hit dice equal to new level. If higher than current hit points, use new amount.
+* Note any new class abilities.
 
 # Equipment
 
+Use _Knave_ prices for now - copper piece standard!
+
 ## Weapon Damage
 
-d4 Dagger, knife, dart, sling.
-d6 Short sword, staff, club, short bow.
-d8 Sword, mace, spear, polearm, axe, longbow, crossbow, pistol.
-d10 Greatsword, battle axe, lance, flail, musket, heavy crossbow.
+d4 Dagger, knife, dart, sling
+d6 Short sword, staff, club, short bow
+d8 Sword, mace, spear, polearm, axe, longbow, crossbow, pistol
+d10 Greatsword, battle axe, lance, flail, musket, heavy crossbow
+
+For various reasons, weapons can become less effective. In this case, lower the damage die as if it was a usage die (d8 to d6, d6 to d4, etc).
 
 ## Armor Usage
 
-dU4 Leather.
-dU6 Studded leather, ring, scale.
-dU8 Chain, half-plate.
-dU10 Full plate with helmet.
+Armor usage dice are used during combat, informing the players of how effective their armor is.
+
+dU4 Leather
+dU6 Studded leather, ring, scale
+dU8 Chain, half-plate
+dU10 Full plate with helmet
 
 Note: A shield steps up the usage die once.
 
-# Encounter Procedure
+## Resources
+
+dU6 Torches, spikes
+dU8 Arrows, oil, mule, rope
+
+# Encounter
 
 * Check for range
 * Check for surprise
+    * Dex checks, if passed, no surprise
+* Choose approach
+    * Communicate
+    * Combat
+        * Roll usage dice for armor at start of combat
+    * Flee
+        * Enemy may make free strikes as appropriate
+        * A chase ensues
 
-May interact with culture. If so, check for reactions.
+# Communicate
 
-## Reaction Procedure
-
-If there is a mutual language, one player may make a Cha test. If there isn't a mutual language, roll with disadvantage. If the characters trade something of value to the other group, roll with advantage.
+One player may make a Cha test. If there isn't a mutually understandable language, roll with disadvantage. If the characters trade something of value to the other group or have leverage for some reason, roll with advantage.
 
 * Critical: Friendly
 * Complete: Talkative
 * Partial: Unsure
-* Failure: Unfriendly
+* Miss: Unfriendly
 * Fumble: Hostile
 
-# Combat Procedure
+# Combat
 
-Combat is divided up into rounds, which use the following procedure.
+Combat is divided up into rounds, which use the following procedure. Usage dice for armor is rolled at the start of combat. The value is the value of armor for the duration of the combat. Enemies do not roll for armor - they have fixed value listed in the stat block.
 
 * Declare Actions
     * Melee / Missile / Spell
 * Check Initiative
     * Dexterity Test
-    * If passed, go before enemy, otherwise go after
-* Quick Characters Actions
+    * If passed, character is quick, otherwise they are slow
+* Quick Actions
 * Enemy Actions
-* Slow Characters Actions
+    * Slow characters using missile or spells may be interrupted if damaged
+* Slow Actions
+* Morale Check
+    * Single Enemy: First hit, 1/2 hp lost, 3/4 hp lost
+    * Group: First casualty, 1/2 dead, 3/4 dead
 
-Actions are chosen from the list below. In general, movement is possible in addition to an action. This list of actions is not exhaustive - using items (potions, rings, scrolls, wands) and other special abilities may qualify. If possible, actions should be made to fit the critical / complete / partial / fumble framework.
+Actions are chosen from the list below. In general, movement is possible in addition to an action. This list of actions is not exhaustive - using items (potions, rings, scrolls, wands) and other special abilities (turning) may qualify. If possible, actions should be made to fit the critical / complete / partial / fumble framework.
 
 ## Melee
 
-* Critical: Double damage and bypass armor
+* Critical: Double damage, bypass armor, and armor is degraded if possible
 * Complete: Bypass armor
-* Partial: Choose
-   * Hit armor (subtract armor from damage roll)
-   * Counterstrike (enemy inflicts damage)
+* Partial: Choose one
+   * Absorbed (subtract opponent's armor from damage roll)
+   * Armor check (armor usage)
    * Exposed position
-* Fumble: Weapon usage die
+* Fumble: Weapon effectiveness degrades one die
 
 ## Missile
 
-* Critical: Double damage and bypass armor
+* Critical: Double damage, bypass armor, and armor is degraded if possible
 * Complete: Bypass armor
-* Partial: Choose
-   * Hit armor (subtract armor from damage roll)
+* Partial: Choose one
+   * Absorbed (subtract opponent's armor from damage roll)
    * Ammo check (ammunition usage)
    * Exposed position
-* Fumble: Weapon usage die
+* Fumble: Weapon effectiveness degrades one die
 
 ## Spell
 
@@ -160,48 +259,59 @@ Actions are chosen from the list below. In general, movement is possible in addi
 * Partial: Effect and lose spell
 * Fumble: Lose spell
 
-## After Combat
-
-Roll usage dice for armor. Downgrade as appropriate.
-
-# Search Procedure
-
-# Watch Procedure
+# Adventure
 
 Each day is divided into four hour watches, for a total of six watches each day (dawn, day, day, dusk, night, night). For each watch, choose one: explore, move, or rest. The procedures are slightly different if characters are in a dungeon or wilderness.
 
-At the end of each day, spend one food.
+## End of Watch
 
-## Every Watch
-
-* Check for encounters.
+* Check for encounters
+* Dusk
+    * Spend one food
+* Dawn
+    * Spellcasters memorize spells if they rested for two watches
 
 ## Wilderness
 
 * Explore
-    * Find something in the hex, if it's there.
+    * Find something in the hex, if it's there
 * Move
-    * Attempt to move to an adjacent hex.
-    * Check for getting lost (lose a day, return to where you are).
+    * Attempt to move to an adjacent hex
+    * Check for getting lost
+        * Scout makes a Wis check
+        * If failed, lose a day, return to where you are
 * Rest (Each character may choose one)
-    * Roll one hit die and regain that many hit points.
-    * Test to repair armor or weapon (Constitution), on success, improve usage die up to max.
-    * Test to learn spell (Int) / prayer (Wis), on success, gain one spell or prayer up to max.
-    * May forage (Wisdom). On success, gain one food or random herb / plant of interest.
+    * Roll hit die and regain that many hit points
+    * Test to repair armor or weapon (Con), on success, improve usage die up to max
+    * Test to memorize spell (Int) / beseech prayer (Wis), on success, gain one spell or prayer up to max
+    * May forage (Wis)
+        * On success, gain one food or random herb / plant of interest
+        * On failure, there's an encounter
 
 ## Dungeon
 
 At the end of each watch in the dungeon, test any usage die for light sources or other equipment used.
 
 * Explore
-    * Slow, cautious, movement.
-    * May carefully search up to four medium sized rooms.
-        * Find something of interest in each room, if it exists.
-    * Gain advantage if traps are triggered.
+    * Slow, cautious, movement
+    * May carefully search up to *four* medium sized rooms
+        * Find something of interest in each room, if it exists
+    * Gain advantage if traps are triggered
 * Move
-    * Move quickly without searching.
-    * May cover three times as much ground as exploration.
-    * Automatically surprised
+    * Move quickly without searching
+        * Also for fleeing
+    * May cover three times as much ground as exploration
+    * Automatically surprised and disadvantage if traps are triggered
 * Rest (Each character may choose one)
-    * Roll one hit die and regain that many hit points.
-    * Test to learn spell or prayer (Int/Wis), on success, gain one spell or prayer.
+    * Roll hit die with disadvantage and regain that many hit points
+    * Test to learn spell or prayer (Int/Wis) with disadvantage, on success, gain one spell or prayer
+
+# Enemies
+
+Most B/X style enemy stat blocks are appropriate for this game. The big difference is AC. Instead use armor value from 0-6 as appropriate. If not sure, an armor of 1 or 2 is best.
+
+# Experience Points
+
+* One XP for each silver piece worth of treasure recovered
+* 1000 XP for each dangerous hex explored
+* 2000 XP for each dangerous dungeon explored
