@@ -118,6 +118,11 @@ Starting spellcasters know two random first level spells. At each level thereaft
 
 Prayers: Choose diety (_DCC_). Use _Black Hack_ prayers. No continual light or create food or water!
 
+* Level 1: 1) Cure Light Wounds, 2) Detect Evil, 3) Light, 4) Protection from Evil
+* Level 2: 1) Purify Food and Drink, 2) Bless, 3) Find Traps, 4) Hold Person
+* Level 3: 1) Silence, 2) Speak with Animals, 3) Daylight, 4) Cure Disease
+* Level 4: 1) Locate Object, 2) Prayer, 3) Remove Curse, 4) Speak with Dead
+
 Turning: Choose creature type (demons, devils, undead, elementals). May attempt to turn them as a special action during combat.
 
 * Critical: Creatures with total HD equal to 4 X Level are destroyed
@@ -145,6 +150,11 @@ TBD. Use _B/X_ progression (levels, xp totals, titles).
 Familiar: Roll for familiar using AD&D 1E or _Black Hack_.
 
 Spells: Use _Black Hack_ or B/X or AD&D 1E for spells. No continual light or create food or water!
+
+* Level 1: 1) Charm, 2) Magic Missile, 3) Light, 4) Shield
+* Level 2: 1) Sleep, 2) Detect Magic, 3) Knock/Lock, 4) Web
+* Level 3: 1) Darkness, 2) Dispel Magic, 3) Magic Mouth, 4) Read Languages
+* Level 4: 1) Invisibility, 2) Fireball, 3) Darkvision, 4) Confusion
 
 ### Starting Equipment
 
@@ -314,8 +324,9 @@ Each day is divided into four hour watches, for a total of six watches each day 
     * Repair. Test to repair armor or weapon (Con), on success, improve usage die up to max
     * Memorize. Test to memorize spell (Int) / beseech prayer (Wis), on success, gain one spell or prayer up to max
     * Forage. Test (Wis)
-        * On success, gain one food or random herb / plant of interest
-        * On failure, there's an encounter
+        * Complete: gain one food or random herb / plant of interest
+        * Partial: food is rotten or comprimised in some way
+        * Failure: encounter
 
 ## Dungeon
 
