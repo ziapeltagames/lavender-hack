@@ -1,2 +1,3 @@
 # lavender-hack
-An OSR game inspired by Whitehack, Black Hack, Macchiato Monsters, DCC, CHR, and B/X.
+
+An OSR game inspired by Whitehack, Black Hack, Macchiato Monsters, Dungeon Crawl Classics, Czege House Rules, Knave, and B/X Essentials. The goal is to capture the spirit of B/X D&D as much as possible, while using a few bells and whistles from newer games. Toward that end, rolling a d20 for most tasks (where 20 is the best result), using the standard six attributes, and having a class based system are used as a base. Speed of character creation is important, as is a simple but effective resource management element.
