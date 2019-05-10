@@ -59,10 +59,10 @@ May choose one of the four following classes. The prime attribute is used during
 
 ## Warrior
 
-HP: d8
-Primary: Strength
-Armor: Any
-Weapons: Any
+* HP: d8
+* Primary: Strength
+* Armor: Any
+* Weapons: Any
 
 ### Special Abilities
 
@@ -82,10 +82,10 @@ TBD. Use _B/X_ progression (levels, xp totals, titles).
 
 ## Thief
 
-HP: d6
-Primary: Dexterity
-Armor: Leather
-Weapon: Sword, Dagger, Bows
+* HP: d6
+* Primary: Dexterity
+* Armor: Leather
+* Weapon: Sword, Dagger, Bows
 
 ### Special Abilities
 
@@ -109,10 +109,10 @@ Starting spellcasters know two random first level spells. At each level thereaft
 
 ## Cleric
 
-HP: d6
-Primary: Wisdom
-Armor: Any
-Weapons: Blunt
+* HP: d6
+* Primary: Wisdom
+* Armor: Any
+* Weapons: Blunt
 
 ### Special Abilities
 
@@ -135,10 +135,10 @@ TBD. Use _B/X_ progression (levels, xp totals, titles).
 
 ## Wizard
 
-HP: d4
-Primary: Intelligence
-Armor: None
-Weapons: Staff, Torch, Dagger
+* HP: d4
+* Primary: Intelligence
+* Armor: None
+* Weapons: Staff, Torch, Dagger
 
 ### Special Abilities
 
@@ -167,10 +167,10 @@ Use _Knave_ prices for now - copper piece standard!
 
 ## Weapon Damage
 
-d4 Dagger, knife, dart, sling
-d6 Short sword, staff, club, short bow
-d8 Sword, mace, spear, polearm, axe, longbow, crossbow, pistol
-d10 Greatsword, battle axe, lance, flail, musket, heavy crossbow
+* d4 Dagger, knife, dart, sling
+* d6 Short sword, staff, club, short bow
+* d8 Sword, mace, spear, polearm, axe, longbow, crossbow, pistol
+* d10 Greatsword, battle axe, lance, flail, musket, heavy crossbow
 
 For various reasons, weapons can become less effective. In this case, lower the damage die as if it was a usage die (d8 to d6, d6 to d4, etc).
 
@@ -178,17 +178,17 @@ For various reasons, weapons can become less effective. In this case, lower the 
 
 Armor usage dice are used during combat, informing the players of how effective their armor is.
 
-dU4 Leather
-dU6 Studded leather, ring, scale
-dU8 Chain, half-plate
-dU10 Full plate with helmet
+* dU4 Leather
+* dU6 Studded leather, ring, scale
+* dU8 Chain, half-plate
+* dU10 Full plate with helmet
 
 Note: A shield steps up the usage die once.
 
 ## Resources
 
-dU6 Torches, spikes
-dU8 Arrows, oil, mule, rope
+* dU6 Torches, spikes
+* dU8 Arrows, oil, mule, rope
 
 # Encounter
 
