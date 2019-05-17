@@ -1,6 +1,6 @@
 # Lavender Hack
 
-This document will eventually be broken out into multiple sections. For now, though, it is consolidated here. This is mostly based on _B/X Essentials_, so use that to fill in gaps. The big difference is that rolling an 8+ on a d20 is a general metric for success, rather than having a variety of resolution mechanics. There are also more granular procedures for many situations.
+This document will eventually be broken out into multiple sections. For now, though, it is consolidated here. This is mostly based on _B/X Essentials_, so use that to fill in gaps. The big difference is that there are standard player facing results: 8+ for success with cost and 18+ for complete success, rather than having varying difficulty numbers. Resource management is also a big feature.
 
 # Core Mechanics
 
@@ -30,7 +30,7 @@ Some situations can result in a test roll having *advantage* or *disadvantage*. 
 
 ## Bonuses/Penalties
 
-There are certain situations where bonuses and penalties are applied to test roll. These are just additional modifiers added to the result. The main source of bonuses and penlties are attributes. No test roll may have a bonus higher than +5 for any reason.
+There are certain situations where bonuses and penalties are applied to a test roll. These are just additional modifiers added to the result. The main source of bonuses and penlties are attributes. No test roll may have a bonus higher than +5 for any reason.
 
 ## Usage Dice
 
@@ -38,16 +38,16 @@ These are taken from _Black Hack_, although 1-3 is a downgrade. These are used t
 
 # Character Creation
 
-* Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma.
-    * Note bonuses / penalties.
-* Roll or choose a background.
-* Choose a class (Warrior, Thief, Cleric, Wizard).
-* Roll hit points.
-    * Use the class die plus constitution.
-    * Roll with advantage.
-* Roll for starting gear.
-* Note class abilities.
-    * If cleric / wizard, roll for spells.
+* Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma
+    * Note bonuses / penalties
+* Roll or choose a background
+* Choose a class (Warrior, Thief, Cleric, Wizard)
+* Roll hit points
+    * Use the class die plus constitution
+    * Roll with advantage
+* Roll for starting gear
+* Note class abilities
+    * If cleric / wizard, roll for spells
 
 ## Backgrounds and Connections
 
@@ -76,10 +76,6 @@ Mighty Deeds: On complete success in melee, may also disarm, push, sunder, or gr
 
 TBD. Use _Black Hack_ starting equipment.
 
-## Level Progression
-
-TBD. Use _B/X_ progression (levels, xp totals, titles).
-
 ## Thief
 
 * HP: d6
@@ -96,10 +92,6 @@ Roguish talents: Gain advantage when filching, moving silently, reading language
 ### Starting Equipment
 
 TBD. Use _Black Hack_ starting equipment.
-
-## Level Progression
-
-TBD. Use _B/X_ progression (levels, xp totals, titles).
 
 ## Spellcasters
 
@@ -134,10 +126,6 @@ Turning: Choose creature type (demons, devils, undead, elementals). May attempt 
 
 TBD. Use _Black Hack_ starting equipment.
 
-## Level Progression
-
-TBD. Use _B/X_ progression (levels, xp totals, titles).
-
 ## Wizard
 
 * HP: d4
@@ -159,10 +147,6 @@ Spells: Use _Black Hack_ or B/X or AD&D 1E for spells. No continual light or cre
 ### Starting Equipment
 
 TBD. Use _Black Hack_ starting equipment.
-
-## Level Progression
-
-TBD. Use _B/X_ progression (levels, xp totals, titles).
 
 # Level Up Procedure
 
@@ -225,12 +209,11 @@ One player may make a Cha test. If there isn't a mutually understandable languag
 
 # Combat
 
-Combat is divided up into rounds, which use the following procedure. Usage dice for armor is rolled at the start of combat. The value is the value of armor for the duration of the combat. Enemies do not roll for armor - they have fixed value listed in the stat block.
+Combat is divided up into rounds, which use the following procedure.
 
 * Declare Actions
     * Melee / Missile / Spell
-* Check Initiative
-    * Dexterity Test
+* Check Initiative (Dex Test)
     * If passed, character is quick, otherwise they are slow
 * Quick Actions
 * Enemy Actions
@@ -243,6 +226,10 @@ Combat is divided up into rounds, which use the following procedure. Usage dice 
 
 Actions are chosen from the list below. In general, movement is possible in addition to an action. This list of actions is not exhaustive - using items (potions, rings, scrolls, wands) and other special abilities (turning) may qualify. If possible, actions should be made to fit the critical / complete / partial / fumble framework.
 
+## Armor
+
+Armor dice are rolled as needed (don't roll all the armor dice at the start of combat). Once rolled, the value is set for the duration of the combat. Enemies do not roll for armor - they have fixed value listed in the stat block.
+
 ## Melee
 
 Test Strength.
@@ -251,7 +238,7 @@ Test Strength.
 * Complete: Bypass armor
 * Partial: Choose one
    * Body blow (subtract opponent's armor from damage roll)
-   * Counterattack (opponent does damage)
+   * Exertion (lower armor die value, to a minimum of one)
    * Exposed position
 * Fumble: Weapon effectiveness degrades one die
 
@@ -303,7 +290,7 @@ Each day is divided into four hour watches, for a total of six watches each day 
 ## End of Watch
 
 * Check for encounters
-* Resource usage dice
+* Resource usage dice as appropriate
     * Torches, rope, spikes, etc
 * Dusk only
     * Spend one food
@@ -321,7 +308,7 @@ Each day is divided into four hour watches, for a total of six watches each day 
         * If failed, lose a day, return to where you are
 * Rest (Each character may choose one)
     * Heal. Roll hit die and regain that many hit points
-    * Repair. Test to repair armor or weapon (Con), on success, improve usage die up to max
+    * Repair. Spend repair cost and test to repair armor or weapon (Con), on success, improve usage die up to max
     * Memorize. Test to memorize spell (Int) / beseech prayer (Wis), on success, gain one spell or prayer up to max
     * Forage. Test (Wis)
         * Complete: gain one food or random herb / plant of interest
