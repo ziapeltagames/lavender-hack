@@ -36,6 +36,10 @@ There are certain situations where bonuses and penalties are applied to a test r
 
 These are taken from _Black Hack_, although 1-3 is a downgrade. These are used to track resources or items which can be damaged, like armor. The dice degrade from (d12 --> d10 --> d8 --> d6 --> d4 --> Broken / Used Up) each time 1-3 is rolled or a specific effect calls for it.
 
+| Usage Die | Value | Approximate Worth
+| --- | --- | --- |
+| 1 | 1 | 1 |
+
 # Character Creation
 
 * Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma
@@ -65,6 +69,10 @@ May choose one of the four following classes. The prime attribute is used during
 * Weapons: Any
 
 ### Special Abilities
+
+Power Attack?
+
+Cleave?
 
 Counterattack: If an opponent misses an attack against a warrior, they take damage equal to the warrior's level.
 
