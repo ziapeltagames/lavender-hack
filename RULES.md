@@ -1,10 +1,22 @@
-# Lavender Hack
+# Strict Time Records
 
-This document will eventually be broken out into multiple sections. For now, though, it is consolidated here. This is mostly based on _B/X Essentials_, so use that to fill in gaps. The big difference is that there are standard player facing results: 8+ for success with cost and 18+ for complete success, rather than having varying difficulty numbers. Resource management is also a big feature.
+Welcome to _Strict Time Records_ (_STR_)! This is a role-playing game based on a variety of games from the [Old School Renaissance](https://rpg.stackexchange.com/questions/1144/what-defines-the-old-school-renaissance). However, it incorporates some very new school ideas, such as success with cost and abstract but well integrated resource management.
+
+Note: yes, this is one crazy big doc. I'm iterating enough that it makes it easier to make changes in this format. Eventually I'll divide it up into different docs for different topics. Or maybe not. It is github after all. I dunno.
+
+### Blather
+
+Hi! I'm Phil Lewis. I wrote some of this and stole the rest. I'm going to use these sections to rant and ramble and add more context. Skip them if you're just looking for rules.
+
+The title is a Gygaxian reference to the first edition _Advanced Dungeons and Dragons Dungeon Master's Guide_ beseeching Dungeon Masters to use time pressure effectively. Way back in the mid 1980s, I found this idea fun in theory, but cumbersome in practice. One of the core goals of this system is to make that time pressure concept central to the game while keeping the fiddly bits manageable and meaningful. That's kind of my jam. I wrote another game called _Wrath of the Autarch_(https://www.drivethrurpg.com/product/191025/Wrath-of-the-Autarch) which is fun if you want a really deep dive on domain management.
+
+There is also a goal to hew somewhat close to a [B/X](https://www.drivethrurpg.com/product/110274/DD-Basic-Set-Rulebook-B-X-ed-Basic) core so I can use OSR content like [_Barrowmaze_](https://www.drivethrurpg.com/product/139762/Barrowmaze-Complete) or [_Hot Springs Island_](https://www.drivethrurpg.com/product/215340/The-Dark-of-Hot-Springs-Island) or [_Night's Dark Terror_](https://www.drivethrurpg.com/product/17119/B10-Nights-Dark-Terror-Basic) without too much pain.
+
+This game itself probably doesn't fit into the OSR, but if you use B/X to cover up any holes (of which there are many), you'll probably be in pretty good shape. It also probably goes without saying, but you already need to understand RPGs and B/X to make sense of this. If you're completely new, get started with _5th Edition Dungeons and Dragons_ and come back after you've played a few games.
 
 # Core Mechanics
 
-The core mechanic for Lavender Hack is a player facing d20 system. Most rolls use one of six standard attributes: Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma. You roll the d20, add an ability modifier, and compare against a fixed set of results. These attributes are on the 3-18 scale, and have the same bonuses as in B/X D&D.
+The core mechanic for _Strict Time Records_ is a player facing d20 (twenty sided die) system. Most rolls use a modifier based on one of six standard attributes: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha). You roll the d20, add an ability modifier (which could be negative), and compare the total against a fixed set of results. These attributes are on the 3-18 scale, and have the same bonuses and penalties as in B/X D&D.
 
 * 18: +3
 * 16-17: +2
@@ -14,44 +26,96 @@ The core mechanic for Lavender Hack is a player facing d20 system. Most rolls us
 * 4-5: -2
 * 3: -3
 
-Rolling to accomplish something using one of these attributes is called a *test*. If the final tally (d20 roll plus attribute modifier) is an 8 or higher, the test succeeds. Otherwise, it fails. Frequently procedures need finer granularity beyond success and failure. In that case, the following degrees of success may be used.
+Rolling to accomplish something using one of these attributes is called a **test**. If the final tally (d20 roll plus attribute modifier) is an 8 or higher, the test **succeeds**. Otherwise, it fails. Tests are specified like **roll Str** or **roll Cha**. Frequently **procedures** or **moves** need finer granularity beyond success and failure. In that case, the following degrees of success might be used.
 
-* Natural 20: Critical Success
-* 18+: Complete Success
-* 8+: Partial Success / Success with Cost
-* 7-: Miss
-* Natural 1: Fumble
+* Natural 20: **Critical** Success
+* 18+: **Complete** Success
+* 8+: **Partial** Success / Success with Cost
+* 7-: **Miss**
+* Natural 1: **Fumble**
 
-The “natural” language above references a d20 test roll that shows the number in question, regardless of modifiers.
+The **natural** above refers to a d20 test that shows the number in question, regardless of modifiers. For example, if you're making a Strength test with a +2 modifier to the roll, and the roll shows an 18, that is not a critical even though the total is a 20.
+
+### Blather
+
+I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success.
 
 ## Advantage/Disadvantage
 
-Some situations can result in a test roll having *advantage* or *disadvantage*. If a player has advantage on a test, they roll two dice and take the result they wish. If they have disadvantage, they roll two dice and the GM takes the result they wish. This frequently applies to tests, but could apply to any other rolls, such as damage or usage, as appropriate.
+Some situations can result in a test roll having **advantage** or **disadvantage**. If a player has advantage on a test, they roll two dice and take the result they wish. If they have disadvantage, they roll two dice and the GM takes the result they wish. This frequently applies to tests (d20 rolls), but could apply to any other dice rolls (of any dice type) as specified. Advantage and disadvantage cancel each other out.
 
 ## Bonuses/Penalties
 
-There are certain situations where bonuses and penalties are applied to a test roll. These are just additional modifiers added to the result. The main source of bonuses and penlties are attributes. No test roll may have a bonus higher than +5 for any reason.
+There are certain situations where bonuses and penalties are applied to a test roll. These are just additional modifiers added to the result. The main source of bonuses and penlties are attributes.
 
-## Usage Dice
+# Procedures and Moves
 
-These are taken from _Black Hack_, although 1-3 is a downgrade. These are used to track resources or items which can be damaged, like armor. The dice degrade from (d12 --> d10 --> d8 --> d6 --> d4 --> Broken / Used Up) each time 1-3 is rolled or a specific effect calls for it.
+This game uses a variety of procedures, which are sets of steps used to handle situations that occur in the game. They tend to be more tactical and turn based in nature, feeling a little more like a boardgame. Combat is one example of a procedure, as is overland travel.
 
-| Usage Die | Value | Approximate Worth
-| --- | --- | --- |
-| 1 | 1 | 1 |
+Moves are sets of actions to take in certain narrative situations. The name of a move is typically in bold, and there is commonly a test involved, along with five different results depending on the degree of success. Moves might be part of a procedure, or they can stand alone, triggered when the fiction in the game matches the description of the move.
+
+Essentially, procedures tie together sequences of moves, typically in a turn based format, and make it part of a mini-game. Such as using a **melee attack** move in combat. However, moves can stand alone, and be referenced when the fiction calls for it, such as **carousing in town** when you spend funds to party it up.
+
+### Blather
+
+Moves come from [_Apocalypse World_](http://apocalypse-world.com/), which burst forth on the RPG scene in 2010 and certainly had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_.
+
+For myself, I like the idea of moves as these mechanical widgets which can push the fiction in all sorts of interesting directions. However, when games are built of nothing but those, I tend to get bored quickly. I like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). The purists might blanch at this approach, but I see no incompatibility from mixing the "talk in the funny voices" parts of rpgs with the "win at a game" parts of rpgs.
+
+# Usage Dice
+
+Usage dice are used as a general purpose tracking mechanism. Mostly they're used for **resources** and **food** and other gear which can break or get used up over time. But they also track things like **fatigue** and party **discord**. The dice form a ladder of sorts, going from highest to lowest as **d12 <--> d10 <--> d8 <--> d6 <--> d4 <--> Broken / Used / Gone**.
+
+If the rules instruct you to **raise** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **lower** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are raised and lowered.
+
+## Rolling Usage Dice
+
+Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a 1-3, the die is lowered one step. The more they're used, the more they're used up!
+
+### Blather
+
+Usage dice come from the game [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), although they are also used very effectively and extensively in [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters). Note that in _Black Hack_ they lower on a 1-2. I used the _MM_ version, which is where the 1-3 comes from.
+
+I love the concept, although getting them to function well as an economy is one of the most active parts of development. Who knows, maybe they won't be as good of a fit as simple counters. It certainly requires a decent amount of rolling to make them viable.
+
+## Value
+
+The game uses an abstract concept of **value**. Items and gear are sorted into six broad categories, each of exponential worth. Occasionally it is necessary to compare a usage die to this value, as given in the table below. _STR_ uses a copper penny standard for currency, when there is currency, which isn't often. Instead, value tends to be very relative to groups and cultures.
+
+| Usage Die | Value | Class | Copper Pennies | Example |
+| --- | --- | --- | --- | --- |
+| None | 1 | Beggar | 10 | Sack of Potatoes |
+| d4 | 2 | Peasant | 100 | Dagger |
+| d6 | 3 | Squire | 1,000 | Broadsword |
+| d8 | 4 | Knight | 10,000 | Platemail Armor |
+| d10 | 5 | Noble | 100,0000 | Manor House |
+| d12 | 6 | Royal | 1,000,000 | Keep |
+
+# Party Sheet
+
+There is a party sheet for all the players which tracks four important party level concepts, each tracked with a different usage die. They are **resources**, **discord**, **food**, and **light**.
+
+## Resources Die
+
+The resources usage die tracks just that, resources the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs. The higher the die type, the better the quality and quantity of resources. Different class abilities can use the resources die.
+
+### Blather
+
+There tends to be lots of assorted gear that players track on their character sheets. Most of it is very similar and creates overhead without much interest. The resource die abstracts all of that out. In essence, the only items tracked by players tend to be weapons, swords, treasure, and very unique items.
+
+The resource die also provides an interesting mechanism for different classes to exploit narratively.
 
 # Character Creation
 
 * Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma
-    * Note bonuses / penalties
+    * Note bonuses / penalties for each attribute
 * Roll or choose a background
-* Choose a class (Warrior, Thief, Cleric, Wizard)
+* Choose a class (Strong, Wise, Deft, Weird)
 * Roll hit points
-    * Use the class die plus constitution
+    * Use the class die plus Con
     * Roll with advantage
 * Roll for starting gear
 * Note class abilities
-    * If cleric / wizard, roll for spells
 
 ## Backgrounds and Connections
 
