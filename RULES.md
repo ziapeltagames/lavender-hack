@@ -106,7 +106,7 @@ Food and light are tracked indepently from resources, since they function more a
 
 ## Discord
 
-Discord represents party cohesion. If the group is happy, well rested, and ready to go, the discord die is not present. It is raised during stressful situations and can impact various moves negatively, particularly trade and other social situations. It is special in that when it is rolled, it is **not lowered** unless specifically indicated.
+Discord represents party cohesion. If the group is happy, well rested, and ready to go, the discord die is not present. It is raised during stressful situations and can impact various moves negatively, particularly trade and other social situations. It is special in that when it is rolled, it is **not lowered on a 1-3** unless specifically indicated.
 
 # Characters
 
@@ -235,7 +235,7 @@ TBD. Use _Black Hack_ starting equipment.
 
 **Weirdness**: The Weird, naturally, have weirdness. Choose two first level weirdness during character creation. At each new level, gain one weirdness equal to level attained.
 
-* Level 1) Nibbler, 2) Switch
+* Level 1) Nibbler, 2) Swap
 * Level 2) Beastfriend, 2) Weight
 
 **Fatigue**: The Weird use a fatigue usage die. It is rolled each time weirdness is used. Frequently weirdness uses the result of the fatigue die. When it is gone, no more weirdness may be used. After a **full rest**, it is reset to a d8.
@@ -250,29 +250,62 @@ The Weird can't use the resource die.
 2. Robe of Shimmer
 3. Deathcat
 
-# Equipment
+# Gear, Valuables, and Currency
 
-## Value
+_LHC_ uses an abstract concept of **value**. Items and gear are sorted into six broad values, each of exponential worth. _LHC_ uses a copper penny standard for currency, when there is currency, which isn't often. Instead, value tends to be very relative to different groups and cultures. A big part of _LHC_ is discovering and trading with different groups. The value in terms of copper pennies is only provided as a rough guideline.
 
-The game uses an abstract concept of **value**. Items and gear are sorted into six broad categories, each of exponential worth. Occasionally it is necessary to compare a usage die to this scale, as given in the table below. _LHC_ uses a copper penny standard for currency, when there is currency, which isn't often. Instead, value tends to be very relative to different groups and cultures.
+Occasionally it is necessary to compare a usage die to this scale, as given in the table below. 
 
-| Usage Die | Value | Class | Copper Pennies | Example |
-| --- | --- | --- | --- | --- |
-| None | 1 | Beggar | 10 | Sack of Potatoes |
-| d4 | 2 | Peasant | 100 | Dagger |
-| d6 | 3 | Squire | 1,000 | Broadsword |
-| d8 | 4 | Knight | 10,000 | Platemail Armor |
-| d10 | 5 | Noble | 100,0000 | Manor House |
-| d12 | 6 | Royal | 1,000,000 | Keep |
+ | Value | Class | Copper Pennies | Example | Usage Die |
+ | --- | --- | --- | --- | --- |
+ | 1 | Beggar | 10 | Sack of Potatoes | None |
+ | 2 | Peasant | 100 | Dagger | d4 |
+ | 3 | Squire | 1,000 | Broadsword | d6 |
+ | 4 | Knight | 10,000 | Platemail Armor | d8 |
+ | 5 | Noble | 100,0000 | Manor House | d10 |
+ | 6 | Royal | 1,000,000 | Keep | d12 |
+
+ Items such as weapons, armor, and valuables are described by a **type**, a **value**, and the number of **slots** required to carry it. Weapons and armor are further described by how much damage they do or how much protection they afford. The type is a general class, such as clothing, art, armor, jewelry, potion, animal, or plant.
+
+## Slots
+
+Characters start the game with a number of slots equal to 5 + Str modifier. Most all items take one slot each. This isn't many slots, but it's assumed the character is carrying lots of other things not on their character sheet.
+
+## The Resource Die
+
+As mentioned earlier, most common adventuring gear is abstracted out into the resource die. It is assumed characters have standard sorts of gear, such as appropriate clothing, tents, bedrolls, flint and steel, sacks, backpacks, rope, parchment, iron spikes, and class related items like repair kits, lockpicks, spellbooks, and spell reagents.
+
+If the players want gear that is more odd, like a shrimp net or an hourglass, they may produce it, but must roll the resource die. Very specific things which may pertain to mission goals, like a unicorn horn, or magic items, like a balm of healing, can't be produced with the resource die. Also, gear produced this way can't be transferred to a character sheet. You can't use the resource die as an item generator for trade!
+
+## Food and Light
+
+Food and light are tracked separately from other adventuring gear. The food and light usage dice both refresh to a d8 at the start of an adventure. They are detailed further in the exploration section.
+
+## Valuables
+
+The only things written into slots on character sheets are armor, weapons, and valuables. Valuables are specific items which have a value. Typically these are treasures and magic items found in dungeons, herbs found on mountainsides, or pieces of legendary creatures like a manticore stinger. However, they could also be things like a deck of cards or tattoo making gear.
+
+Usually valuables are traded for other things. However, they can be used to give advantage on any test. If the result is a complete success, though, it is assumed the item is used up in the process and is removed from the character sheet.
+
+## Currency
+
+TBD (100 is one slot)
 
 ## Weapons
 
-* d4 Dagger, knife, dart, sling
-* d6 Short sword, staff, club, short bow
-* d8 Sword, mace, spear, axe, longbow, crossbow, pistol
-* d10 **Greatsword**, **claymore**, **battle axe**, **lance**, **halberd**, **flail**, musket, **heavy crossbow**
+| Name | Damage | Value | Slots | Effects | Range |
+| --- | --- | --- | --- | --- | --- |
+| Dagger | d4 | 2 | 1  |
+| Shortsword | d6 | 2 | 1  |
+| Longsword | d8 | 3 |  2 |
+| Mace | d8 | 2 |  1 |
+| Greatsword | d10 | 3 | 2 | Two Handed, Slow |  |
+| Shortbow | d6 | 2 | 1 | Two Handed | Short |
+| Longbow | d8 | 2 | 2 | Two Handed | Long |
+| Crossbow | d10 | 2 | 2 | Two Handed, Slow | Long |
+| Pistol | d10 | 3 | 1 | Gunpowder | Short |
 
-Weapons in bold are slow and powerful. The player will always take slow actions during initiative (don't roll initiative).
+Characters using slow weapons will always take slow actions during the combat procedure (don't roll initiative).
 
 For various reasons, weapons can become less effective. If this happens, lower the damage die as if it was a usage die (d8 to d6, d6 to d4, etc). Record the new damage dice amount on the character sheet next to the original damage.
 
@@ -280,13 +313,63 @@ For various reasons, weapons can become less effective. If this happens, lower t
 
 Armor dice are used during combat, informing the players of how effective their armor is.
 
-* Shield (+1 Step)
-* d4 Leather
-* d6 Chain
-* d8 Half plate
-* d10 Full plate
+| Name | Protection | Value | Slots |
+| --- | --- | --- | --- |
+| Leather | d4 | 1 | 1 |
+| Chain | d6 | 2 | 2 |
+| Half Plate | d8 | 3 | 3 |
+| Full Plate | d10 | 4 | 3 |
+| Shield | +1 Step | 2 | 1 |
 
 Note: A shield steps up the armor die once, in a similar fashion to a usage die. For example, leather and a shield is a d6 armor die. Armor, like weapons, can also become damaged.
+
+# Exploration
+
+One of the goals of _LHR_ is to work well for hexcrawls, the sorts of adventures where characters go out into the hinterlands and figure out what's where.
+
+Each day is divided into four hour watches, for a total of six watches each day (dawn, day, day, dusk, night, night). For each watch, choose one: explore, move, or rest. The procedures are slightly different if characters are in a dungeon or wilderness.
+
+## End of Watch
+
+* Roll food die
+* Roll light die (if in dungeon)
+* Check for encounters
+* Dawn
+    * The Wise memorize spells if they rested for two watches
+
+## Wilderness Exploration Procedure
+
+* Explore
+    * Find something in the hex, if it's there
+* Move
+    * Attempt to move to an adjacent hex
+    * Check for getting lost
+        * Scout rolls Wis
+        * If failed, lose a watch, raise the discord die, and return to where you are
+* Rest (Each character may choose one)
+    * Heal. Roll hit die and regain that many hit points
+    * Repair. Spend repair cost and test to repair armor or weapon (Con), on success, improve usage die up to max
+    * Memorize. Roll Int, on success, gain one spell up to max
+    * Forage. Test (Wis)
+        * Complete: raise the food die or find a random interesting herb from the area
+        * Partial: food is found, but it is rotten or comprimised in some way
+        * Failure: encounter
+
+## Dungeon Exploration Procedure
+
+* Explore
+    * Slow, cautious, movement
+    * May carefully search up to *four* medium sized rooms
+        * Find something of interest in each room, if it exists
+    * Gain advantage if traps are triggered
+* Move
+    * Move quickly without searching
+        * Also for fleeing
+    * May cover three times as much ground as exploration
+    * Automatically surprised and disadvantage if traps are triggered
+* Rest (Each character may choose one)
+    * Heal. Roll hit die with disadvantage and regain that many hit points
+    * Memorize. Roll Int with disadvantage, on success, gain one spell
 
 # Encounter Procedure
 
@@ -305,7 +388,7 @@ When a **sentient being** is first discovered, apply the following procedure.
 
 # Communicate
 
-One player may make a Cha test. If there isn't a mutually understandable language, roll with disadvantage. If the characters trade something of value to the other group or have leverage for some reason, roll with advantage.
+One player may make a Cha test. If there isn't a mutually understandable language, roll with disadvantage. If the characters trade something of value to the other group or have leverage for some reason, roll with advantage. The result determines their feelings toward the party.
 
 * Critical: Friendly
 * Complete: Talkative
@@ -334,7 +417,7 @@ Actions are chosen from the list below. In general, movement is possible in addi
 
 ## Armor
 
-Armor dice are rolled as needed (don't roll all the armor dice at the start of combat). Once rolled, the value is set for the duration of the combat. Enemies do not roll for armor - they have fixed value listed in the stat block.
+Armor dice are **rolled as needed** (don't roll armor dice at the start of combat). Once rolled, the value may decrease during the combat procedure as blows are taken. Enemies do not roll for armor - they have fixed value listed in the stat block.
 
 ## Melee
 
@@ -373,7 +456,7 @@ Used whenever an enemy makes a physically damaging attack. This is a player faci
 
 ## Spell
 
-Test Int (wizards) or Wis (clerics)
+Test Int
 
 * Critical: Double effect and keep spell
 * Complete: Effect and keep spell
@@ -385,59 +468,31 @@ Test Int (wizards) or Wis (clerics)
 
 Any armor dice showing a 1 must make a usage test using the die. A failure degrades the armor one step. Note the damaged value of the armor in the equipment section.
 
+# Culture and Trade
+
+When a culture is indifferent or friendly to the party, and a character has a valuable they wish to part with, the party may engage in a *trade*. Roll Cha.
+
+* Critical: +2 Value
+* Complete: +1 Value
+* Partial: +0 Value
+* Miss: -1 Value
+* Fumble: -2 Value
+
+Add the result to the value of the item traded. The following choices are then available: 
+
+**Trade Goods**: Receive goods that the culture has of a value less than or equal to the result.
+
+**Buy Gear**: If the value is higher than the resource die value, it is raised by one.
+
+**Carouse**: If the value is at least one, the discord die may be lowered by one. If the value is higher than the discord die, it is lowered by two.
+
+## Supply and Demand
+
+Different cultures have very different ideas of value, whether driven by preference or scarcity. If a culture **supplies** a certain type of valuable (such as potions), its value is one less in interactions with them. If a culture **demands** a certain type of valuable, its value is worth one more in interactions with them. Naturally, it's worth giving a culture what they demand and getting what a culture supplies! That's trading 101!
+
 # General Tests and Saves
 
 For most tests and saves, just use success (8+) or failure. If a player has an appropriate background for the test, they get advantage.
-
-# Exploration
-
-Each day is divided into four hour watches, for a total of six watches each day (dawn, day, day, dusk, night, night). For each watch, choose one: explore, move, or rest. The procedures are slightly different if characters are in a dungeon or wilderness.
-
-## End of Watch
-
-* Check for encounters
-* Resource usage dice as appropriate
-    * Torches, rope, spikes, etc
-* Dusk only
-    * Spend one food
-* Dawn only
-    * Spellcasters memorize spells if they rested for two watches
-
-## Wilderness Exploration Procedure
-
-* Explore
-    * Find something in the hex, if it's there
-* Move
-    * Attempt to move to an adjacent hex
-    * Check for getting lost
-        * Scout makes a Wis check
-        * If failed, lose a day, return to where you are
-* Rest (Each character may choose one)
-    * Heal. Roll hit die and regain that many hit points
-    * Repair. Spend repair cost and test to repair armor or weapon (Con), on success, improve usage die up to max
-    * Memorize. Test to memorize spell (Int) / beseech prayer (Wis), on success, gain one spell or prayer up to max
-    * Forage. Test (Wis)
-        * Complete: gain one food or random herb / plant of interest
-        * Partial: food is rotten or comprimised in some way
-        * Failure: encounter
-
-## Dungeon Exploration Procedure
-
-At the end of each watch in the dungeon, roll usage die for light.
-
-* Explore
-    * Slow, cautious, movement
-    * May carefully search up to *four* medium sized rooms
-        * Find something of interest in each room, if it exists
-    * Gain advantage if traps are triggered
-* Move
-    * Move quickly without searching
-        * Also for fleeing
-    * May cover three times as much ground as exploration
-    * Automatically surprised and disadvantage if traps are triggered
-* Rest (Each character may choose one)
-    * Heal. Roll hit die with disadvantage and regain that many hit points
-    * Memorize. Test to learn spell or prayer (Int/Wis) with disadvantage, on success, gain one spell or prayer
 
 # Enemies
 
@@ -445,9 +500,11 @@ Most B/X style enemy stat blocks are appropriate for this game. The big differen
 
 # Experience Points and Levels
 
-* One XP for each silver piece worth of treasure recovered
-* 1000 XP for each dangerous hex explored
-* 2000 XP for each dangerous dungeon explored
+* 1 XP when a minor valuable (1-3) is traded
+* 2 XP when a major valuable (4-5) is traded
+* 3 XP when a legendary valuable (6) is traded
+* 1 XP for defeating a beast at least two levels higher than the party
+* 2 XP for creating an accurate map of a dangerous region
 
 ## Level Up Procedure
 
