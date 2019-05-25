@@ -2,21 +2,21 @@
 
 Welcome to _Strict Time Records_ (_STR_)! This is a role-playing game based on a variety of games from the [Old School Renaissance](https://rpg.stackexchange.com/questions/1144/what-defines-the-old-school-renaissance). However, it incorporates some very new school ideas, such as success with cost and abstract but well integrated resource management.
 
-Note: yes, this is one crazy big doc. I'm iterating enough that it makes it easier to make changes in this format. Eventually I'll divide it up into different docs for different topics. Or maybe not. It is github after all. I dunno.
+Note: yes, this is one crazy big doc. I'm iterating enough that it makes it easier to make changes in this format. Eventually I'll divide it up into different docs for different topics. Or maybe not. It is github after all. I dunno. Ctrl+F?
 
 ### Blather
 
-Hi! I'm Phil Lewis. I wrote some of this and stole the rest. I'm going to use these sections to rant and ramble and add more context. Skip them if you're just looking for rules.
+Hi! I'm Phil Lewis. I wrote some of this and stole the rest. The big influences are _Whitehack_, _Black Hack_, _Macchiato Monsters_, _Dungeon Crawl Classics_, _Czege House Rules_, _Knave_, _Dreams of Adventure_, _Dungeon World_, _Advanced Dungeons & Dragons_, and _Old School Essentials_. I'm going to use these sections to rant and ramble and add more context. Skip them if you're just looking for rules.
 
-The title is a Gygaxian reference to the first edition _Advanced Dungeons and Dragons Dungeon Master's Guide_ beseeching Dungeon Masters to use time pressure effectively. Way back in the mid 1980s, I found this idea fun in theory, but cumbersome in practice. One of the core goals of this system is to make that time pressure concept central to the game while keeping the fiddly bits manageable and meaningful. That's kind of my jam. I wrote another game called _Wrath of the Autarch_(https://www.drivethrurpg.com/product/191025/Wrath-of-the-Autarch) which is fun if you want a really deep dive on domain management.
+The title is a Gygaxian reference to the first edition [_Advanced Dungeons and Dragons Dungeon Master's Guide_](https://www.drivethrurpg.com/product/17004/Dungeon-Masters-Guide-1e) beseeching Dungeon Masters to use time pressure effectively. Way back in the mid 1980s, I found this idea fun in theory, but cumbersome in practice. One of the core goals of this system is to make that time pressure concept central to the game while keeping the fiddly bits manageable and meaningful. That's kind of my jam. I wrote another game called [_Wrath of the Autarch_](https://www.drivethrurpg.com/product/191025/Wrath-of-the-Autarch) which is fun if you want a really deep dive on domain management.
 
 There is also a goal to hew somewhat close to a [B/X](https://www.drivethrurpg.com/product/110274/DD-Basic-Set-Rulebook-B-X-ed-Basic) core so I can use OSR content like [_Barrowmaze_](https://www.drivethrurpg.com/product/139762/Barrowmaze-Complete) or [_Hot Springs Island_](https://www.drivethrurpg.com/product/215340/The-Dark-of-Hot-Springs-Island) or [_Night's Dark Terror_](https://www.drivethrurpg.com/product/17119/B10-Nights-Dark-Terror-Basic) without too much pain.
 
-This game itself probably doesn't fit into the OSR, but if you use B/X to cover up any holes (of which there are many), you'll probably be in pretty good shape. It also probably goes without saying, but you already need to understand RPGs and B/X to make sense of this. If you're completely new, get started with _5th Edition Dungeons and Dragons_ and come back after you've played a few games.
+This game itself probably doesn't fit into the OSR, but if you use B/X to cover up any holes (of which there are many), you'll probably be in pretty good shape. It also might go without saying, but you need to understand RPGs and B/X to make sense of this. If you're completely new, get started with _5th Edition Dungeons and Dragons_ and come back after you've played a few games.
 
 # Core Mechanics
 
-The core mechanic for _Strict Time Records_ is a player facing d20 (twenty sided die) system. Most rolls use a modifier based on one of six standard attributes: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha). You roll the d20, add an ability modifier (which could be negative), and compare the total against a fixed set of results. These attributes are on the 3-18 scale, and have the same bonuses and penalties as in B/X D&D.
+The core mechanic for _Strict Time Records_ is a player facing d20 (twenty sided die) system. Most rolls use a modifier based on one of six standard attributes: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha). You roll the d20, add the related attribute modifier (which could be negative), and compare the total against a fixed set of results. These attributes are on the 3-18 scale, and have the same bonuses and penalties as in B/X D&D.
 
 * 18: +3
 * 16-17: +2
@@ -25,6 +25,10 @@ The core mechanic for _Strict Time Records_ is a player facing d20 (twenty sided
 * 6-8: -1
 * 4-5: -2
 * 3: -3
+
+Note that if the game says something like **add Con** or **plus Str**, that always means the attribute modifier, never the original attribute.
+
+## Tests
 
 Rolling to accomplish something using one of these attributes is called a **test**. If the final tally (d20 roll plus attribute modifier) is an 8 or higher, the test **succeeds**. Otherwise, it fails. Tests are specified like **roll Str** or **roll Cha**. Frequently **procedures** or **moves** need finer granularity beyond success and failure. In that case, the following degrees of success might be used.
 
@@ -38,7 +42,7 @@ The **natural** above refers to a d20 test that shows the number in question, re
 
 ### Blather
 
-I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success.
+I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success. It's easier to ~~trick~~ persuade people into playing.
 
 ## Advantage/Disadvantage
 
@@ -60,13 +64,13 @@ Essentially, procedures tie together sequences of moves, typically in a turn bas
 
 Moves come from [_Apocalypse World_](http://apocalypse-world.com/), which burst forth on the RPG scene in 2010 and certainly had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_.
 
-For myself, I like the idea of moves as these mechanical widgets which can push the fiction in all sorts of interesting directions. However, when games are built of nothing but those, I tend to get bored quickly. I like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). The purists might blanch at this approach, but I see no incompatibility from mixing the "talk in the funny voices" parts of rpgs with the "win at a game" parts of rpgs.
+For myself, I like the idea of moves as these mechanical widgets which can push the fiction in all sorts of interesting directions. However, when games are built of nothing but those, I tend to get bored. I like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). The purists might blanch at this approach, but I see no incompatibility from mixing the "talk in the funny voices" parts of rpgs with the "win at a game" parts of rpgs.
 
 # Usage Dice
 
-Usage dice are used as a general purpose tracking mechanism. Mostly they're used for **resources** and **food** and other gear which can break or get used up over time. But they also track things like **fatigue** and party **discord**. The dice form a ladder of sorts, going from highest to lowest as **d12 <--> d10 <--> d8 <--> d6 <--> d4 <--> Broken / Used / Gone**.
+Usage dice are a general purpose tracking mechanism. They're used for **resources**, **food**, and **light**, as well as to track more abstract concepts like **fatigue** and party **discord**. The dice form a ladder of sorts, going from highest to lowest: **d12 <--> d10 <--> d8 <--> d6 <--> d4 <--> Broken / Used / Gone**.
 
-If the rules instruct you to **raise** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **lower** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are raised and lowered.
+If the rules instruct you to **raise** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **lower** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are raised and lowered. A d12 can't be raised and a d4 which is lowered is removed, that thing now being used up, broken, or gone.
 
 ## Rolling Usage Dice
 
@@ -80,7 +84,7 @@ I love the concept, although getting them to function well as an economy is one 
 
 ## Value
 
-The game uses an abstract concept of **value**. Items and gear are sorted into six broad categories, each of exponential worth. Occasionally it is necessary to compare a usage die to this value, as given in the table below. _STR_ uses a copper penny standard for currency, when there is currency, which isn't often. Instead, value tends to be very relative to groups and cultures.
+The game uses an abstract concept of **value**. Items and gear are sorted into six broad categories, each of exponential worth. Occasionally it is necessary to compare a usage die to this value, as given in the table below. _STR_ uses a copper penny standard for currency, when there is currency, which isn't often. Instead, value tends to be very relative to different groups and cultures.
 
 | Usage Die | Value | Class | Copper Pennies | Example |
 | --- | --- | --- | --- | --- |
@@ -95,75 +99,100 @@ The game uses an abstract concept of **value**. Items and gear are sorted into s
 
 There is a party sheet for all the players which tracks four important party level concepts, each tracked with a different usage die. They are **resources**, **discord**, **food**, and **light**.
 
-## Resources Die
+## Resource
 
-The resources usage die tracks just that, resources the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs. The higher the die type, the better the quality and quantity of resources. Different class abilities can use the resources die.
+The resource usage die tracks just that, resources the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs. The higher the die type, the better the quality and quantity of resources. Different class abilities can use the resources die.
 
 ### Blather
 
-There tends to be lots of assorted gear that players track on their character sheets. Most of it is very similar and creates overhead without much interest. The resource die abstracts all of that out. In essence, the only items tracked by players tend to be weapons, swords, treasure, and very unique items.
+There tends to be lots of assorted gear that players track on their character sheets. Most of it is very similar and creates overhead without much interest. The resource die abstracts all of that out. In essence, the only items tracked by players tend to be weapons, swords, treasure, and very unique items. This fits in well with an abstract weight system, since there isn't as much to track, the assumption being you're already weighed down by stuff not on your character sheet.
 
-The resource die also provides an interesting mechanism for different classes to exploit narratively.
+The resource die also provides an interesting mechanism for different classes to exploit narratively. For example, thieves might be able to use it to make a trap, warriors can use it to fix broken armor, and spellcasters can use it for better spell components.
 
-# Character Creation
+## Food and Light
 
-* Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma
-    * Note bonuses / penalties for each attribute
-* Roll or choose a background
-* Choose a class (Strong, Wise, Deft, Weird)
-* Roll hit points
-    * Use the class die plus Con
-    * Roll with advantage
-* Roll for starting gear
-* Note class abilities
+Food and light are tracked indepently from resources, since they function more as timers during travel. The exploration section details these more.
+
+## Discord
+
+Discord represents party cohesion. If the group is happy, well rested, and ready to go, the discord die is not present. It is raised during stressful situations and can impact various moves negatively, particularly trade and other social situations. It is special in that when it is rolled, it is **not lowered** unless specifically indicated.
+
+# Characters
+
+_STR_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. The classes map roughly to the B/X idea of warriors, spellcasters, rogues, and weird... doesn't map. The classes also have favored attributes: Strong use Strength and Constitution, Wise use Intelligence and Wisdom, Deft use Dexterity and Charisma, and Weird are... weird.
+
+### Blather
+
+Those class names are from _Whitehack_. Still undecided on going that route rather than the more standard class names.
 
 ## Backgrounds and Connections
 
-Can use occupations from _Into the Odd_ page 36 or from _Dungeon Crawl Classics_ page 22. Then roll a connection (player to your left) from _Into the Odd_ page 37.
+Each character has a background which helps to define them. If the background is relevant to a test, the player may gain advantage on the test roll. However, utilizing a background potentially requires the right gear, so if the result is a partial success, the resource die must be rolled (again if partial success already requires a resource roll).
+
+Suggestion: Can use occupations from _Into the Odd_ page 36 or from _Dungeon Crawl Classics_ page 22. Then roll a connection (player to your left) from _Into the Odd_ page 37.
+
+To-do: Create some tables to flesh out relationships and traits. Maybe this is on a per class basis?
+
+### Blather
+
+This is a substitute for a skill system. It's useful to create a focused and interesting background, which isn't an easy skill to develop. If a background is too broad it can feel watered down, but if it's hyper focused, it may never feel applicable.
+
+## Character Creation
+
+* Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma
+    * Record attribute modifiers
+* Roll or create a background
+* Choose a class (Strong, Wise, Deft, Weird)
+* Roll hit points using class hit die
+    * Roll with advantage and add Con
+* Roll d6 for starting gear
+* Record starting class abilities
 
 # Classes
 
-May choose one of the four following classes. The prime attribute is used during the level up procedure.
+May choose one of the four following classes. The primary attributes are used during the level up procedure.
 
-## Warrior
+## Strong
 
 * HP: d8
-* Primary: Strength
+* Primary: Strength, Constitution
 * Armor: Any
 * Weapons: Any
 
-### Special Abilities
+### Features
 
-Power Attack?
+**Cleave**: When one of your melee attacks reduces an opponent to zero or negative hit points, you may immediately make another attack with that weapon on a nearby opponent.
 
-Cleave?
+**Combat Maneuver**: On complete success in melee, may also disarm opponent's weapon, push them back ten feet, or sunder their shield in addition to normal damage.
 
-Counterattack: If an opponent misses an attack against a warrior, they take damage equal to the warrior's level.
+**Power Attack**: May declare a power attack before rolling to hit an opponent in melee. If successful, the strike does d4 extra damage per level. The next defense roll is made with disadvantage, regardless of if the power attack hit.
 
-Dealer of Death: May attack with disadvantage, if successful, roll additional d6 damage equal to warrior's level.
-
-Mighty Deeds: On complete success in melee, may also disarm, push, sunder, or grapple opponent.
+**Mighty Thews**: Gain bonus encumbrance slots equal to Con modifier.
 
 ### Starting Equipment
 
-TBD. Use _Black Hack_ starting equipment.
+1. Leather Armor, Shield, Bearded Axe, Bear Trap
+2. Leather Armor, Pack Horse, Falchion, Heavy Crossbow
+3. Chainmail, Claymore
 
 ## Thief
 
 * HP: d6
-* Primary: Dexterity
+* Primary: Dexterity, Charisma
 * Armor: Leather
-* Weapon: Sword, Dagger, Bows
+* Weapon: One-handed weapons and any bows
 
-### Special Abilities
+### Features
 
-Sneak attack: Automatically hit and double damage if enemy is unaware
+**Sneak attack**: Automatically hit and double damage if enemy is unaware
 
-Roguish talents: Gain advantage when filching, moving silently, reading languages, climbing, or picking locks
+**Roguish talents**: Gain advantage when filching, moving silently, reading languages, climbing, or picking locks
 
 ### Starting Equipment
 
-TBD. Use _Black Hack_ starting equipment.
+1. Leather Armor,
+2. No Armor,
+3. 
 
 ## Spellcasters
 
@@ -171,41 +200,14 @@ After a full rest (two watches, see below), clerics and wizards may memorize a n
 
 Starting spellcasters know two random first level spells. At each level thereafter, they may learn one random spell of a level they are able to cast.
 
-## Cleric
-
-* HP: d6
-* Primary: Wisdom
-* Armor: Any
-* Weapons: Blunt
-
-### Special Abilities
-
-Prayers: Choose diety (_DCC_). Use _Black Hack_ prayers. No continual light or create food or water!
-
-* Level 1: 1) Cure Light Wounds, 2) Detect Evil, 3) Light, 4) Protection from Evil
-* Level 2: 1) Purify Food and Drink, 2) Bless, 3) Find Traps, 4) Hold Person
-* Level 3: 1) Silence, 2) Speak with Animals, 3) Daylight, 4) Cure Disease
-* Level 4: 1) Locate Object, 2) Prayer, 3) Remove Curse, 4) Speak with Dead
-
-Turning: Choose creature type (demons, devils, undead, elementals). May attempt to turn them as a special action during combat.
-
-* Critical: Creatures with total HD equal to 4 X Level are destroyed
-* Complete: Creatures with total HD equal to 2 X Level are destroyed
-* Partial: Creatures with total HD equal to 2 X Level flee
-* Fumble: Creatures heal all damage and focus all attacks on cleric
-
-### Starting Equipment
-
-TBD. Use _Black Hack_ starting equipment.
-
-## Wizard
+## Wise
 
 * HP: d4
-* Primary: Intelligence
+* Primary: Intelligence, Wisdom
 * Armor: None
-* Weapons: Staff, Torch, Dagger
+* Weapons: One-handed weapons
 
-### Special Abilities
+### Features
 
 Familiar: Roll for familiar using AD&D 1E or _Black Hack_.
 
@@ -215,6 +217,19 @@ Spells: Use _Black Hack_ or B/X or AD&D 1E for spells. No continual light or cre
 * Level 2: 1) Sleep, 2) Detect Magic, 3) Knock/Lock, 4) Web
 * Level 3: 1) Darkness, 2) Dispel Magic, 3) Magic Mouth, 4) Read Languages
 * Level 4: 1) Invisibility, 2) Fireball, 3) Darkvision, 4) Confusion
+
+### Starting Equipment
+
+TBD. Use _Black Hack_ starting equipment.
+
+## Weird
+
+* HP: d6
+* Primary: None
+* Armor: None
+* Weapons: None
+
+### Features
 
 ### Starting Equipment
 
@@ -231,7 +246,7 @@ TBD. Use _Black Hack_ starting equipment.
 
 Use _Knave_ prices for now - copper piece standard!
 
-## Weapon Damage
+## Weapons
 
 * d4 Dagger, knife, dart, sling
 * d6 Short sword, staff, club, short bow
@@ -240,21 +255,16 @@ Use _Knave_ prices for now - copper piece standard!
 
 For various reasons, weapons can become less effective. In this case, lower the damage die as if it was a usage die (d8 to d6, d6 to d4, etc).
 
-## Armor Usage
+## Armor
 
-Armor usage dice are used during combat, informing the players of how effective their armor is.
+Armor dice are used during combat, informing the players of how effective their armor is.
 
-* dU4 Leather
-* dU6 Studded leather, ring, scale
-* dU8 Chain, half-plate
-* dU10 Full plate with helmet
+* d4 Leather
+* d6 Chain
+* d8 Half plate
+* d10 Full plate
 
-Note: A shield steps up the usage die once.
-
-## Resources
-
-* dU6 Torches, spikes
-* dU8 Arrows, oil, mule, rope
+Note: A shield steps up the armor die once, in a similar fashion to usage die. In other words, leather and a shield is a d6 armor die.
 
 # Encounter
 
@@ -330,10 +340,9 @@ Test Dexterity.
 
 Used whenever an enemy makes a physically damaging attack. This is a player facing game, so the player rolls. Test Constitution.
 
-* Critical: No damage and enemy is in an exposed position
+* Critical: No damage and next attack against enemy gains advantage
 * Complete: No damage
-* Partial: Subtract armor from damage, but lower armor value by one
-    * For example, if a player rolls a 5 for chain mail at the start of combat, it is now a 4
+* Partial: Subtract armor from damage, then lower armor die by one
     * Armor may not lower below a 1
 * Fail: Full damage
 * Fumble: Enemy does double damage
@@ -345,11 +354,12 @@ Test Int (wizards) or Wis (clerics)
 * Critical: Double effect and keep spell
 * Complete: Effect and keep spell
 * Partial: Effect and lose spell
-* Fumble: Lose spell
+* Miss: No effect and lose spell
+* Fumble: Magical mishap
 
 ## After Combat
 
-Any armor dice showing a 1 must make a usage test. A failure degrades the armor one step.
+Any armor dice showing a 1 must make a usage test using the die. A failure degrades the armor one step. Note the damaged value of the armor in the equipment section.
 
 # General Tests and Saves
 
