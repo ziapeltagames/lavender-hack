@@ -1,14 +1,14 @@
-# Strict Time Records
+# Lavender Hack
 
-Welcome to _Strict Time Records_ (_STR_)! This is a role-playing game based on a variety of games from the [Old School Renaissance](https://rpg.stackexchange.com/questions/1144/what-defines-the-old-school-renaissance). However, it incorporates some very new school ideas, such as success with cost and abstract but well integrated resource management.
+Welcome to _Lavender Hack_ (_LHC_)! This is a role-playing game based on a variety of games from the [Old School Renaissance](https://rpg.stackexchange.com/questions/1144/what-defines-the-old-school-renaissance) and the principal of **strict time records**. However, it incorporates some very new school ideas, such as success with cost and abstract but well integrated resource management.
 
 Note: yes, this is one crazy big doc. I'm iterating enough that it makes it easier to make changes in this format. Eventually I'll divide it up into different docs for different topics. Or maybe not. It is github after all. I dunno. Ctrl+F?
 
 ### Blather
 
-Hi! I'm Phil Lewis. I wrote some of this and stole the rest. The big influences are _Whitehack_, _Black Hack_, _Macchiato Monsters_, _Dungeon Crawl Classics_, _Czege House Rules_, _Knave_, _Dreams of Adventure_, _Dungeon World_, _Advanced Dungeons & Dragons_, and _Old School Essentials_. I'm going to use these sections to rant and ramble and add more context. Skip them if you're just looking for rules.
+Hi! I'm Phil Lewis. I wrote some of this and stole the rest. The big influences are [_Whitehack_](https://whitehackrpg.wordpress.com/), [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters), [_Dungeon Crawl Classics_](http://goodman-games.com/dungeon-crawl-classics-rpg/), _Czege House Rules_, [_Knave_](https://www.drivethrurpg.com/product/250888/Knave), _Dreams of Adventure_, [_Dungeon World_](https://dungeon-world.com/), _Advanced Dungeons & Dragons_, and [_Old School Essentials_](https://www.drivethrurpg.com/product/272802/OldSchool-Essentials-Basic-Rules). I'm going to use these sections to rant and ramble and add more context. Skip them if you're just looking for rules.
 
-The title is a Gygaxian reference to the first edition [_Advanced Dungeons and Dragons Dungeon Master's Guide_](https://www.drivethrurpg.com/product/17004/Dungeon-Masters-Guide-1e) beseeching Dungeon Masters to use time pressure effectively. Way back in the mid 1980s, I found this idea fun in theory, but cumbersome in practice. One of the core goals of this system is to make that time pressure concept central to the game while keeping the fiddly bits manageable and meaningful. That's kind of my jam. I wrote another game called [_Wrath of the Autarch_](https://www.drivethrurpg.com/product/191025/Wrath-of-the-Autarch) which is fun if you want a really deep dive on domain management.
+"Strict Time Records" is a Gygaxian reference to the first edition [_Advanced Dungeons and Dragons Dungeon Master's Guide_](https://www.drivethrurpg.com/product/17004/Dungeon-Masters-Guide-1e) beseeching Dungeon Masters to use time pressure effectively. Way back in the mid 1980s, I found this idea fun in theory, but cumbersome in practice. One of the core goals of this system is to make that time pressure concept central to the game while keeping the fiddly bits manageable and meaningful. That's kind of my jam. I wrote another game called [_Wrath of the Autarch_](https://www.drivethrurpg.com/product/191025/Wrath-of-the-Autarch) which is fun if you want a really deep dive on domain management.
 
 There is also a goal to hew somewhat close to a [B/X](https://www.drivethrurpg.com/product/110274/DD-Basic-Set-Rulebook-B-X-ed-Basic) core so I can use OSR content like [_Barrowmaze_](https://www.drivethrurpg.com/product/139762/Barrowmaze-Complete) or [_Hot Springs Island_](https://www.drivethrurpg.com/product/215340/The-Dark-of-Hot-Springs-Island) or [_Night's Dark Terror_](https://www.drivethrurpg.com/product/17119/B10-Nights-Dark-Terror-Basic) without too much pain.
 
@@ -16,8 +16,12 @@ This game itself probably doesn't fit into the OSR, but if you use B/X to cover 
 
 # Core Mechanics
 
-The core mechanic for _Strict Time Records_ is a player facing d20 (twenty sided die) system. Most rolls use a modifier based on one of six standard attributes: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha). You roll the d20, add the related attribute modifier (which could be negative), and compare the total against a fixed set of results. These attributes are on the 3-18 scale, and have the same bonuses and penalties as in B/X D&D.
+The core mechanic for _Lavender Hack_ is a player facing d20 (twenty sided die) system. Most rolls use a modifier based on one of six standard attributes: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha). You roll the d20, add the related attribute modifier (which could be negative), and compare the total against a fixed set of results. These attributes start on the 3-18 scale, and have the same bonuses and penalties as in B/X D&D.
 
+## Attribute Range
+
+* 20: +5
+* 19: +4
 * 18: +3
 * 16-17: +2
 * 13-15: +1
@@ -30,15 +34,15 @@ Note that if the game says something like **add Con** or **plus Str**, that alwa
 
 ## Tests
 
-Rolling to accomplish something using one of these attributes is called a **test**. If the final tally (d20 roll plus attribute modifier) is an 8 or higher, the test **succeeds**. Otherwise, it fails. Tests are specified like **roll Str** or **roll Cha**. Frequently **procedures** or **moves** need finer granularity beyond success and failure. In that case, the following degrees of success might be used.
+Rolling to accomplish something using one of these attributes is called a **test**. A d20 is rolled and usually an attribute modifier is added. If the final tally (d20 roll plus attribute modifier) is an **8 or higher**, the test **succeeds**. Tests are specified like **roll Str** or **roll Cha**. Frequently, finer granularity is needed beyond just determining success. In that case, the following degrees of success are used.
 
 * Natural 20: **Critical** Success
 * 18+: **Complete** Success
 * 8+: **Partial** Success / Success with Cost
-* 7-: **Miss**
+* 7-: **Miss** / Complication
 * Natural 1: **Fumble**
 
-The **natural** above refers to a d20 test that shows the number in question, regardless of modifiers. For example, if you're making a Strength test with a +2 modifier to the roll, and the roll shows an 18, that is not a critical even though the total is a 20.
+The **natural** above refers to a d20 test roll that shows the number in question, regardless of modifiers. For example, if you're making a Strength test with a +2 modifier to the roll, and the roll shows an 18, that is not a critical even though the total is a 20.
 
 ### Blather
 
@@ -50,15 +54,15 @@ Some situations can result in a test roll having **advantage** or **disadvantage
 
 ## Bonuses/Penalties
 
-There are certain situations where bonuses and penalties are applied to a test roll. These are just additional modifiers added to the result. The main source of bonuses and penlties are attributes.
+There are certain situations where bonuses and penalties are applied to a test roll. These are just additional modifiers added to the result. The main source of bonuses and penalties are attributes.
 
 # Procedures and Moves
 
-This game uses a variety of procedures, which are sets of steps used to handle situations that occur in the game. They tend to be more tactical and turn based in nature, feeling a little more like a boardgame. Combat is one example of a procedure, as is overland travel.
+_LHC_ uses a variety of **procedures**, which are sets of steps used to handle situations that occur in the game. Procedures tend to be more tactical and turn based in nature. Combat is one example of a procedure, as is overland exploration.
 
-Moves are sets of actions to take in certain narrative situations. The name of a move is typically in bold, and there is commonly a test involved, along with five different results depending on the degree of success. Moves might be part of a procedure, or they can stand alone, triggered when the fiction in the game matches the description of the move.
+**Moves** are narrative and mechanical results that occur when triggered by specific fictional situations. The name of a move is typically in bold, and there is commonly a test involved, along with different results that reflect the nature of the move. Moves might be part of a procedure, or they can stand alone, triggered when the fiction in the game matches the description of the move.
 
-Essentially, procedures tie together sequences of moves, typically in a turn based format, and make it part of a mini-game. Such as using a **melee attack** move in combat. However, moves can stand alone, and be referenced when the fiction calls for it, such as **carousing in town** when you spend funds to party it up.
+Essentially, procedures tie together sequences of moves, typically in a turn based format, and make it part of a mini-game. Such as using a **melee attack** move in combat. However, moves can stand alone, and be referenced when the fiction calls for it, such as **carousing in town** when you spend funds to party it up. When moves stand alone, there is more latitude in interpreting the results. A 7- isn't so much about failing to do a thing as it is the level of complication and fallout that occurs.
 
 ### Blather
 
@@ -74,26 +78,13 @@ If the rules instruct you to **raise** a usage die, you increase the die by one 
 
 ## Rolling Usage Dice
 
-Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a 1-3, the die is lowered one step. The more they're used, the more they're used up!
+Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a **1-3**, the die is lowered one step. The more they're used, the more they're used up!
 
 ### Blather
 
 Usage dice come from the game [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), although they are also used very effectively and extensively in [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters). Note that in _Black Hack_ they lower on a 1-2. I used the _MM_ version, which is where the 1-3 comes from.
 
 I love the concept, although getting them to function well as an economy is one of the most active parts of development. Who knows, maybe they won't be as good of a fit as simple counters. It certainly requires a decent amount of rolling to make them viable.
-
-## Value
-
-The game uses an abstract concept of **value**. Items and gear are sorted into six broad categories, each of exponential worth. Occasionally it is necessary to compare a usage die to this value, as given in the table below. _STR_ uses a copper penny standard for currency, when there is currency, which isn't often. Instead, value tends to be very relative to different groups and cultures.
-
-| Usage Die | Value | Class | Copper Pennies | Example |
-| --- | --- | --- | --- | --- |
-| None | 1 | Beggar | 10 | Sack of Potatoes |
-| d4 | 2 | Peasant | 100 | Dagger |
-| d6 | 3 | Squire | 1,000 | Broadsword |
-| d8 | 4 | Knight | 10,000 | Platemail Armor |
-| d10 | 5 | Noble | 100,0000 | Manor House |
-| d12 | 6 | Royal | 1,000,000 | Keep |
 
 # Party Sheet
 
@@ -119,7 +110,7 @@ Discord represents party cohesion. If the group is happy, well rested, and ready
 
 # Characters
 
-_STR_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. The classes map roughly to the B/X idea of warriors, spellcasters, rogues, and weird... doesn't map. The classes also have favored attributes: Strong use Strength and Constitution, Wise use Intelligence and Wisdom, Deft use Dexterity and Charisma, and Weird are... weird.
+_LHC_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. The classes map roughly to the B/X idea of warriors, spellcasters, rogues, and weird... doesn't map. The classes also have favored attributes: Strong use Strength and Constitution, Wise use Intelligence and Wisdom, Deft use Dexterity and Charisma, and Weird are... weird.
 
 ### Blather
 
@@ -146,132 +137,165 @@ This is a substitute for a skill system. It's useful to create a focused and int
 * Roll hit points using class hit die
     * Roll with advantage and add Con
 * Roll d6 for starting gear
+    * Starting slots are 5+Str
 * Record starting class abilities
 
-# Classes
-
-May choose one of the four following classes. The primary attributes are used during the level up procedure.
-
-## Strong
+# The Strong
 
 * HP: d8
 * Primary: Strength, Constitution
 * Armor: Any
 * Weapons: Any
 
-### Features
+## Features
 
-**Cleave**: When one of your melee attacks reduces an opponent to zero or negative hit points, you may immediately make another attack with that weapon on a nearby opponent.
+**Cleave**: When one of your **melee attacks** reduces an opponent to zero or negative hit points, you may immediately make another attack with that weapon on a nearby opponent.
 
-**Combat Maneuver**: On complete success in melee, may also disarm opponent's weapon, push them back ten feet, or sunder their shield in addition to normal damage.
+**Combat Maneuver**: On complete success in **melee attack**, may also disarm opponent's weapon, push them back ten feet, or sunder their shield in addition to normal damage.
 
-**Power Attack**: May declare a power attack before rolling to hit an opponent in melee. If successful, the strike does d4 extra damage per level. The next defense roll is made with disadvantage, regardless of if the power attack hit.
+**Power Attack**: May declare a power attack before a **melee attack**. If successful, the strike does d4 extra damage per level. The next defense roll is made with disadvantage, regardless of if the power attack hit.
 
 **Mighty Thews**: Gain bonus encumbrance slots equal to Con modifier.
 
-### Starting Equipment
+## Resource Die
+
+The Strong may use the resource die for: **melee attack**, **armor repair**, **weapon repair**, **hunting**, and **intimidation**.
+
+## Starting Equipment
 
 1. Leather Armor, Shield, Bearded Axe, Bear Trap
 2. Leather Armor, Pack Horse, Falchion, Heavy Crossbow
-3. Chainmail, Claymore
+3. Chainmail, Claymore, Caltrops
 
-## Thief
+# The Deft
 
 * HP: d6
 * Primary: Dexterity, Charisma
 * Armor: Leather
 * Weapon: One-handed weapons and any bows
 
-### Features
+## Features
 
-**Sneak attack**: Automatically hit and double damage if enemy is unaware
+**Sneak Attack**: When making a **melee attack**, if enemy is unaware or surprised, automatically hit and do double damage.
 
-**Roguish talents**: Gain advantage when filching, moving silently, reading languages, climbing, or picking locks
+**Thief Skills**: Gain advantage when **filching**, **moving silently**, **climbing**, or **picking locks**.
 
-### Starting Equipment
+**Resourceful**: Deft players roll the resource die with advantage.
 
-1. Leather Armor,
-2. No Armor,
-3. 
+**Polyglot**: The Deft know a number of languages equal to Cha modifier.
 
-## Spellcasters
+## Resource Die
 
-After a full rest (two watches, see below), clerics and wizards may memorize a number of spells equal to their level. The spells memorized must be of a level equal to or less than their current level (a level two wizard can't memorize level three spells).
+The Deft may use the resource die for: any damage, **ranged attack**, **thief skills**, and **persuasion**.
 
-Starting spellcasters know two random first level spells. At each level thereafter, they may learn one random spell of a level they are able to cast.
+## Starting Equipment
 
-## Wise
+1. Leather Armor, Longsword, Shortbow, Deck of Cards
+2. Longsword, Dagger, Longbow, Fine Clothes
+3. Leather Armor, Longsword, Shortbow, Loaded Dice
+
+# The Wise
 
 * HP: d4
 * Primary: Intelligence, Wisdom
 * Armor: None
 * Weapons: One-handed weapons
 
-### Features
+## Features
 
-Familiar: Roll for familiar using AD&D 1E or _Black Hack_.
+**Familiar**: Roll for familiar using AD&D 1E or _Black Hack_.
 
-Spells: Use _Black Hack_ or B/X or AD&D 1E for spells. No continual light or create food or water!
+**Spells**: The Wise start with two spells, rolled from the table below. At each level thereafter, they gain one spell of their level or below, with a maximum number of spells known equal to Int + Wis modifiers (may swap out an old spell with a newer one when leveling up).
 
 * Level 1: 1) Charm, 2) Magic Missile, 3) Light, 4) Shield
 * Level 2: 1) Sleep, 2) Detect Magic, 3) Knock/Lock, 4) Web
 * Level 3: 1) Darkness, 2) Dispel Magic, 3) Magic Mouth, 4) Read Languages
 * Level 4: 1) Invisibility, 2) Fireball, 3) Darkvision, 4) Confusion
 
-### Starting Equipment
+After a **full rest** any spells lost are regained.
+
+**Polyglot**: The Wise know a number of languages equal to Int modifier.
+
+## Resource Die
+
+The Wise may use the resource die for: spell damage, spell tests, and **scouting**.
+
+## Starting Equipment
 
 TBD. Use _Black Hack_ starting equipment.
 
-## Weird
+# The Weird
 
 * HP: d6
 * Primary: None
 * Armor: None
-* Weapons: None
+* Weapons: Any
 
-### Features
+## Features
 
-### Starting Equipment
+**Weirdness**: The Weird, naturally, have weirdness. Choose two first level weirdness during character creation. At each new level, gain one weirdness equal to level attained.
 
-TBD. Use _Black Hack_ starting equipment.
+* Level 1) Nibbler, 2) Switch
+* Level 2) Beastfriend, 2) Weight
 
-# Level Up Procedure
+**Fatigue**: The Weird use a fatigue usage die. It is rolled each time weirdness is used. Frequently weirdness uses the result of the fatigue die. When it is gone, no more weirdness may be used. After a **full rest**, it is reset to a d8.
 
-* Roll d20 with advantage and compare to favored attribute. If higher, increase attribute by one.
-* Choose any attribute, roll d20 and compare. If higher, increase attribute by one.
-* Roll a number of hit dice equal to new level. If higher than current hit points, use new amount.
-* Note any new class abilities.
+## Resource Die
+
+The Weird can't use the resource die.
+
+## Starting Equipment
+
+1. Willow Wand
+2. Robe of Shimmer
+3. Deathcat
 
 # Equipment
 
-Use _Knave_ prices for now - copper piece standard!
+## Value
+
+The game uses an abstract concept of **value**. Items and gear are sorted into six broad categories, each of exponential worth. Occasionally it is necessary to compare a usage die to this scale, as given in the table below. _LHC_ uses a copper penny standard for currency, when there is currency, which isn't often. Instead, value tends to be very relative to different groups and cultures.
+
+| Usage Die | Value | Class | Copper Pennies | Example |
+| --- | --- | --- | --- | --- |
+| None | 1 | Beggar | 10 | Sack of Potatoes |
+| d4 | 2 | Peasant | 100 | Dagger |
+| d6 | 3 | Squire | 1,000 | Broadsword |
+| d8 | 4 | Knight | 10,000 | Platemail Armor |
+| d10 | 5 | Noble | 100,0000 | Manor House |
+| d12 | 6 | Royal | 1,000,000 | Keep |
 
 ## Weapons
 
 * d4 Dagger, knife, dart, sling
 * d6 Short sword, staff, club, short bow
-* d8 Sword, mace, spear, polearm, axe, longbow, crossbow, pistol
-* d10 Greatsword, battle axe, lance, flail, musket, heavy crossbow
+* d8 Sword, mace, spear, axe, longbow, crossbow, pistol
+* d10 **Greatsword**, **claymore**, **battle axe**, **lance**, **halberd**, **flail**, musket, **heavy crossbow**
 
-For various reasons, weapons can become less effective. In this case, lower the damage die as if it was a usage die (d8 to d6, d6 to d4, etc).
+Weapons in bold are slow and powerful. The player will always take slow actions during initiative (don't roll initiative).
+
+For various reasons, weapons can become less effective. If this happens, lower the damage die as if it was a usage die (d8 to d6, d6 to d4, etc). Record the new damage dice amount on the character sheet next to the original damage.
 
 ## Armor
 
 Armor dice are used during combat, informing the players of how effective their armor is.
 
+* Shield (+1 Step)
 * d4 Leather
 * d6 Chain
 * d8 Half plate
 * d10 Full plate
 
-Note: A shield steps up the armor die once, in a similar fashion to usage die. In other words, leather and a shield is a d6 armor die.
+Note: A shield steps up the armor die once, in a similar fashion to a usage die. For example, leather and a shield is a d6 armor die. Armor, like weapons, can also become damaged.
 
-# Encounter
+# Encounter Procedure
 
-* Check for range
+When a **sentient being** is first discovered, apply the following procedure.
+
+* Check for starting distance
 * Check for surprise
-    * Dex checks, if passed, no surprise
-* Choose approach
+    * Roll Dex, if passed, no surprise
+* Choose one approach
     * Communicate
     * Combat
         * Roll usage dice for armor at start of combat
@@ -289,7 +313,7 @@ One player may make a Cha test. If there isn't a mutually understandable languag
 * Miss: Unfriendly
 * Fumble: Hostile
 
-# Combat
+# Combat Procedure
 
 Combat is divided up into rounds, which use the following procedure.
 
@@ -306,7 +330,7 @@ Combat is divided up into rounds, which use the following procedure.
     * Single Enemy: First hit, 1/2 hp lost, 3/4 hp lost
     * Group: First casualty, 1/2 dead, 3/4 dead
 
-Actions are chosen from the list below. In general, movement is possible in addition to an action. This list of actions is not exhaustive - using items (potions, rings, scrolls, wands) and other special abilities (turning) may qualify. If possible, actions should be made to fit the critical / complete / partial / fumble framework.
+Actions are chosen from the list below. In general, movement is possible in addition to an action. This list of actions is not exhaustive - using items (potions, rings, scrolls, wands) and other special abilities may qualify.
 
 ## Armor
 
@@ -365,7 +389,7 @@ Any armor dice showing a 1 must make a usage test using the die. A failure degra
 
 For most tests and saves, just use success (8+) or failure. If a player has an appropriate background for the test, they get advantage.
 
-# Adventure
+# Exploration
 
 Each day is divided into four hour watches, for a total of six watches each day (dawn, day, day, dusk, night, night). For each watch, choose one: explore, move, or rest. The procedures are slightly different if characters are in a dungeon or wilderness.
 
@@ -379,7 +403,7 @@ Each day is divided into four hour watches, for a total of six watches each day 
 * Dawn only
     * Spellcasters memorize spells if they rested for two watches
 
-## Wilderness
+## Wilderness Exploration Procedure
 
 * Explore
     * Find something in the hex, if it's there
@@ -397,9 +421,9 @@ Each day is divided into four hour watches, for a total of six watches each day 
         * Partial: food is rotten or comprimised in some way
         * Failure: encounter
 
-## Dungeon
+## Dungeon Exploration Procedure
 
-At the end of each watch in the dungeon, test any usage die for light sources or other equipment used.
+At the end of each watch in the dungeon, roll usage die for light.
 
 * Explore
     * Slow, cautious, movement
@@ -417,10 +441,18 @@ At the end of each watch in the dungeon, test any usage die for light sources or
 
 # Enemies
 
-Most B/X style enemy stat blocks are appropriate for this game. The big difference is AC. Instead use armor value from 0-6 as appropriate. If not sure, an armor of 1 or 2 is best.
+Most B/X style enemy stat blocks are appropriate for this game. The big difference is AC. Instead use armor value from 0-6 as appropriate.
 
-# Experience Points
+# Experience Points and Levels
 
 * One XP for each silver piece worth of treasure recovered
 * 1000 XP for each dangerous hex explored
 * 2000 XP for each dangerous dungeon explored
+
+## Level Up Procedure
+
+* You may increase either (choose one) primary attribute by one.
+* Roll a number of hit dice equal to new level and add them together.
+    * Add Con to each roll.
+    * If result is higher than maximum hit points, use new result as maximum.
+* Note any new class abilities.

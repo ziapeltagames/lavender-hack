@@ -4,7 +4,9 @@
 
 **Hit Points:**
 
-**Background:**
+**Armor / Fatigue Die:**
+
+**Background (Advantage, Resource Die on Partial):**
 
 | Attribute | Modifier |
 | --- | --- |
@@ -17,7 +19,7 @@
 
 **Features:**
 
-
+**Slots (5+Str):** 
 
 | Equipment Name | Value | Max | Current |
 | --- | --- | --- | --- |
