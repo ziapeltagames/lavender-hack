@@ -1,19 +1,3 @@
-# Lavender Hack
-
-Welcome to _Lavender Hack_ (_LHC_)! This is a role-playing game based on a variety of games from the [Old School Renaissance](https://rpg.stackexchange.com/questions/1144/what-defines-the-old-school-renaissance) and the principal of **strict time records**. However, it incorporates some very new school ideas, such as success with cost and abstract but well integrated resource management.
-
-Note: yes, this is one crazy big doc. I'm iterating enough that it makes it easier to make changes in this format. Eventually I'll divide it up into different docs for different topics. Or maybe not. It is github after all. I dunno. Ctrl+F?
-
-### Blather
-
-Hi! I'm Phil Lewis. I wrote some of this and stole the rest. The big influences are [_Whitehack_](https://whitehackrpg.wordpress.com/), [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters), [_Dungeon Crawl Classics_](http://goodman-games.com/dungeon-crawl-classics-rpg/), _Czege House Rules_, [_Knave_](https://www.drivethrurpg.com/product/250888/Knave), _Dreams of Adventure_, [_Dungeon World_](https://dungeon-world.com/), _Advanced Dungeons & Dragons_, and [_Old School Essentials_](https://www.drivethrurpg.com/product/272802/OldSchool-Essentials-Basic-Rules). I'm going to use these sections to rant and ramble and add more context. Skip them if you're just looking for rules.
-
-"Strict Time Records" is a Gygaxian reference to the first edition [_Advanced Dungeons and Dragons Dungeon Master's Guide_](https://www.drivethrurpg.com/product/17004/Dungeon-Masters-Guide-1e) beseeching Dungeon Masters to use time pressure effectively. Way back in the mid 1980s, I found this idea fun in theory, but cumbersome in practice. One of the core goals of this system is to make that time pressure concept central to the game while keeping the fiddly bits manageable and meaningful. That's kind of my jam. I wrote another game called [_Wrath of the Autarch_](https://www.drivethrurpg.com/product/191025/Wrath-of-the-Autarch) which is fun if you want a really deep dive on domain management.
-
-There is also a goal to hew somewhat close to a [B/X](https://www.drivethrurpg.com/product/110274/DD-Basic-Set-Rulebook-B-X-ed-Basic) core so I can use OSR content like [_Barrowmaze_](https://www.drivethrurpg.com/product/139762/Barrowmaze-Complete) or [_Hot Springs Island_](https://www.drivethrurpg.com/product/215340/The-Dark-of-Hot-Springs-Island) or [_Night's Dark Terror_](https://www.drivethrurpg.com/product/17119/B10-Nights-Dark-Terror-Basic) without too much pain.
-
-This game itself probably doesn't fit into the OSR, but if you use B/X to cover up any holes (of which there are many), you'll probably be in pretty good shape. It also might go without saying, but you need to understand RPGs and B/X to make sense of this. If you're completely new, get started with _5th Edition Dungeons and Dragons_ and come back after you've played a few games.
-
 # Core Mechanics
 
 The core mechanic for _Lavender Hack_ is a player facing d20 (twenty sided die) system. Most rolls use a modifier based on one of six standard attributes: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha). You roll the d20, add the related attribute modifier (which could be negative), and compare the total against a fixed set of results. These attributes start on the 3-18 scale, and have the same bonuses and penalties as in B/X D&D.
