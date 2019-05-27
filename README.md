@@ -16,9 +16,10 @@ This game itself probably doesn't fit into the OSR, but you can still use B/X to
 
 * [Core Rules](CORE.md)
 * [Characters](CHARACTERS.md)
-* [Valuables](VALUABLES.md)
-* [Exploration](EXPLORATION.md)
+* [Gear and Valuables](VALUABLES.md)
+* [Wilderness and Dungeon Exploration](EXPLORATION.md)
 * [Combat](COMBAT.md)
+* [Factions and Community](COMMUNITY.md)
 * [Downtime](DOWNTIME.md)
 * [Solo Play](SOLO.md)
 * [B/X Conversion](CONVERSION.md)
@@ -37,4 +38,4 @@ The game is currently represented in a set of markdown files. Markdown is a text
 
 If some section isn't correct or an area could use work, feel free to raise an issue! You can also copy all the content in a fork and make your own hack of this hack. Just respect the terms of the OGL.
 
-There is a _very_ crude character sheet located [here](CHARACTER_SHEET.md) and a _very_ crude party sheet located [here](PARTY_SHEET.md). They're basically just lists of things in the game.
+There is a _very_ crude character sheet located [here](sheets/CHARACTER_SHEET.md) and a _very_ crude party sheet located [here](sheets/PARTY_SHEET.md). They're basically just lists of things in the game.
