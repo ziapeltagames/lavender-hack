@@ -1,6 +1,6 @@
 # Characters
 
-_LHC_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. The classes map roughly to the B/X idea of warriors, spellcasters, rogues, and weird... doesn't map. The classes also have favored attributes: Strong use Strength and Constitution, Wise use Intelligence and Wisdom, Deft use Dexterity and Charisma, and Weird are... weird.
+_LHC_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. The classes map roughly to the B/X idea of warriors, spellcasters, rogues, and weird... doesn't map. The classes also have favored abilities: Strong use Strength and Constitution, Wise use Intelligence and Wisdom, Deft use Dexterity and Charisma, and Weird are... weird.
 
 ### Blather
 
@@ -21,7 +21,7 @@ This is a substitute for a skill system. It's useful to create a focused and int
 ## Character Creation
 
 * Roll 3d6 in order for Strength, Dexterity, Wisdom, Intelligence, Constitution, and Charisma
-    * Record attribute modifiers
+    * Record ability modifiers
 * Roll or create a background
 * Choose a class (Strong, Wise, Deft, Weird)
 * Roll hit points using class hit die

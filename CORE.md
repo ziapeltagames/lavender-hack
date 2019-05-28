@@ -1,8 +1,14 @@
-# Core Mechanics
+# Core Rules
 
-The core mechanic for _Lavender Hack_ is a player facing d20 (twenty sided die) system. Most rolls use a modifier based on one of six standard attributes: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha). You roll the d20, add the related attribute modifier (which could be negative), and compare the total against a fixed set of results. These attributes start on the 3-18 scale, and have the same bonuses and penalties as in B/X D&D.
+Because one of the goals of _Lavender Hack_ is to work with B/X content, much of this will look familiar to anyone who has played that style of game. There are ability scores, a twenty sided dice, classes, hit points, gear, combat, and exploration. There are some different bits as well, which will become apparent shortly.
 
-## Attribute Range
+# Ability Scores
+
+Ability scores are a very core part of the game, and the first thing you calculate when making a character. There are six, and they should come as no surprise: **Strength (Str)**, **Dexterity (Dex)**, **Wisdom (Wis)**, **Intelligence (Int)**, **Constitution (Con)**, and **Charisma (Cha)**. Since you've already played this sort of game, I'm not going to spend words explaining how to interpret them.
+
+These ability scores start on the 3-18 scale, but it is possible for them to be raised higher than that later on. Along with the value of the ability score, there is also a modifier, which can range from -3 to +5. The modifiers are calculated as follows.
+
+## Ability Score Modifiers
 
 * 20: +5
 * 19: +4
@@ -14,45 +20,64 @@ The core mechanic for _Lavender Hack_ is a player facing d20 (twenty sided die) 
 * 4-5: -2
 * 3: -3
 
-Note that if the game says something like **add Con** or **plus Str**, that always means the attribute modifier, never the original attribute.
+The modifiers are far more important to the game than the actual score. In fact, the score is really only used to calculate the modifier, but the modifiers are used very frequently. If the game text says something like **add Con** or **+ Str**, that means the ability score modifier, never the original ability score. The modifier added may be negative, thus lowering the result! The ability scores can change over the course of the game (particularly as your character grows in power), which may also change the associated modifier.
 
-## Tests
+# Tests
 
-Rolling to accomplish something using one of these attributes is called a **test**. A d20 is rolled and usually an attribute modifier is added. If the final tally (d20 roll plus attribute modifier) is an **8 or higher**, the test **succeeds**. Tests are specified like **roll Str** or **roll Cha**. Frequently, finer granularity is needed beyond just determining success. In that case, the following degrees of success are used.
+The game involves an interaction between a gamemaster and the players. The gamemaster gets the ball rolling by setting scenes and situations that the players find themselves in. At certain points, a player will want to accomplish something which is both uncertain and interesting. The players may decide a die roll is called for to figure out what happens. How _difficult_ a thing is to do is less important than whether both success and failure are _interesting_.
+
+The player gives a vague outline of what their character is intending to do. It is important not to fill in too many details, because the die roll will determine what happens! The players then determine which ability score is most applicable to this action. After that a d20 (twenty sided die) is rolled and the related ability score modifier is added to the result.
+
+If the final tally (d20 roll plus attribute modifier) is an **8 or higher**, the test **succeeds**. If it's below that number, the action fails and there is some sort of consequence. Frequently, finer granularity is needed beyond just determining whether an action succeeds. In that case, the following degrees of success are used.
 
 * Natural 20: **Critical** Success
-* 18+: **Complete** Success
-* 8+: **Partial** Success / Success with Cost
-* 7-: **Miss** / Complication
+* 18+: **Strong** Success
+* 8+: **Weak** Success
+* 7-: **Miss**
 * Natural 1: **Fumble**
 
-The **natural** above refers to a d20 test roll that shows the number in question, regardless of modifiers. For example, if you're making a Strength test with a +2 modifier to the roll, and the roll shows an 18, that is not a critical even though the total is a 20.
+The **natural** above refers to a d20 test roll that shows the number in question, regardless of modifiers. For example, if you're making a Strength test with a +2 modifier to the roll, and the roll shows an 18, that is not a critical even though the total is a 20. A weak success may incur some sort of cost as part of success, or is perhaps a lesser degree of success.
 
 ### Blather
 
-I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success. It's easier to ~~trick~~ persuade people into playing.
+I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success. The roll under ability score OSR variants are cleanly designed, but there's a ton of cultural inertia around what rolling a 20 means.
 
-## Advantage/Disadvantage
+## Advantage and Disadvantage
 
-Some situations can result in a test roll having **advantage** or **disadvantage**. If a player has advantage on a test, they roll two dice and take the result they wish. If they have disadvantage, they roll two dice and the GM takes the result they wish. This frequently applies to tests (d20 rolls), but could apply to any other dice rolls (of any dice type) as specified. Advantage and disadvantage cancel each other out.
+Some situations can result in a test roll having **advantage** or **disadvantage**. If a player has advantage on a test, they roll two dice and take the result they wish. If they have disadvantage, they roll two dice and the GM takes the result they wish. This frequently applies to tests (d20 rolls), but could apply to any other dice rolls (of any dice type) as specified. If a player has both advantage and disadvantage on a roll, they cancel each other out.
 
-## Bonuses/Penalties
+## Keep Criticals and Fumbles
 
-There are certain situations where bonuses and penalties are applied to a test roll. These are just additional modifiers added to the result. The main source of bonuses and penalties are attributes.
+Other situations may allow a player to add to the result in various ways, or re-roll the result. This may allow them to change a miss into a weak success or a weak success into a strong success. However, **fumbles and criticals can't be altered after the roll**. That's the result.
 
-# Procedures and Moves
+## Specific Tests
 
-_LHC_ uses a variety of **procedures**, which are sets of steps used to handle situations that occur in the game. Procedures tend to be more tactical and turn based in nature. Combat is one example of a procedure, as is overland exploration.
+Some tests have specific fictional situations and results under which they can occur. If there is an applicable specific test, use that instead of the general test. For example, the following test is used when a character is fighting with a hand weapon in combat. Don't worry about what the results mean for now. The important thing to understand is that in some cases the results are already filled in.
 
-**Moves** are narrative and mechanical results that occur when triggered by specific fictional situations. The name of a move is typically in bold, and there is commonly a test involved, along with different results that reflect the nature of the move. Moves might be part of a procedure, or they can stand alone, triggered when the fiction in the game matches the description of the move.
+_When you're nearby an enemy in combat with a melee weapon in hand, Test Str to make a **melee attack**._
 
-Essentially, procedures tie together sequences of moves, typically in a turn based format, and make it part of a mini-game. Such as using a **melee attack** move in combat. However, moves can stand alone, and be referenced when the fiction calls for it, such as **carousing in town** when you spend funds to party it up. When moves stand alone, there is more latitude in interpreting the results. A 7- isn't so much about failing to do a thing as it is the level of complication and fallout that occurs.
+* Critical: Double damage and bypass armor
+* Strong: Bypass armor
+* Weak: Choose one
+   * Body blow (subtract opponent's armor from damage roll)
+   * Exertion (lower armor die value, to a minimum of one)
+   * Exposed position (next defense roll is at disadvantage)
+* Miss: Miss the target
+* Fumble: Weapon effectiveness degrades one die
+
+# Procedures
+
+**Procedures** are sequences of steps used to handle situations that occur in the game, such as exploration or combat. Procedures tend to be tactical and turn based in nature. There are usually various choices players may make at each step of the procedure, and procedures frequently use specific tests to resolve what happens.
+
+Essentially, procedures tie together sequences of tests, typically in a turn based format, and make it part of a mini-game. Such as using a **melee attack** in combat. Procedures additionally have other sorts of choices and steps to take to figure out what happens.
 
 ### Blather
 
-Moves come from [_Apocalypse World_](http://apocalypse-world.com/), which burst forth on the RPG scene in 2010 and certainly had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_.
+Specific tests track fairly close to moves come from [_Apocalypse World_](http://apocalypse-world.com/).  _Apocalypse World_ burst forth on the RPG scene in 2010 and certainly had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_.
 
-For myself, I like the idea of moves as these mechanical widgets which can push the fiction in all sorts of interesting directions. However, when games are built of nothing but those, I tend to get bored. I like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). The purists might blanch at this approach, but I see no incompatibility from mixing the "talk in the funny voices" parts of rpgs with the "win at a game" parts of rpgs.
+For myself, I like the idea of more free flowing mechanical widgets which can be triggered to push the fiction in all sorts of interesting directions. However, I really like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). Turns have the advantage in that the spotlight tends to get shared more, and mini-games add tactical diversity and strategy to the system.
+
+The purists might blanch at this approach, but I see no incompatibility from switching between the "talk in the funny voices" parts of rpgs and the "win at a game" parts of rpgs.
 
 # Usage Dice
 
@@ -66,7 +91,7 @@ Usage dice might be rolled for a variety of reasons. If the result of rolling a 
 
 ### Blather
 
-Usage dice come from the game [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), although they are also used very effectively and extensively in [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters). Note that in _Black Hack_ they lower on a 1-2. I used the _MM_ version, which is where the 1-3 comes from.
+Usage dice come from the game [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), although they are also used very effectively and extensively in [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters).  in _Black Hack_ they lower on a 1-2. I used the _MM_ version, which is where the 1-3 comes from.
 
 I love the concept, although getting them to function well as an economy is one of the most active parts of development. Who knows, maybe they won't be as good of a fit as simple counters. It certainly requires a decent amount of rolling to make them viable.
 

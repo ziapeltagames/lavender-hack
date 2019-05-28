@@ -26,11 +26,12 @@ Armor dice are **rolled as needed** (don't roll armor dice at the start of comba
 Test Strength.
 
 * Critical: Double damage and bypass armor
-* Complete: Bypass armor
-* Partial: Choose one
+* Strong: Bypass armor
+* Weak: Choose one
    * Body blow (subtract opponent's armor from damage roll)
    * Exertion (lower armor die value, to a minimum of one)
    * Exposed position
+* Miss: Miss
 * Fumble: Weapon effectiveness degrades one die
 
 ## Missile
@@ -38,11 +39,12 @@ Test Strength.
 Test Dexterity.
 
 * Critical: Double damage and bypass armor
-* Complete: Bypass armor
-* Partial: Choose one
+* Strong: Bypass armor
+* Weak: Choose one
    * Body blow (subtract opponent's armor from damage roll)
    * Ammo check (ammunition usage)
    * Exposed position
+* Miss: Miss
 * Fumble: Weapon effectiveness degrades one die
 
 ## Defend
@@ -50,10 +52,10 @@ Test Dexterity.
 Used whenever an enemy makes a physically damaging attack. This is a player facing game, so the player rolls. Test Constitution.
 
 * Critical: No damage and next attack against enemy gains advantage
-* Complete: No damage
-* Partial: Subtract armor from damage, then lower armor die by one
+* Strong: No damage
+* Weak: Subtract armor from damage, then lower armor die by one
     * Armor may not lower below a 1
-* Fail: Full damage
+* Miss: Full damage
 * Fumble: Enemy does double damage
 
 ## Spell
@@ -61,8 +63,8 @@ Used whenever an enemy makes a physically damaging attack. This is a player faci
 Test Int
 
 * Critical: Double effect and keep spell
-* Complete: Effect and keep spell
-* Partial: Effect and lose spell
+* Strong: Effect and keep spell
+* Weak: Effect and lose spell
 * Miss: No effect and lose spell
 * Fumble: Magical mishap
 
