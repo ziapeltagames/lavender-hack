@@ -19,11 +19,11 @@ Occasionally it is necessary to compare a usage die to this scale, as given in t
 
 Characters start the game with a number of slots equal to 5 + Str modifier. Most all items take one slot each. This isn't many slots, but it's assumed the character is carrying lots of other things not on their character sheet.
 
-## The Resource Die
+## The Gear Die
 
-As mentioned earlier, most common adventuring gear is abstracted out into the resource die. It is assumed characters have standard sorts of gear, such as appropriate clothing, tents, bedrolls, flint and steel, sacks, backpacks, rope, parchment, iron spikes, and class related items like repair kits, lockpicks, spellbooks, and spell reagents.
+As mentioned earlier, most common adventuring gear is abstracted out into the gear die. It is assumed characters have standard sorts of gear, such as appropriate clothing, tents, bedrolls, flint and steel, sacks, backpacks, rope, parchment, iron spikes, and class related items like repair kits, lockpicks, spellbooks, and spell reagents.
 
-If the players want gear that is more odd, like a shrimp net or an hourglass, they may produce it, but must roll the resource die. Very specific things which may pertain to mission goals, like a unicorn horn, or magic items, like a balm of healing, can't be produced with the resource die. Also, gear produced this way can't be transferred to a character sheet. You can't use the resource die as an item generator for trade!
+If the players want gear that is more odd, like a shrimp net or an hourglass, they may produce it, but must roll the gear die. Very specific things which may pertain to mission goals, like a unicorn horn, or magic items, like a balm of healing, can't be produced with the gear die. Also, gear produced this way can't be transferred to a character sheet. You can't use the gear die as an item generator for trade!
 
 ## Food and Light
 

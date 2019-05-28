@@ -1,6 +1,6 @@
 # Characters
 
-_LHC_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. The classes map roughly to the B/X idea of warriors, spellcasters, rogues, and weird... doesn't map. The classes also have favored abilities: Strong use Strength and Constitution, Wise use Intelligence and Wisdom, Deft use Dexterity and Charisma, and Weird are... weird.
+_Lavender Hack_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. The classes map roughly to the B/X idea of warriors, spellcasters, rogues, and weird... doesn't map. The classes also have favored abilities: Strong use Strength and Constitution, Wise use Intelligence and Wisdom, Deft use Dexterity and Charisma, and Weird are... weird.
 
 ### Blather
 
