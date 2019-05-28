@@ -65,6 +65,10 @@ _When you're nearby an enemy in combat with a melee weapon in hand, Test Str to 
 * Miss: Miss the target
 * Fumble: Weapon effectiveness degrades one die
 
+## Saves
+
+Saves are test which are more reactive. They work the same way, but they tend to be driven be the gamemaster or as a result of some other action. For instance, if a poisonous beast bites a character, they may have to make a save using their Constitution. As usual, an 8+ is successful. Weak and strong results may be used to further distinguish results as normal for tests.
+
 # Procedures
 
 **Procedures** are sequences of steps used to handle situations that occur in the game, such as exploration or combat. Procedures tend to be tactical and turn based in nature. There are usually various choices players may make at each step of the procedure, and procedures frequently use specific tests to resolve what happens.
@@ -81,42 +85,40 @@ The purists might blanch at this approach, but I see no incompatibility from swi
 
 # Usage Dice
 
-Usage dice are a general purpose tracking mechanism. They're used for **resources**, **food**, and **light**, as well as to track more abstract concepts like **fatigue** and party **discord**. The dice form a ladder of sorts, going from highest to lowest: **d12 <--> d10 <--> d8 <--> d6 <--> d4 <--> Broken / Used / Gone**.
+**Usage dice** are a general purpose tracking mechanism. In different situations, a usage die might be swapped out with a die of a different size. This forms a ladder of sorts, going from d12 at the highest to a d2 at the lowest: **d12 <--> d10 <--> d8 <--> d6 <--> d4 <--> d2(0)**. A d20 is used for the lowest step, where 1-10 means 1 and 11-20 means 2. A usage die can never be above a d12 or below a d20.
 
-If the rules instruct you to **raise** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **lower** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are raised and lowered. A d12 can't be raised and a d4 which is lowered is removed, that thing now being used up, broken, or gone.
+If used for an amount, the d12 represents having a lot of something and the d20 represents just scraping by. For example, a d12 food die means the characters have plenty of food of all different kinds, and a d20 means they have a few questionable berries found while foraging. If used for quality, a d12 represents something of the highest quality, while a d20 represents something makeshift. For example, if used for light, a d12 is a number of lanterns with plenty of oil, while a d2 is a makeshift candle using a torn bit of clothing.
+
+If the rules instruct you to **step up** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **step down** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are stepped up and down. A d12 can't be stepped up and a d20 can't be stepped down.
 
 ## Rolling Usage Dice
 
-Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a **1-3**, the die is lowered one step. The more they're used, the more they're used up!
+Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a **1-3**, the die is **stepped down**. The more they're used, the more they're used up! Typically, rolling a 1 on a d20 triggers some sort of additional negative effect.
 
 ### Blather
 
-Usage dice come from the game [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), although they are also used very effectively and extensively in [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters).  in _Black Hack_ they lower on a 1-2. I used the _MM_ version, which is where the 1-3 comes from.
+Usage dice come from the game [_Black Hack_](https://www.drivethrurpg.com/product/255088/The-Black-Hack-Second-Edition), although they are also used very effectively and extensively in [_Macchiato Monsters_](https://www.drivethrurpg.com/product/264169/Macchiato-Monsters). In _Black Hack_ they lower on a 1-2. I used the _MM_ version, which is where the 1-3 comes from.
 
-I love the concept, although getting them to function well as an economy is one of the most active parts of development. Who knows, maybe they won't be as good of a fit as simple counters. It certainly requires a decent amount of rolling to make them viable.
+I love the concept, although getting them to function well as an economy is one of the most active parts of development. Who knows, maybe they won't be as good of a fit as simple counters. In order for them to be viable, they need to be rolled fairly frequently.
 
 # Party Sheet
 
-There is a party sheet for all the players which tracks four important party level concepts, each tracked with a different usage die. They are **resources**, **discord**, **food**, and **light**.
+There is a party sheet for all the players which tracks four important party level concepts, each tracked with a different usage die. They are **gear**, **fellowship**, **food**, and **light**.
 
-## Resource
+## Gear
 
-The resource usage die tracks just that, resources the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs. The higher the die type, the better the quality and quantity of resources. Different class abilities can use the resources die.
+The gear usage die tracks just that, adventuring gear the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs. The higher the die type, the better the quality and quantity of gear. Different character class abilities can use the gear die to varying effect.
 
 ### Blather
 
-There tends to be lots of assorted gear that players track on their character sheets. Most of it is very similar and creates overhead without much interest. The resource die abstracts all of that out. In essence, the only items tracked by players tend to be weapons, swords, treasure, and very unique items. This fits in well with an abstract weight system, since there isn't as much to track, the assumption being you're already weighed down by stuff not on your character sheet.
+There tends to be lots of assorted gear that players track on their character sheets. Most of it is very similar and creates overhead without much interest. The gear die abstracts all of that out. In essence, the only items tracked by players will be weapons, swords, treasure, and very unique items. This fits in well with the abstract slots based weight system, since there isn't as much to track, the assumption being you're already weighed down by stuff not on your character sheet.
 
-The resource die also provides an interesting mechanism for different classes to exploit narratively. For example, thieves might be able to use it to make a trap, warriors can use it to fix broken armor, and spellcasters can use it for better spell components.
+The gear die also provides an interesting mechanism for different classes to exploit narratively. For example, thieves might be able to use it to make a trap, warriors can use it to fix broken armor, and spellcasters can use it for better spell components.
 
 ## Food and Light
 
-Food and light are tracked indepently from resources, since they function more as timers during travel. The exploration section details these more.
+Food and light are tracked indepently from gear, since they function more as timers during travel. The exploration section details these more.
 
-## Discord
+## Fellowship
 
-Discord represents party cohesion. If the group is happy, well rested, and ready to go, the discord die is not present. It is raised during stressful situations and can impact various moves negatively, particularly trade and other social situations. It is special in that when it is rolled, it is **not lowered on a 1-3** unless specifically indicated.
-
-# General Tests and Saves
-
-For most tests and saves, just use success (8+) or failure. If a player has an appropriate background for the test, they get advantage.
+Fellowship represents party cohesion. If the group is happy, well rested, and ready to go, fellowship will be high. It is stepped down during stressful situations and can impact various tests negatively, particularly during trade and other social situations.
