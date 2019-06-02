@@ -1,8 +1,12 @@
 # Exploration
 
-One of the goals of _LHR_ is to work well for hexcrawls, the sorts of adventures where characters go out into the hinterlands and figure out what's where.
+One of the goals of _Lavender Hack_ is to work well for hexcrawls, the sorts of adventures where characters go out into the hinterlands and figure out what's where.
 
 Each day is divided into four hour watches, for a total of six watches each day (dawn, day, day, dusk, night, night). For each watch, choose one: explore, move, or rest. The procedures are slightly different if characters are in a dungeon or wilderness.
+
+### Blather
+
+The watch system comes from _Hot Springs Island_ (not sure if it came from somewhere else first), and I really like that level of abstraction for overland exploration.
 
 ## End of Watch
 

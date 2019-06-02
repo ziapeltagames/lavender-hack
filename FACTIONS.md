@@ -6,7 +6,18 @@ Factions are not necessarily composed entirely of one culture. The diversity of 
 
 ## Disposition
 
-The most important characteristic of a faction is their disposition toward the characters, measured as a value from 1 (very hostile) to 10 (very friendly). Disposition is on the same scale as value, as they are interrelated. Over the course of a campaign, disposition may raise or lower based on the activity of the characters and other forces.
+The most important characteristic of a faction is their disposition toward the characters, measured as a value from 0 (openly hostile) to 10 (very friendly). Disposition is on the same scale as value, as they are interrelated. Over the course of a campaign, disposition may raise or lower based on the activity of the characters and other forces.
+
+A faction with a disposition of 0 has no interest in interacting the the characters at all, unless the intention is to imprison or injure them, while a faction with a disposition of 10 are certainly more welcoming of the characters than the people of their own home.
+
+| Disposition | Attitude |
+| --- | --- |
+| 1 | Hostile |
+| 2-3 | Unfriendly |
+| 4-5 | Uncertain |
+| 6-7 | Indifferent |
+| 8-9 | Friendly |
+| 10 | Enthusiastic |
 
 ## Approach
 
