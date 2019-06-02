@@ -101,9 +101,9 @@ Usage dice come from the game [_Black Hack_](https://www.drivethrurpg.com/produc
 
 I love the concept, although getting them to function well as an economy is one of the most active parts of development. Who knows, maybe they won't be as good of a fit as simple counters. In order for them to be viable, they need to be rolled fairly frequently.
 
-# Party Sheet
+# Resources
 
-There is a party sheet for all the players which tracks four important party level concepts, each tracked with a different usage die. They are **gear**, **fellowship**, **food**, and **light**.
+There is a party sheet for all the players which tracks four important party level resources, each tracked with a different usage die. They are **gear**, **fellowship**, **food**, and **light**.
 
 ## Gear
 
