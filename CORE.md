@@ -52,7 +52,7 @@ Other situations may allow a player to add to the result in various ways, or re-
 
 ## Specific Tests
 
-Some tests have specific fictional situations and results under which they can occur. If there is an applicable specific test, use that instead of the general test. For example, the following test is used when a character is fighting with a hand weapon in combat. Don't worry about what the results mean for now. The important thing to understand is that in some cases the results are already filled in.
+Some tests have specific fictional situations and results under which they can occur. If there is an applicable specific test, use that instead of the general test framework. For example, the following test is used when a character is fighting with a hand weapon in combat. Don't worry about what the results mean for now. The important thing to understand is that in some cases the results are already filled in.
 
 _When you're nearby an enemy in combat with a melee weapon in hand, Test Str to make a **melee attack**._
 
