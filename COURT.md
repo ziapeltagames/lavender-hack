@@ -17,7 +17,7 @@ If a faction has a disposition of 0, the characters are going to need to get the
 1. Set fellowship die equal to max result.
 2. Create goals.
 3. Take actions.
-    1. Purse goals.
+    1. Pursue goals.
     2. Trade.
     3. Curry favor.
 4. Lower fellowship die by one. Players _may_ continue taking actions or end court. If fellowship is lowered to 1, the players must move on to step 5.
@@ -81,7 +81,7 @@ As mentioned in [Valuables](VALUABLES.md), when trading for valuables, a charact
 
 ## Example
 
-Wendy is playing _Yargrel the Crafty_ and the fellowship die is currently a d6. The party is visiting the centaurs of North Hollow (disposition 5), and she offers up wyvern poison (value 4) for food, drink, and good conversation (gaining a better fellowship die). The centaurs demand wyvern poison, so the value is increased to 5. The Cha test results in a natural 20! Critical! The final value is now a 7.
+Wendy is playing _Yargrel the Crafty_ and the fellowship die is currently a d6. The party is visiting the centaurs of North Hollow (disposition 5), and she offers up wyvern poison (value 4) for food, drink, and good conversation (gaining a better fellowship die). The centaurs have a demand for wyvern poison, so the value is increased to 5. The Cha test results in a natural 20! Critical! The final value is now a 7.
 
 However, the max value is a 5 because the centaur disposition is a 5. So, the fellowship die is swapped out for a d10 (twice the result). Even if the disposition with the centaurs had been higher, only a value 6 could have been used, because the d12 is the highest resource die. Still much better than a d6!
 

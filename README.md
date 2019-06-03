@@ -1,6 +1,6 @@
 # Lavender Hack
 
-Welcome to _Lavender Hack_ (_LHC_)! _Lavender Hack_ is a fantasy tabletop role-playing game with a focus on abstract but **strict time records**, exploration, community building, trade, and downtime. In many places, it works like [_B/X_](https://www.drivethrurpg.com/product/110274/DD-Basic-Set-Rulebook-B-X-ed-Basic) style games, but it has some newer ideas, such as success with cost and tighter procedures to support different modes of play.
+Welcome to _Lavender Hack_ (_LHC_)! _Lavender Hack_ is a fantasy tabletop role-playing game with a focus on abstract but **strict time records**, exploration, diplomacy, trade, and downtime. In many places, it works like [_B/X_](https://www.drivethrurpg.com/product/110274/DD-Basic-Set-Rulebook-B-X-ed-Basic) style games, but it has some newer ideas, such as success with cost and tighter procedures to support different modes of play.
 
 ### Blather
 
@@ -22,23 +22,17 @@ This game itself probably doesn't fit into the [OSR](https://rpg.stackexchange.c
     * [The Weird](WEIRD.md)
 * [Valuables](VALUABLES.md)
     * [Gear](GEAR.md)
-* [Factions](FACTIONS.md)
 * [Exploration](EXPLORATION.md)
-* [Combat](COMBAT.md)
-* [Court](COURT.md)
+    * [Combat](COMBAT.md)
+* [Factions](FACTIONS.md)
+    * [Court](COURT.md)
 * [Downtime](DOWNTIME.md)
 * [Solo Play](SOLO.md)
 * [B/X Conversion](CONVERSION.md)
 * [OGL](OGL.md)
-
-# Settings
-
-TBD
 
 # Format
 
 The game is currently represented in a set of markdown files. Markdown is a text format which can be rendered to look pretty by various stand-alone software and browser plug-ins (as well as here on github). Using github and markdown is nice because github preserves detailed version history while markdown is simple, text based, and gets out of the way when doing early design work. You can also do stuff like manage tasks and issues in github. It's mainly a software development tool, but any sort of text works fine.
 
 If some section isn't correct or an area could use work, feel free to raise an issue! You can also copy all the content in a fork and make your own hack of this hack. Just respect the terms of the OGL.
-
-There is a _very_ crude character sheet located [here](sheets/CHARACTER_SHEET.md) and a _very_ crude party sheet located [here](sheets/PARTY_SHEET.md). They're basically just lists of things in the game.
