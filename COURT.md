@@ -1,27 +1,28 @@
 # Court
 
-The **court** procedure is used to handle social interactions with a faction. It is not used for when characters return home. That is covered under the downtime procedure.
+When the players wish to **court a faction**, the characters must be at a location the faction controls, with important characters from the faction present, and the faction must have a disposition of 1 or higher. Furthermore, the characters may only court a faction **once between each downtime** procedure.
+
+If a faction has a disposition of 0, the characters must get their foot in the door somehow, perhaps by offering a bribe of some sort or using magical abilities. Shifting a faction from a disposition of 0 to a disposition of 1 shouldn't be easy, as this faction either wants absolutely nothing to do with the characters, or more likely, is intent on causing them harm.
+
+This procedure is not used when characters return home. That is covered under **downtime**.
 
 ### Blather
 
-I struggled on what to call this procedure, but liked the word court, since it has multiple connotations, all of which feel applicable. Community was another option, but court is also a verb, which fits in better with combat, exploration, and chase. Court doesn't mean a formal medieval audience with royalty, though. The usage of court to mean "to persuade or win over" is also applicable, as court can be with any faction.
+I struggled on what to call this procedure, but liked the word court, since it has multiple applicable connotations. Community was another option, but court is also a verb, which fits in better with combat, exploration, and chase. Court doesn't necessarily mean a formal medieval audience with royalty. The usage of court to mean "to persuade or win over" is also applicable, as any faction may be courted.
 
-## Beginning Court
+## Courting a Faction Procedure
 
-In order to begin courting a faction, the characters must be at a location the faction controls, with important characters from the faction present, and the faction must not be in such a state that they're attacking the characters on sight (the faction must have a disposition of 1 or higher). Furthermore, the characters may only court a faction **once** between each downtime procedure.
-
-If a faction has a disposition of 0, the characters are going to need to get their foot in the door somehow, perhaps by offering a bribe of some sort or using magical abilities. There are no rules for shifting a faction from a disposition of 0 to a disposition of 1, but it shouldn't be easy.
-
-## Procedure
-
-1. Set fellowship die equal to max result.
+1. Set fellowship die to the max value for the die type.
 2. Create goals.
-3. Take actions.
+3. One player who hasn't gone this round chooses an action:
     1. Pursue goals.
     2. Trade.
     3. Curry favor.
-4. Lower fellowship die by one. Players _may_ continue taking actions or end court. If fellowship is lowered to 1, the players must move on to step 5.
-5. If the fellowship die is a 1, roll fellowship.
+4. One day of time passes.
+5. Lower fellowship die value by one.
+    1. If the fellowship die value is greater than 1, players _may_ return to step 3.
+    2. Actions are taken in rounds where each player acts once. Players may choose the order of actions each round.
+6. Court ends immediately if the players so choose or the fellowship die value is a 1.
 
 # Goals
 
@@ -67,7 +68,7 @@ When a character is in the presence of someone from a faction who has the types 
 
 The character may trade for **valuables**, **resources**, or **rumors** the faction would reasonably be able to provide. Remember to modify valuables appropriately based on what the faction supplies or demands.
 
-For resources, the die type gained is equal to twice the value (see [Valuables](VALUABLES.md), with a max die type of d12. For example, a value 5 sets the die to a d10. If the fellowship die is improved, swap out the die type, but don't change the top facing number, since that tracks turns. Gaining fellowship resources represents carousing and revelry.
+For resources, the die type gained is equal to twice the value (see [Valuables](VALUABLES.md)), with a max die type of d12. For example, a value 5 sets the die to a d10. If the fellowship die is improved, swap out the die type, but don't change the top facing number, since that tracks turns. Gaining fellowship resources represents carousing and revelry.
 
 Rumors traded for are given a rough worth equal to how common the knowledge is. This is going to be very coarse, but value one rumors are fairly common knowledge like "where's an inn", while value ten rumors might be "the true name to bind Ungrax, lord of demons".
 
@@ -87,7 +88,7 @@ However, the max value is a 5 because the centaur disposition is a 5. So, the fe
 
 ### Blather
 
-The Centaurs Demand Wyvern Poison is also the name of my stoner rock filk band.
+The _Centaurs Demand Wyvern Poison_ is also the name of my stoner rock filk band.
 
 # Curry Favor
 

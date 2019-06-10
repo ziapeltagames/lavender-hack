@@ -22,15 +22,15 @@ TBD (100 is one slot)
 
 | Name | Damage | Value | Slots | Effects | Range |
 | --- | --- | --- | --- | --- | --- |
-| Dagger | d4 | 2 | 1  |
-| Shortsword | d6 | 2 | 1  |
-| Longsword | d8 | 3 |  2 |
-| Mace | d8 | 2 |  1 |
-| Greatsword | d10 | 3 | 2 | Two Handed, Slow |  |
-| Shortbow | d6 | 2 | 1 | Two Handed | Short |
-| Longbow | d8 | 2 | 2 | Two Handed | Long |
-| Crossbow | d10 | 2 | 2 | Two Handed, Slow | Long |
-| Pistol | d10 | 3 | 1 | Gunpowder | Short |
+| Dagger | d4 | 3 | 1  |
+| Shortsword | d6 | 3 | 1  |
+| Longsword | d8 | 4 |  2 |
+| Mace | d8 | 3 |  1 |
+| Greatsword | d10 | 5 | 2 | Two Handed, Slow |  |
+| Shortbow | d6 | 3 | 1 | Two Handed | Short |
+| Longbow | d8 | 4 | 2 | Two Handed | Long |
+| Crossbow | d10 | 4 | 2 | Two Handed, Slow | Long |
+| Pistol | d10 | 6 | 1 | Gunpowder | Short |
 
 Characters using slow weapons will always take slow actions during the combat procedure (don't roll initiative).
 
@@ -42,10 +42,10 @@ Armor dice are used during combat, informing the players of how effective their 
 
 | Name | Protection | Value | Slots |
 | --- | --- | --- | --- |
-| Leather | d4 | 1 | 1 |
-| Chain | d6 | 2 | 2 |
-| Half Plate | d8 | 3 | 3 |
-| Full Plate | d10 | 4 | 3 |
-| Shield | +1 Step | 2 | 1 |
+| Leather | d4 | 4 | 1 |
+| Chain | d6 | 5 | 2 |
+| Half Plate | d8 | 6 | 3 |
+| Full Plate | d10 | 7 | 3 |
+| Shield | +1 Step | 4 | 1 |
 
 Note: A shield steps up the armor die once, in a similar fashion to a usage die. For example, leather and a shield is a d6 armor die. Armor, like weapons, can also become damaged.

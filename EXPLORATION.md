@@ -1,76 +1,21 @@
 # Exploration
 
-One of the goals of _Lavender Hack_ is to work well for hexcrawls, the sorts of adventures where characters go out into the hinterlands and figure out what's where.
+Exploration is the first of four pillars that support _Lavendar Hack_, the others being encounters, factions, and downtime. One of the goals of _Lavender Hack_ is to work well for wilderness **hexcrawls**, the sorts of adventures where characters go out into the hinterlands and figure out what's where and who's what. The term hexcrawl comes from the wealth of _B/X_ content which feature maps with hexes of varying scales, wherein each hex indicates terrain of a particular type.
 
-Each day is divided into four hour watches, for a total of six watches each day (dawn, day, day, dusk, night, night). For each watch, choose one: explore, move, or rest. The procedures are slightly different if characters are in a dungeon or wilderness.
+The goal of the exploration system is to make distances feel distant, such that resources like food are a concern, and the chance for surprise encounters with beasts and factions is always a possibility. Ocean exploration is very similar to wilderness exploration, the principal difference being a faster movement rate, very different sorts of events, and a reliance on wind speeds and direction.
+
+Of course, dungeons and dungeon exploration are the bread and butter of _B/X_ play. Unfortunately, dungeon maps, typically rendered on grids, do not provide as clean a unit of abstraction as hexes. This creates more difficulty when trying to come up with usable measures for time and distance. It also makes for more challenges when players try to make sense of where they are.
 
 ### Blather
 
-The watch system comes from _Hot Springs Island_ (not sure if it came from somewhere else first), and I really like that level of abstraction for overland exploration.
+I tried to make the procedures for each type of exploration (wilderness, dungeon, ocean) mirror each other somewhat closely. Exploration is built around the options of **exploring** a new place, **travelling** through somewhere you've been, **searching** where you are, and **resting**. In terms of time and distance, dungeon exploration is the most zoomed in, while ocean exploration is the most zoomed out. Dungeon exploration relies mostly on light, wilderness exploration mostly on food, and ocean exploration mostly on wind.
 
-## End of Watch
+# Time and Distance
 
-* Roll food die
-* Roll light die (if in dungeon)
-* Check for encounters
-* Dawn
-    * The Wise memorize spells if they rested for two watches
+New units of time and distance are needed to handle exploration at the right level of abstraction. The new units of time are **watches** of roughly four hours and **turns** of roughly ten minutes. The new units of distance are **hexes** of roughly three miles across and **rooms** of roughly 1,000 square feet. Watches and hexes are used primarily for wilderness exploration, while turns and rooms are used for dungeon exploration.
 
-## Wilderness Exploration Procedure
+### Blather
 
-* Explore
-    * Find something in the hex, if it's there
-* Move
-    * Attempt to move to an adjacent hex
-    * Check for getting lost
-        * Scout rolls Wis
-        * If failed, lose a watch, raise the discord die, and return to where you are
-* Rest (Each character may choose one)
-    * Heal. Roll hit die and regain that many hit points
-    * Repair. Spend repair cost and test to repair armor or weapon (Con), on success, improve usage die up to max
-    * Memorize. Roll Int, on success, gain one spell up to max
-    * Forage. Test (Wis)
-        * Complete: raise the food die or find a random interesting herb from the area
-        * Partial: food is found, but it is rotten or comprimised in some way
-        * Failure: encounter
+The term watch comes from _Hot Springs Island_ (not sure if it came from somewhere else first), and I really like that level of abstraction for wilderness exploration. It keeps the pace moving, which is important for a game featuring resource management. The AD&D 1E encounter system was broken up into six different time periods, although that was only for encounter checks, not as a unifying way to track time.
 
-## Dungeon Exploration Procedure
-
-* Explore
-    * Slow, cautious, movement
-    * May carefully search up to *four* medium sized rooms
-        * Find something of interest in each room, if it exists
-    * Gain advantage if traps are triggered
-* Move
-    * Move quickly without searching
-        * Also for fleeing
-    * May cover three times as much ground as exploration
-    * Automatically surprised and disadvantage if traps are triggered
-* Rest (Each character may choose one)
-    * Heal. Roll hit die with disadvantage and regain that many hit points
-    * Memorize. Roll Int with disadvantage, on success, gain one spell
-
-# Encounter Procedure
-
-When a **sentient being** is first discovered, apply the following procedure.
-
-* Check for starting distance
-* Check for surprise
-    * Roll Dex, if passed, no surprise
-* Choose one approach
-    * Communicate
-    * Combat
-        * Roll usage dice for armor at start of combat
-    * Flee
-        * Enemy may make free strikes as appropriate
-        * A chase ensues
-
-# Communicate
-
-One player may make a Cha test. If there isn't a mutually understandable language, roll with disadvantage. If the characters trade something of value to the other group or have leverage for some reason, roll with advantage. The result determines their feelings toward the party.
-
-* Critical: Friendly
-* Complete: Talkative
-* Partial: Unsure
-* Miss: Unfriendly
-* Fumble: Hostile
+Turns are a B/X legacy term, going all the way back to the wargaming roots of D&D. I'm not fond of the word "turn" to describe ten minutes, but it has lots of cultural inertia behind it. _Black Hack_ uses hours, minutes, and seconds to describe these zoomed in time structures, which is consistent and matches casual language. However, the fact that the terms are plural can make speech a little clunky, as in "what are you doing for these minutes".
