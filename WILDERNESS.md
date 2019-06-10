@@ -13,7 +13,6 @@ The standard hex is assumed to be three miles across and populated with terrain 
 ## Wilderness Exploration Procedure
 
 1. At the start of a new day, determine **wilderness events**.
-    1. The gamemaster rolls on **events table**.
 2. If it is dawn or dusk, roll the food die.
 3. Players choose one of the following actions:
     1. **Explore** a new hex.
@@ -23,11 +22,12 @@ The standard hex is assumed to be three miles across and populated with terrain 
     5. **Camp**.
 4. One watch passes.
     1. An additional watch passes if characters made camp.
-    2. If six watches have passed, mark another day of time and reset the watches.
+    2. An additional watch passes if **at least one character is encumbered** and the characters explore, travel, or search.
+    3. If six watches have passed, mark another day of time and reset the watches.
 
 # Wilderness Events
 
-To determine **wilderness events**, make a general test, and roll on the subtable indicated.
+To determine **wilderness events**, the gamemaster makes a general test, and rolls on the subtable indicated, if necessary.
 
 * Critical: Lair.
 * Strong: Bad Weather.
@@ -37,7 +37,7 @@ To determine **wilderness events**, make a general test, and roll on the subtabl
 
 ## Bad Weather
 
-The bad weather result indicates bad weather appropriate for the type of terrain and season, such as a torrential downpour, a blizzard, or a dust storm. Bad weather lasts the entire day and makes outdoor activities much more difficult. Any rolls related to scouting, hunting, making camp, foraging, and searching are **made with disadvantage on a day with bad weather**.
+The bad weather result indicates bad weather appropriate for the type of terrain and season, such as a torrential downpour, a blizzard, or a dust storm. Bad weather lasts the entire day and makes outdoor activities much more difficult. Any rolls related to scouting, hunting, camping, and foraging are **made with disadvantage on a day with bad weather**.
 
 ## Encounter
 
@@ -86,44 +86,50 @@ In the old AD&D 1E game, there was an involved procedure for becoming lost, wher
 
 When characters travel through hexes they have already visited, they may move through two hexes in one watch. Scout checks are not needed.
 
-## Night
-
-For each watch the players wish to travel or explore at night, roll the light die with disadvantage.
-
-
-
-## Encumbered
-
-Move at half speed... or X2 time?
-
-## Traveling at Night
-
-Step down light die.
-
-## Light Hexes
-
-X2 movement.
-
 # Search
 
-* Find something in the hex, if it's there
+If there is something of interest in the hex, it is found. This is commonly used to find lairs or entrances to dungeons.
 
+## Blather
 
+I really like the _Hot Springs Island_ approach, where each hex has three things of interest that may be searched for. Giving players some knowledge of where and when to search makes it a more useful action to take.
 
 # Long Rest
 
-* Heal. Roll hit die and regain that many hit points
-* Repair. Spend repair cost and test to repair armor or weapon (Con), on success, improve usage die up to max
-* Memorize. Roll Int, on success, gain one spell up to max
-* Forage. Test (Wis)
-    * Complete: raise the food die or find a random interesting herb from the area
-    * Partial: food is found, but it is rotten or comprimised in some way
-    * Failure: encounter
+A long rest allows characters to choose from a variety of actions during the watch. Each player may choose a different action from the following list.
+
+* Heal.
+    * Roll hit die and regain that many hit points.
+    * Roll with disadvantage in bad weather.
+* Repair.
+    * Roll gear die to repair armor or weapon by one step.
+    * Roll with disadvantage in bad weather.
+    * Gear die type must be higher than current damaged armor or weapon die type.
+* Memorize Working.
+    * Gain back one spent working.
+* Forage.
+    * Test Wis.
+    * Roll with disdvantage in bad weather.
+* Hunt.
+    * Test Dex.
+    * Roll with disadvantage in bad weather.
+
+## Foraging and Hunting
+
+If these actions are taken, make the test and apply the results as follows.
+
+* Critical: Step up the food die.
+* Strong: All food die rolls for the rest of the day automatically pass. 
+* Weak: The next food die roll automatically passes.
+* Miss: Nothing happens.
+* Fumble: Encounter.
+
+Encounters while foraging or hunting may be particularly dangerous if the character is out alone! Better hope it's a friendly faction.
 
 # Camp
 
-TBD. Spells?
+Camping lasts two watches. After camping, wise characters may recover all workings. Additionally, each character may roll their hit die and regain that many hit points. If there is bad weather, the recovery roll is made with disadvantage (roll hit die twice and choose lower result).
 
-# Night
+# Actions at Night
 
-Players must roll the light die with disadvantage for each night time watch they perform activities other than camping.
+Players must roll the light die with disadvantage for each night watch they perform any actions other than camping.
