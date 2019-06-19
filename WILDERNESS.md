@@ -6,7 +6,7 @@ The gamemaster determines where the players are located on the hex map. If this 
 
 ## Watches and Hexes
 
-Time during wilderness exploration is divided into four hour watches, for a total of six watches each day (dawn, day, day, dusk, night, night). Using a stack of different colored poker chips is an effective way to track this (red, yellow, yellow, red, black, black). Watches are tracked during wilderness exploration and dungeon exploration.
+Time during wilderness exploration is divided into **four hour watches**, for a total of six watches each day (dawn, day, day, dusk, night, night). Using a stack of different colored poker chips is an effective way to track this (red, yellow, yellow, red, black, black). Watches are tracked during wilderness exploration and dungeon exploration.
 
 The standard hex is assumed to be three miles across and populated with terrain that is difficult to negotiate (mountains, jungle, woods). Hexes of different sizes will require slight modifications to this procedure.
 
@@ -99,20 +99,10 @@ I really like the _Hot Springs Island_ approach, where each hex has three things
 A long rest allows characters to choose from a variety of actions during the watch. Each player may choose a different action from the following list.
 
 * Heal.
-    * Roll hit die and regain that many hit points.
-    * Roll with disadvantage in bad weather.
 * Repair.
-    * Roll gear die to repair armor or weapon by one step.
-    * Roll with disadvantage in bad weather.
-    * Gear die type must be higher than current damaged armor or weapon die type.
 * Memorize Working.
-    * Gain back one spent working.
 * Forage.
-    * Test Wis.
-    * Roll with disdvantage in bad weather.
 * Hunt.
-    * Test Dex.
-    * Roll with disadvantage in bad weather.
 
 ## Foraging and Hunting
 

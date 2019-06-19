@@ -1,3 +1,9 @@
+Return to town
+
+trade in cash
+cost of living (less = d6s, equal = d8s, higher = d10s)
+
+
 # Experience Points and Levels
 
 * 1 XP when a minor valuable (1-3) is traded

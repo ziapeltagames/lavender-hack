@@ -1,6 +1,6 @@
 # Encounter Procedure
 
-When a **sentient being** is first discovered, apply the following procedure.
+When an **intelligent creature** is first discovered, apply the following procedure.
 
 * Check for starting distance
 * Check for surprise
