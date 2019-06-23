@@ -18,7 +18,7 @@ The standard hex is assumed to be three miles across and populated with terrain 
     1. **Explore** a new hex.
     2. **Travel** through already explored hexes.
     3. **Search** the hex.
-    4. **Long** rest.
+    4. **Regroup**
     5. **Camp**.
 4. One watch passes.
     1. An additional watch passes if characters made camp.
@@ -88,7 +88,7 @@ When characters travel through hexes they have already visited, they may move th
 
 # Search
 
-If there is something of interest in the hex, it is found. This is commonly used to find lairs or entrances to dungeons.
+If there is something of interest in the hex, it is found. This is commonly used to find lairs or entrances to dungeons. If there are multiple things of interest, only one is found for each watch spent searching.
 
 ## Blather
 
@@ -96,17 +96,28 @@ I really like the _Hot Springs Island_ approach, where each hex has three things
 
 # Long Rest
 
-A long rest allows characters to choose from a variety of actions during the watch. Each player may choose a different action from the following list.
+A long rest allows characters to individually choose from a variety of actions during the watch. Each player may choose a different action from the following list.
 
 * Heal.
 * Repair.
-* Memorize Working.
+* Memorize.
 * Forage.
-* Hunt.
 
-## Foraging and Hunting
+## Heal
 
-If these actions are taken, make the test and apply the results as follows.
+In a long rest, a player may roll their hit die and recover that many hit points.
+
+## Repair
+
+A character may repair a damaged weapon or armor. If the gear die is of a higher type than the damaged weapon or armor die, the player rolls the gear die and steps up a damaged weapon or armor die one step.
+
+## Memorize Working
+
+A player may memorize one working for their character if they have slots available.
+
+## Forage
+
+The player makes a **Wis test** and applies the results as follows. Foraging is used broadly here, and includes hunting animals, setting traps, and identifying edible plants.
 
 * Critical: Step up the food die.
 * Strong: All food die rolls for the rest of the day automatically pass. 
@@ -114,7 +125,7 @@ If these actions are taken, make the test and apply the results as follows.
 * Miss: Nothing happens.
 * Fumble: Encounter.
 
-Encounters while foraging or hunting may be particularly dangerous if the character is out alone! Better hope it's a friendly faction.
+Encounters while foraging may be particularly dangerous if the character is out alone! Better hope it's a friendly faction. Depending on the result, this may represent the hunter becoming the hunted.
 
 # Camp
 
