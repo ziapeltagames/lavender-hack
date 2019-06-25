@@ -31,6 +31,9 @@ This game itself probably doesn't fit into the [OSR](https://rpg.stackexchange.c
 * [Factions](FACTIONS.md)
     * [Court](COURT.md)
 * [Downtime](DOWNTIME.md)
+* Magic
+    * Workings
+    * Items
 * [Solo Play](SOLO.md)
 * [B/X Conversion](CONVERSION.md)
 * [OGL](OGL.md)
