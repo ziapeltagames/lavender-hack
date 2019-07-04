@@ -109,6 +109,8 @@ There is a party sheet for all the players which tracks four important party lev
 
 The gear usage die tracks just that, adventuring gear the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs. The higher the die type, the better the quality and quantity of gear. Different character class abilities can use the gear die to varying effect.
 
+The most common way to use the gear die is to aid in a test. Each class may aid in tests for the **primary ability scores** of that class.
+
 ### Blather
 
 There tends to be lots of assorted gear that players track on their character sheets. Most of it is very similar and creates overhead without much interest. The gear die abstracts all of that out. In essence, the only items tracked by players will be weapons, swords, treasure, and very unique items. This fits in well with the abstract slots based weight system, since there isn't as much to track, the assumption being you're already weighed down by stuff not on your character sheet.

@@ -30,7 +30,13 @@ This is a substitute for a skill system. It's useful to create a focused and int
     * Starting slots are 5+Str
 * Record starting class abilities
 
+## Primary Abilities and the Gear Die
+
+Classes may roll the gear die for any test that uses their primary abilities. This may be done after the test roll, as long as the test roll is not a fumble or a critical. Those results can't be modified. As usual, if the gear die roll is a 1-3, it is stepped down.
+
 # The Weird
+
+The weird is an experimental class still in progress. It does not have its own section yet.
 
 * HP: d6
 * Primary: None
@@ -46,9 +52,9 @@ This is a substitute for a skill system. It's useful to create a focused and int
 
 **Fatigue**: The Weird use a fatigue usage die. It is rolled each time weirdness is used. Frequently weirdness uses the result of the fatigue die. When it is gone, no more weirdness may be used. After a **full rest**, it is reset to a d8.
 
-## Resource Die
+## Gear Die
 
-The Weird can't use the resource die.
+The Weird can't use the gear die.
 
 ## Starting Equipment
 
