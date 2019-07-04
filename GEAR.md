@@ -16,7 +16,7 @@ Usually valuables are traded for other things. However, they can be used to give
 
 ## Currency
 
-TBD (100 is one slot)
+TBD (100 copper pennies is one slot)
 
 ## Weapons
 

@@ -23,6 +23,7 @@ Dungeons have a **wonder rating from 1 to 8.** This reflects how obscure and pot
         2. On the first and fourth turns, **roll the light die**.
     2. **Craft torches** or **rebalance gear**.
         1. One turn.
+        2. On the first and fourth turns, **roll the light die**.
     3. **Regroup**.
         1. Takes one watch.
         2. **Roll the light die.**
@@ -30,8 +31,10 @@ Dungeons have a **wonder rating from 1 to 8.** This reflects how obscure and pot
         1. Takes two watches.
         2. **Roll the light die.**
 3. Track time for the chosen action.
-    2. On every watch, **roll the fellowship die**.
-    3. On the first and fourth watch, **roll the food die**.
+    1. If six turns have passed, mark another hour of time and reset the turns.
+    2. If four hours have passed, mark another watch of time and reset the hours.
+    3. On every watch, **roll the fellowship die**.
+    4. On the first and fourth watch, **roll the food die**.
 
 # Dungeon Events
 
@@ -120,4 +123,4 @@ Resolve the event rolled at the beginning of the hour during the camp action. Ad
 
 # Crafting Torches and Rebalancing Gear
 
-As an action that takes one turn, the spotlight player may step down the gear die to set the light die at a d6, or step down the fellowship die to set the gear die at a d6. This can be done for free while regrouping or camping.
+As an action that takes one turn, the spotlight player may **step down the gear die to set the light die at a d6**, or **step down the fellowship die to set the gear die at a d6**. This can be done for free while regrouping or camping.

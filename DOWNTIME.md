@@ -12,7 +12,7 @@ There are five boxes on each row of the wealth table. This is to reflect the rou
 
 It is possible to trade down on the wealth table, but the rate is worse than trading up. Flexibility costs money! **Erasing one box** on the wealth table lets a player fill in **four boxes of the lower value**.
 
-## Spend Wealth
+## Spending
 
 To **spend wealth**, simply erase the box of the given value. For example, to spend wealth 2, erase a box on the second row of the wealth table. Players may move wealth up or down as detailed above before doing so.
 
@@ -91,9 +91,9 @@ To initiate carousing, a player spends wealth 2 and makes a **Cha test** for the
 
 When the players choose to end downtime, or run out of funds with which to conduct actions, they must pay cost of living before heading out into the wilds. The cost of living is based on the character with the **highest** level in the party. The higher the level, the more accustomed to a higher standard of living! At least **1 wealth** must be spent if it is available.
 
-The cost of living is spent from the wealth table. Depending on the value spent, the four resource dice (food, fellowship, gear, and light) are set appropriately. Then the characters are ready to continue exploration!
+## End of Downtime Resource Dice
 
-## Starting Resource Dice Types
+Depending on the value spent, the four resource dice (food, fellowship, gear, and light) are set appropriately. Then the characters are ready to continue exploration!
 
 * Nothing: d20s
 * Less than half of level (round down): d4s

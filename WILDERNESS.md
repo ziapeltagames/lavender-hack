@@ -13,17 +13,16 @@ The standard hex is assumed to be three miles across and populated with terrain 
 ## Wilderness Exploration Procedure
 
 1. At the start of a new day, determine **wilderness events**.
-2. If it is dawn or dusk, roll the food die.
-3. Players choose one of the following actions:
-    1. **Explore** a new hex.
-    2. **Travel** through already explored hexes.
-    3. **Search** the hex.
-    4. **Regroup**
+2. Spotlight player chooses one of the following actions for the group.
+    1. **Explore** a new hex, **travel** through an already explored hex, or **search** the current hex.
+        1. Takes one or two watches, depending on encumbrance.
+    4. **Regroup** and **rebalance gear**.
+        1. One watch.
     5. **Camp**.
+        1. Two watches.
 4. One watch passes.
-    1. An additional watch passes if characters made camp.
-    2. An additional watch passes if **at least one character is encumbered** and the characters explore, travel, or search.
-    3. If six watches have passed, mark another day of time and reset the watches.
+    1. If six watches have passed, mark another day of time and reset the watches.
+    2. On the first (dawn) and fourth (dusk) watch, **roll the food die**.
 
 # Wilderness Events
 
@@ -72,19 +71,21 @@ The standard OSR way to handle encounters is to roll a die once for every unit o
 
 I'm debating adding something like a spotlight system on a miss result. The spotlight would be a reminder to ask a player questions about their character, and make sure that more quiet players have the spotlight (if they want it). There may also be a mechanical benefit to being in the spotlight, such as gaining advantage on certain rolls. I like the idea of having something like that included in events.
 
-# Exploration
+# Exploration and Travel
 
-Exploration is moving to a new hex the characters haven't been to before. Since it is a new hex, there is a chance the characters get lost. One character is nominated as a **scout**. The player of the scouting character makes a **Wis test**. On a success, the characters arrive at the desired hex, as normal. Remember that bad weather requires this roll be made with disadvantage!
+**Exploration** is moving to a new hex the characters haven't been to before. Since it is a new hex, there is a chance the characters get lost. One character is nominated as a **scout**. The player of the scouting character makes a **Wis test**. On a success, the characters arrive at the desired hex, as normal. Remember that bad weather requires this roll be made with disadvantage!
 
 On a failure, they have temporarily become lost, and end up in a random hex. The scout player should roll a d6. On a 1-4, the characters end up back where they started. On a 5, they veer left, ending up in the hex left of where they desired. On a 6, they veer right, ending up in the hex to the right of where they desired. In each case, the target hex remains unexplored, but the characters know where they are after the watch.
+
+When characters **travel** through hexes they have already visited, they may move through two hexes in one watch. Scout checks are not needed.
 
 ## Blather
 
 In the old AD&D 1E game, there was an involved procedure for becoming lost, whereby the GM secretly tracked where characters were, and players kind of fumbled about in the dark. I found it more fun in principal than in practice. Here, becoming lost primarily sacrifices time.
 
-# Travel
+## Encumbrance
 
-When characters travel through hexes they have already visited, they may move through two hexes in one watch. Scout checks are not needed.
+If one or more characters in the party are encumbered, it takes **two watches to explore** and only **one hex may be traveled** through each turn.
 
 # Search
 
@@ -94,14 +95,16 @@ If there is something of interest in the hex, it is found. This is commonly used
 
 I really like the _Hot Springs Island_ approach, where each hex has three things of interest that may be searched for. Giving players some knowledge of where and when to search makes it a more useful action to take.
 
-# Long Rest
+# Regroup
 
-A long rest allows characters to individually choose from a variety of actions during the watch. Each player may choose a different action from the following list.
+Regrouping allows characters to individually choose from a variety of actions during the watch. Each player may choose a different action from the following list.
 
 * Heal.
 * Repair.
 * Memorize.
 * Forage.
+
+Additionally, as part of regrouping, players may **rebalance gear**. This is down by stepping down the fellowship die, and setting the gear die to a d6.
 
 ## Heal
 
