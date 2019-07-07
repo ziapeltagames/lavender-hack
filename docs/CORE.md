@@ -1,17 +1,15 @@
 # Core Rules
 
-Because one of the goals of _Lavender Hack_ is to work with B/X content, much of this will look familiar to anyone who has played that style of game. There are ability scores, a twenty sided dice, classes, hit points, gear, combat, and exploration. There are some different bits as well, which will become apparent shortly.
+Because one of the goals of _Lavender Hack_ is to work with B/X content, much of this will look familiar to anyone who has played that style of game. There are ability scores, twenty sided dice, classes, hit points, gear, combat, and exploration. There are some different bits as well, which will become apparent shortly.
 
 # Ability Scores
 
 Ability scores are a very core part of the game, and the first thing you calculate when making a character. There are six, and they should come as no surprise: **Strength (Str)**, **Dexterity (Dex)**, **Wisdom (Wis)**, **Intelligence (Int)**, **Constitution (Con)**, and **Charisma (Cha)**. Since you've already played this sort of game, I'm not going to spend words explaining how to interpret them.
 
-These ability scores start on the 3-18 scale, but it is possible for them to be raised higher than that later on. Along with the value of the ability score, there is also a modifier, which can range from -3 to +5. The modifiers are calculated as follows.
+These ability scores start on the 3-18 scale, but it is possible for them to be raised higher than that later on. Along with the value of the ability score, there is also a modifier, which can range from -3 to +3. The modifiers are calculated as follows.
 
 ## Ability Score Modifiers
 
-* 20: +5
-* 19: +4
 * 18: +3
 * 16-17: +2
 * 13-15: +1
@@ -52,13 +50,19 @@ Other situations may allow a player to add to the result in various ways, or re-
 
 ## General Tests
 
-Sometimes a test is called for that does not use any ability score modifier. This is referred to as a **general test**. Frequently this is done by the gamemaster, with the results being interpreted based on the degree of success or failure for the roll. Events in the dungeon and wilderness are the most common example of this sort of test.
+Sometimes a test is called for that does not use any ability score modifier. This is referred to as a **general test**. Frequently this is done by the gamemaster, with the results being interpreted based on the degree of success or failure for the roll. Events in the dungeon and wilderness are an example of this sort of test.
 
-## Specific Tests
+## Saves
 
-Some tests have specific fictional situations and results under which they can occur. If there is an applicable specific test, use that instead of the general test framework. For example, the following test is used when a character is fighting with a hand weapon in combat. Don't worry about what the results in this example mean for now.
+**Saves** are tests which are reactive. They work the same way as other tests, but they tend to be driven be the gamemaster or as a consequence of some action taken by the player. For instance, if a poisonous beast bites a character, they may have to make a save using their Constitution. As usual, an 8+ is successful. Degrees of success and failure may be used to further distinguish results as normal for tests.
 
-The important thing to understand is that specific tests typically have choices or results for each degree of success and failure. Sometimes these are further choices for a player to make. Specific tests also describe when they should be used and what ability score to use as well, such as **test Str** or **make a Cha test**.
+# Moves
+
+Some tests have specific fictional situations and results under which they can occur. These sorts of tests are called **moves**. If there is an applicable move, use that instead of the general test framework. For example, the following move is used when a character is fighting with a hand weapon in combat. Don't worry about what the results in this example mean for now.
+
+The important thing to understand is that moves typically have choices or results for each degree of success and failure. Sometimes these are further choices for a player to make. Move also describe when they should be used and what ability score to use as well. This is described in the text using phrase like **test Str** or **make a Cha test**.
+
+## Example Melee Attack Move
 
 _When you're nearby an enemy in combat with a melee weapon in hand, test Str to make a **melee attack**._
 
@@ -71,23 +75,21 @@ _When you're nearby an enemy in combat with a melee weapon in hand, test Str to 
 * Miss: Miss the target
 * Fumble: Weapon effectiveness degrades one die
 
-## Saves
-
-Saves are tests which are reactive. They work the same way as other tests, but they tend to be driven be the gamemaster or as a result of some other action. For instance, if a poisonous beast bites a character, they may have to make a save using their Constitution. As usual, an 8+ is successful. Degrees of success and failure may be used to further distinguish results as normal for tests.
+As you can see, a weak success entails further choices on the part of a character. There are also some fictional conditions necessary to make this move: a character must be nearby an enemy.
 
 # Procedures
 
-**Procedures** are sequences of steps used to handle situations that occur in the game, such as exploration or combat. Procedures tend to be tactical and turn based in nature. There are usually various choices players may make at each step of the procedure, and procedures frequently use specific tests to resolve what happens.
+**Procedures** are sequences of steps used to handle situations that occur in the game, such as exploration or combat. Procedures tend to be tactical and turn based in nature. There are usually various choices players may make at each step of the procedure, and procedures frequently use moves to resolve what happens.
 
-Essentially, procedures tie together sequences of tests, typically in a turn based format, and make it part of a mini-game. Such as using a **melee attack** in combat. Procedures additionally have other sorts of choices and steps to figure out what happens. The most important procedures in _Lavender Hack_ are **exploration**, **court**, **combat**, and **downtime**.
+Essentially, procedures tie together sequences of tests and moves, typically in a turn based format, and make it part of a mini-game. Such as using a **melee attack** in combat. Procedures additionally have other sorts of choices and steps to figure out what happens. The most important procedures in _Lavender Hack_ are **exploration**, **court**, **combat**, and **downtime**.
 
 ### Blather
 
-Specific tests track fairly close to moves from [_Apocalypse World_](http://apocalypse-world.com/).  _Apocalypse World_ burst forth on the RPG scene in 2010 and certainly had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_.
+The concept of moves come from [_Apocalypse World_](http://apocalypse-world.com/).  _Apocalypse World_ burst forth on the RPG scene in 2010 and certainly had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_. However, moves are not usually grounded in larger procedures, but rather are free floating things that trigger when the fictional situation they refer to occurs. This is the idea that RPGs are a conversation and moves trigger as part of that.
 
-For myself, I like the idea of more free flowing mechanical widgets which can be triggered to push the fiction in all sorts of interesting directions. However, I really like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). Turns have an advantage over moves in that the spotlight tends to get shared more, and mini-games add tactical diversity and strategy to the system.
+For myself, I like the idea of more free flowing mechanical widgets which can be triggered to push the fiction in all sorts of interesting directions. However, I really like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). Turns have an advantage over moves in that the spotlight tends to get deliberately shared more, and mini-games add tactical diversity and strategy to the system.
 
-_Lavender Hack_ mixes move sorts of structures along with tactical procedures and mini-games. _Apocalypse World_ purists might blanch at this approach, but I see no incompatibility from switching between the "talk in the funny voices" parts of rpgs and the "win at a game" parts of rpgs. It's usually easy enough to tell which is which.
+_Lavender Hack_ mixes move sorts of structures along with tactical procedures and mini-games. _Apocalypse World_ purists might blanch at this approach, but I see no incompatibility from switching between the freeform "talk in the funny voices" parts of rpgs and the "win at a game" parts of rpgs. It's usually easy enough to tell which is which.
 
 # Spotlight Player
 
@@ -119,7 +121,7 @@ I love the concept of usage dice, although getting them to function well as an e
 
 # Resources
 
-There is a [party sheet](../sheets/party_sheet.pdf) for the players which tracks four important party level **resources**, each tracked with a usage die. They are **gear**, **fellowship**, **food**, and **light**. Resources are detailed more in the [Resources](RESOURCES.md) section of the [Valuables](VALUABLES.md) chapter.
+There is a [party sheet](../sheets/party_sheet.pdf) for the players which tracks four important party level **resources**, each tracked with a usage die. They are **gear**, **fellowship**, **food**, and **light**. Resources are detailed in the [Resources](RESOURCES.md) section of the [Valuables](VALUABLES.md) chapter.
 
 ## Gear
 
