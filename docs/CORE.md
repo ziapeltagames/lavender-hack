@@ -77,6 +77,10 @@ _When you're nearby an enemy in combat with a melee weapon in hand, test Str to 
 
 As you can see, a weak success entails further choices on the part of a character. There are also some fictional conditions necessary to make this move: a character must be nearby an enemy.
 
+## Moves Without Tests
+
+Moves don't necessarily need to involve tests. They could be a list of choices or some bookkeeping sort of activity to undertake during a particular fictional situation.
+
 # Procedures
 
 **Procedures** are sequences of steps used to handle situations that occur in the game, such as exploration or combat. Procedures tend to be tactical and turn based in nature. There are usually various choices players may make at each step of the procedure, and procedures frequently use moves to resolve what happens.
@@ -101,7 +105,7 @@ _Lavender Hack_ occasionally has choices and die rolls that aren't directly rela
 
 When usage dice reflect an amount of something, the d12 represents having a lot of it and the d20 represents just scraping by. For example, a d12 food die means the characters have plenty of food of all different kinds, and a d20 means they have a few very questionable berries found while foraging. If used for quality, a d12 represents something of the highest quality, while a d20 represents something makeshift. For example, if used for light, a d12 is a number of lanterns with plenty of oil, while a d2 is a makeshift candle using a torn bit of clothing.
 
-If the rules instruct you to **step up** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **step down** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are stepped up and down. A d12 can't be stepped up and a d20 can't be stepped down.
+If the rules instruct you to **step up** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **step down** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are stepped up and down. A d12 can't be stepped up and a d20 can't be stepped down. A d20 usage die is referred to as **broken**.
 
 ## Usage Test
 
@@ -111,7 +115,7 @@ This process of rolling a usage die, checking the result, and then determining i
 
 ## Usage Save
 
-If players are forced to roll a d20 usage die, the result is almost never good! Each type of usage die has a set of general test results that is used for this purpose. Rolling a d20 usage die is referred to as **making a usage save**. The spotlight player rolls the usage die to determine what happens!
+If players are forced to roll a d20 usage die, the result is almost never good! Each type of usage die has a set of general test results that is used for this purpose. Rolling a d20 usage die is referred to as **making a usage save**. The spotlight player rolls the usage die and looks up the related save results to determine what happens!
 
 ### Blather
 
@@ -121,13 +125,13 @@ I love the concept of usage dice, although getting them to function well as an e
 
 # Resources
 
-There is a [party sheet](../sheets/party_sheet.pdf) for the players which tracks four important party level **resources**, each tracked with a usage die. They are **gear**, **fellowship**, **food**, and **light**. Resources are detailed in the [Resources](RESOURCES.md) section of the [Valuables](VALUABLES.md) chapter.
+There are four important party level **resources**, each tracked with a usage die. They are **food**, **fellowship**, **gear**, and **light**. Resources are detailed in the [Resources](RESOURCES.md) section of the [Valuables](VALUABLES.md) chapter.
 
 ## Gear
 
-The gear usage die tracks just that, adventuring gear the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs. The higher the die type, the better the quality and quantity of gear. Different character class abilities can use the gear die to varying effect.
+The gear usage die tracks just that, adventuring gear the party has available. These are things like blankets, backpacks, oil flasks, lockpicks, writing ink, spellbooks, and large burlap sacks. In short, most everything the well equipped adventurer needs! The higher the die type, the better the quality and quantity of gear. Different character class abilities can use the gear die to varying effect.
 
-The most common way to use the gear die is to help with a test. Each class may **add the gear die** to tests for the **primary ability scores** of that class. See the [Character](CHARACTERS.md) chapter for more details.
+One common way to use the gear die is to help with a test. Each class may **add a gear die roll** to tests that use the **primary ability scores** of that class. See the [Character](CHARACTERS.md) chapter for more details.
 
 ### Blather
 
@@ -137,7 +141,7 @@ The gear die also provides an interesting mechanism for different classes to exp
 
 ## Food and Light
 
-Food and light are tracked indepently from gear, since they function as timers during travel. See the [Exploration](EXPLORATION.md) chapter for more details.
+Food and light are tracked indepently from other gear, as they have a more important role during wilderness and dungeron exploration. See the [Exploration](EXPLORATION.md) chapter for more details.
 
 ## Fellowship
 
