@@ -16,11 +16,13 @@ Classes have **primary abilities** which have a prominent role in tests for that
 
 ## Class Level
 
-Character classes have **levels** between 1 and 10. When making a new character, they start at level 1. As the character grows and explores and hopefully survives the trials of being an adventurer, they gain levels. With new levels comes more hit points and new and more interesting options to explore. The process of leveling up is described in [Downtime](DOWNTIME.md).
+Character classes have **levels** between 1 and 10. When making a new character, they start at level 1. As the character grows and explores and hopefully survives the trials of being an adventurer, they gain levels. With new levels come more hit points and new and more interesting options to explore. The process of leveling up is described in [Downtime](DOWNTIME.md).
 
 ## Class Features
 
 **Features** are special abilities that each class has available to them. They help the class fit into a niche within the game. Higher level characters have more and better class features available to them.
+
+In the class descriptions, **starting features** are available immediately. One **advanced feature** may be chosen each time the class gains a level. Many of the class features are used in procedures that are fleshed out later in the book.
 
 ## Backgrounds and Advantage
 
@@ -30,7 +32,7 @@ Each character class has sample backgrounds that may be chosen from or rolled on
 
 ### Blather
 
-This is a substitute for a skill system. It's useful to create an evocative and interesting background that is useful in a few situations, which isn't an easy skill to develop. If a background is too broad it can feel watered down, but if it's hyper focused, it may never feel applicable.
+Backgrounds are a substitute for a skill system. It's useful to create an evocative and interesting background that is useful in a few situations, which isn't an easy skill to develop. If a background is too broad it can feel watered down, but if it's hyper focused, it may never feel applicable.
 
 It may be worth having more ways to gain advantage than a background. _Whitehack_ uses the concept of groups, which are tied to particular ability scores. These are a little like aspects from _Fate Core_, but they don't have an additional currency needed to invoke them. Still haven't decided if having something like that is worth the overhead. It can give characters more depth. I don't want any more currencies to track aspect invokes.
 
@@ -49,7 +51,7 @@ Use the following steps when creating a new character.
 * Choose a class (Strong, Wise, Deft, Weird)
 * Roll or choose from class background table
 * Roll hit points using class hit die
-    * Roll with advantage and add Con
+    * Roll hit die with advantage and add Con
 * Roll on class starting gear tables
     * Add Str+5 for starting encumbrance slots (2-8 starting slots)
 * Record starting class features

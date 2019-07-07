@@ -1,19 +1,25 @@
 # The Deft
 
 * Hit Die: d6
-* Primary: Dexterity, Charisma
+* Primary Abilities: Dexterity, Charisma
 * Armor: Leather
 * Weapon: One-handed weapons and any ranged weapons
 
-## Features
+## Starting Features
 
-**Sneak Attack**: When making a **melee attack**, if enemy is unaware or surprised, automatically hit and do double damage.
+**Sneak Attack**: When making a **melee attack**, if the enemy is unaware of the character or is otherwise surprised, roll the attack with advantage. If the attack succeeds, roll damage twice and add the results together.
 
-**Resourceful**: Deft players roll the resource die with advantage.
+**Resourceful**: Deft players roll the gear die with advantage.
 
-**Polyglot**: The Deft know a number of languages equal to Cha modifier.
+**Polyglot**: The Deft know a number of additional languages equal to Cha modifier.
 
-**Precise Shot**: The Deft may use the gear die for **ranged damage**.
+## Advanced Features
+
+**Precise Shot**: May add a gear die roll to **ranged damage**.
+
+## Backgrounds
+
+TBD
 
 ## Starting Equipment
 
