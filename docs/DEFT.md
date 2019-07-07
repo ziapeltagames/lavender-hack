@@ -1,9 +1,9 @@
 # The Deft
 
-* HP: d6
+* Hit Die: d6
 * Primary: Dexterity, Charisma
 * Armor: Leather
-* Weapon: One-handed weapons and any bows
+* Weapon: One-handed weapons and any ranged weapons
 
 ## Features
 

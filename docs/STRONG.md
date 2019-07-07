@@ -1,6 +1,6 @@
 # The Strong
 
-* HP: d8
+* Hit Die: d8
 * Primary: Strength, Constitution
 * Armor: Any
 * Weapons: Any

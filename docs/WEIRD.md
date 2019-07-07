@@ -2,7 +2,7 @@
 
 The weird is an experimental class still in progress. It does not have much content yet. It may eventually be ported to a specific setting that's in the works, rather than a generally available class.
 
-* HP: d6
+* Hit Die: d6
 * Primary: None
 * Armor: None
 * Weapons: Any

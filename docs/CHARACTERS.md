@@ -1,10 +1,26 @@
 # Characters
 
-_Lavender Hack_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. With the exception of Weird, the classes map roughly to the B/X idea of warriors, spellcasters, and rogues. The classes also have **primary abilities** which tend to have a more prominent role in test for that class. The Strong use Strength and Constitution, the Wise use Intelligence and Wisdom, the Deft use Dexterity and Charisma, and the Weird do not have primary abilities.
+_Lavender Hack_ uses four classes, each of which is a broad archetype: **Strong**, **Wise**, **Deft**, and **Weird**. With the exception of Weird, the classes map roughly to the B/X idea of warriors, spellcasters, and rogues.
 
 ### Blather
 
 Those class names are from _Whitehack_. Still undecided on going that route rather than more standard class archetypes. Having broader classes can offer up more customization. But having a stronger archetype, like a paladin or a cleric, makes it easier for people familiar with D&D to engage quicker.
+
+## Hit Dice
+
+Classes have **hit dice**, which are rolled at character creation to determine starting **hit points**. Hit dice are rolled at other times as well. The higher the hit die type, the more hit points a character has, which reflects their endurance and toughness. Hit points are used heavily in combat. When a character drops down to zero hit points, they can become badly wounded.
+
+## Primary Abilities
+
+Classes have **primary abilities** which have a prominent role in tests for that class. The Strong use Strength and Constitution, the Wise use Intelligence and Wisdom, the Deft use Dexterity and Charisma, and the Weird do not have primary abilities.
+
+## Class Level
+
+Character classes have **levels** between 1 and 10. When making a new character, they start at level 1. As the character grows and explores and hopefully survives the trials of being an adventurer, they gain levels. With new levels comes more hit points and new and more interesting options to explore. The process of leveling up is described in [Downtime](DOWNTIME.md).
+
+## Class Features
+
+**Features** are special abilities that each class has available to them. They help the class fit into a niche within the game. Higher level characters have more and better class features available to them.
 
 ## Backgrounds and Advantage
 

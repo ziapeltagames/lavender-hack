@@ -1,6 +1,6 @@
 # The Wise
 
-* HP: d4
+* Hit Die: d4
 * Primary: Intelligence, Wisdom
 * Armor: None
 * Weapons: One-handed weapons
