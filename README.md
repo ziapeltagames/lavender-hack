@@ -38,6 +38,10 @@ This game itself probably doesn't fit into the [OSR](https://rpg.stackexchange.c
 * [B/X Conversion](CONVERSION.md)
 * [OGL](OGL.md)
 
+# Sheets
+
+* [Party Sheet](sheets/party_sheet.pdf)
+
 # Format
 
 The game is currently represented in a set of markdown files. Markdown is a text format which can be rendered to look pretty by various stand-alone software and browser plug-ins (as well as here on github). Using github and markdown is nice because github preserves detailed version history while markdown is simple, text based, and gets out of the way when doing early design work. You can also do stuff like manage tasks and issues in github. It's mainly a software development tool, but any sort of text works fine.
