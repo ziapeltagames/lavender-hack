@@ -73,7 +73,7 @@ _When you're nearby an enemy in combat with a melee weapon in hand, test Str to 
 
 ## Saves
 
-Saves are tests which are reactive. They work the same way as other tests, but they tend to be driven be the gamemaster or as a result of some other action. For instance, if a poisonous beast bites a character, they may have to make a save using their Constitution. As usual, an 8+ is successful. Weak and strong results may be used to further distinguish results as normal for tests.
+Saves are tests which are reactive. They work the same way as other tests, but they tend to be driven be the gamemaster or as a result of some other action. For instance, if a poisonous beast bites a character, they may have to make a save using their Constitution. As usual, an 8+ is successful. Degrees of success and failure may be used to further distinguish results as normal for tests.
 
 # Procedures
 
@@ -89,6 +89,10 @@ For myself, I like the idea of more free flowing mechanical widgets which can be
 
 _Lavender Hack_ mixes move sorts of structures along with tactical procedures and mini-games. _Apocalypse World_ purists might blanch at this approach, but I see no incompatibility from switching between the "talk in the funny voices" parts of rpgs and the "win at a game" parts of rpgs. It's usually easy enough to tell which is which.
 
+# Spotlight Player
+
+_Lavender Hack_ occasionally has choices and die rolls that aren't directly related to any particular character. A **spotlight player** makes these choices and die rolls. The spotlight player should be chosen at the beginning of the session. Rotate the spotlight around, so that players alternate the responsibility. Occasionally the spotlight player endures further complications or hardships for their character! The spotlight isn't always positive.
+
 # Usage Dice
 
 **Usage dice** are a general purpose tracking mechanism heavily used (ahem) in _Lavender Hack_. Usage dice change die type based on situations in the game. This forms a ladder of sorts, going from d12 at the highest to a d2 at the lowest: **d12 <--> d10 <--> d8 <--> d6 <--> d4 <--> d2(0)**. A d20 is used for the lowest step. A usage die can never be above a d12 or below a d20.
@@ -97,13 +101,15 @@ When usage dice reflect an amount of something, the d12 represents having a lot 
 
 If the rules instruct you to **step up** a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to **step down** a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are stepped up and down. A d12 can't be stepped up and a d20 can't be stepped down.
 
-## Rolling Usage Dice
+## Usage Test
 
-Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a **1-3**, the die is **stepped down** in addition to any other potential effects. The more usage dice are used, the more they're used up! A 1, 2, or 3 result means the thing was **used**, and can occasionally trigger an additional effect.
+Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a **1-3**, the die is **stepped down** in addition to any other potential effects. The more usage dice are used, the more they're used up! A 1, 2, or 3 result means the thing was **used**, and can occasionally trigger an additional effect besides stepping the die type down.
 
-## Broken Usage Dice
+This process of rolling a usage die, checking the result, and then determining if it should be stepped down is called a **usage test**. Sometimes the only thing that matters is if the die is stepped down or not.
 
-If players are forced to rely on a d20 usage die, the result is almost never good! Each type of usage die has set of general test results that is used for this purpose. Rolling a d20 usage die is referred to as **testing the usage die**. The gamemaster rolls the usage die to determine what happens!
+## Usage Save
+
+If players are forced to roll a d20 usage die, the result is almost never good! Each type of usage die has a set of general test results that is used for this purpose. Rolling a d20 usage die is referred to as **making a usage save**. The spotlight player rolls the usage die to determine what happens!
 
 ### Blather
 
