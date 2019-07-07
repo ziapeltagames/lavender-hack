@@ -23,16 +23,21 @@
 
 **Power Attack**: May add a gear die roll to **melee damage**.
 
+**Toughness**: This feature may be taken more than once. Each time it is taken, add Constitution modifier to new hit points rolled when leveling up.
+
+**Stronger**: This feature may be taken more than once. Increase a Strength or Constitution by one. This is in addition to the normal increase when leveling up.
+
 ## Backgrounds
 
-Roll a d6 or choose an appropriate background.
+Roll a d6 for inspiration or create an appropriate background.
 
 1. Miner
 2. Apprentice Smith
-3. Pumpkin Farmer
-4. Squid Wrangler
+3. Farmer
+4. Fisherman
 5. Henchman for a Tax Collector
 6. Horse Trainer
+7. Barkeep
 
 ## Starting Equipment
 

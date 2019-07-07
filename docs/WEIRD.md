@@ -7,7 +7,7 @@ The weird is an experimental class still in progress. It does not have much cont
 * Armor: None
 * Weapons: Any
 
-## Features
+## Starting Features
 
 **Weirdness**: The Weird, naturally, have weirdness. Choose two first level weirdness during character creation. At each new level, gain one weirdness equal to level attained.
 
@@ -16,9 +16,11 @@ The weird is an experimental class still in progress. It does not have much cont
 
 **Fatigue**: The Weird use a fatigue usage die. It is rolled each time weirdness is used. Frequently weirdness uses the result of the fatigue die. When it is gone, no more weirdness may be used. After a **full rest**, it is reset to a d8.
 
-## Gear Die
+**From a Different Time and Place**: The Weird can't use the gear die to help with ability tests.
 
-The Weird can't use the gear die.
+## Advanced Features
+
+TBD
 
 ## Starting Equipment
 
