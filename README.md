@@ -12,39 +12,43 @@ There is also a goal to hew close to a [_B/X_](https://www.drivethrurpg.com/prod
 
 This game itself probably doesn't fit into the [OSR](https://rpg.stackexchange.com/questions/1144/what-defines-the-old-school-renaissance), but you can still use B/X to cover up any holes in the rules (of which there are currently many), and you'll be in pretty good shape. It also might go without saying, but you need to understand tabletop role-playing games and _B/X_ and even newer games like _Dungeon World_ to make sense of this. There's a lot left unspoken. If you're completely new, get started with [_5th Edition Dungeons and Dragons_](https://dnd.wizards.com/) and come back after you've played a few games.
 
-# Contents
+# Docs
 
-The rules contents are all markdown files located in this root directory.
+The rules contents are all markdown files located in the docs directory. They are linked here for convenience.
 
-* [Core Rules](CORE.md)
-* [Characters](CHARACTERS.md)
-    * [The Strong](STRONG.md)
-    * [The Wise](WISE.md)
-    * [The Deft](DEFT.md)
-    * [The Weird](WEIRD.md)
-* [Valuables](VALUABLES.md)
-    * [Resources](RESOURCES.md)
-* [Exploration](EXPLORATION.md)
-    * [Wilderness](WILDERNESS.md)
-    * [Dungeon](DUNGEON.md)
-    * [Ocean](OCEAN.md)
-* [Encounter](ENCOUNTER.md)
-    * [Combat](COMBAT.md)
-* [Factions](FACTIONS.md)
-    * [Court](COURT.md)
-* [Downtime](DOWNTIME.md)
-* [Magic](MAGIC.md)
-    * [Workings](WORKINGS.md)
-    * [Items](MAGIC_ITEMS.md)
-* [Solo Play](SOLO.md)
-* [B/X Conversion](CONVERSION.md)
-* [OGL](OGL.md)
+* [Core Rules](docs/CORE.md)
+* [Characters](docs/CHARACTERS.md)
+    * [The Strong](docs/STRONG.md)
+    * [The Wise](docs/WISE.md)
+    * [The Deft](docs/DEFT.md)
+    * [The Weird](docs/WEIRD.md)
+* [Valuables](docs/VALUABLES.md)
+    * [Resources](docs/RESOURCES.md)
+* [Exploration](docs/EXPLORATION.md)
+    * [Wilderness](docs/WILDERNESS.md)
+    * [Dungeon](docs/DUNGEON.md)
+    * [Ocean](docs/OCEAN.md)
+* [Encounter](docs/ENCOUNTER.md)
+    * [Combat](docs/COMBAT.md)
+* [Factions](docs/FACTIONS.md)
+    * [Court](docs/COURT.md)
+* [Downtime](docs/DOWNTIME.md)
+* [Magic](docs/MAGIC.md)
+    * [Workings](docs/WORKINGS.md)
+    * [Items](docs/MAGIC_ITEMS.md)
+* [Solo Play](docs/SOLO.md)
+* [B/X Conversion](docs/CONVERSION.md)
+* [OGL](docs/OGL.md)
 
 # Sheets
 
 PDF files for character sheets and party sheets.
 
 * [Party Sheet](sheets/party_sheet.pdf)
+
+# Settings
+
+Future work for new content, as well as work in adapting established settings to _Lavender Hack_.
 
 # Format
 
