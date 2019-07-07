@@ -4,7 +4,7 @@ _Lavender Hack_ uses four classes, each of which is a broad archetype: **Strong*
 
 ### Blather
 
-Those class names are from _Whitehack_. Still undecided on going that route rather than the more standard class names.
+Those class names are from _Whitehack_. Still undecided on going that route rather than more standard class archetypes.
 
 ## Backgrounds
 

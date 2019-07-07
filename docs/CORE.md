@@ -99,11 +99,11 @@ If the rules instruct you to **step up** a usage die, you increase the die by on
 
 ## Rolling Usage Dice
 
-Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a **1-3**, the die is **stepped down** in addition to any other triggered effect. The more usage dice are used, the more they're used up! This result means the thing was **used**, and is occasionally referenced in the rules for additional effect.
+Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a **1-3**, the die is **stepped down** in addition to any other potential effects. The more usage dice are used, the more they're used up! A 1, 2, or 3 result means the thing was **used**, and can occasionally trigger an additional effect.
 
-## Testing a Usage Die
+## Broken Usage Dice
 
-If players are forced to roll a d20 usage die, the result is almost never good! Each type of usage die has set of general test results that is used for this purpose. This is referred to as **testing the usage die**. The gamemaster rolls the usage die to determine what happens.
+If players are forced to rely on a d20 usage die, the result is almost never good! Each type of usage die has set of general test results that is used for this purpose. Rolling a d20 usage die is referred to as **testing the usage die**. The gamemaster rolls the usage die to determine what happens!
 
 ### Blather
 
@@ -113,7 +113,7 @@ I love the concept of usage dice, although getting them to function well as an e
 
 # Resources
 
-There is a [party sheet](../sheets/party_sheet.pdf) for the players which tracks four important party level **resources**, each tracked with a usage die. They are **gear**, **fellowship**, **food**, and **light**. Resources are detailed more in the [resources](RESOURCES.md) section of the [valuables](VALUABLES.md) chapter.
+There is a [party sheet](../sheets/party_sheet.pdf) for the players which tracks four important party level **resources**, each tracked with a usage die. They are **gear**, **fellowship**, **food**, and **light**. Resources are detailed more in the [Resources](RESOURCES.md) section of the [Valuables](VALUABLES.md) chapter.
 
 ## Gear
 
@@ -129,8 +129,8 @@ The gear die also provides an interesting mechanism for different classes to exp
 
 ## Food and Light
 
-Food and light are tracked indepently from gear, since they function more as timers during travel. The [Exploration](EXPLORATION.md) chapter details uses for food and light.
+Food and light are tracked indepently from gear, since they function as timers during travel. See the [Exploration](EXPLORATION.md) chapter for more details.
 
 ## Fellowship
 
-Fellowship represents party cohesion. If the group is happy, well rested, and ready to go, fellowship will be high. It is stepped down during stressful situations such as dungeon exploration. Fellowship is particularly important during trading and interactions with factions. See the [Factions](FACTIONS.md) chapter for more details.
+Fellowship represents party cohesion. If the group is happy, well rested, and ready to go, fellowship will be high. It is stepped down during stressful situations such as dungeon exploration. Fellowship is particularly important during trading and interactions with factions. See the [Court](COURT.md) section for more details.
