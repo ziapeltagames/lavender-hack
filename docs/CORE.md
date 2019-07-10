@@ -22,7 +22,7 @@ Ability score modifiers are far more important to the game than the actual score
 
 # Tests
 
-The game involves an interaction between a gamemaster and the players. The gamemaster gets the ball rolling by setting scenes and situations that the players find themselves in. At certain points, a player will want to accomplish something which is both uncertain and interesting. The players may decide a die roll is called for to figure out what happens. How _difficult_ a thing is to do is less important than whether both success and failure are _interesting_.
+The game relies on an ongoing dialog between a gamemaster and the players. The gamemaster gets the ball rolling by setting scenes and situations that the players find themselves in. At certain points, a player will want to accomplish something which is both **uncertain** and **interesting**. The players may decide a die roll is called for to figure out what happens. How _difficult_ a thing is to do is less important than whether both success and failure are _interesting_.
 
 The player gives a vague outline of what their character is intending to do. It is important not to fill in too many details, because the die roll will determine what happens! The players then determine which ability score is most applicable to this action. After that a d20 (twenty sided die) is rolled and the related ability score modifier is added to the result.
 
@@ -38,7 +38,7 @@ The **natural** above refers to a d20 test roll that shows the number in questio
 
 ### Blather
 
-I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success. The roll under ability score OSR variants are cleanly designed, but there's a ton of cultural inertia around what rolling a 20 means. The other issue with roll under is that it requires changes to the generation of ability scores. I really like the historical precedent of rolling 3d6 straight down, and using roll under with that approach to ability score generation makes for potentially wildly ineffective or overpowered characters.
+I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success. The roll under ability score OSR variants like _Black Hack_ or _Whitehack_ are cleanly designed, but there's a ton of cultural inertia around what rolling a 20 means. The other issue with roll under is that it requires changes to the generation of ability scores. I really like the historical precedent of rolling 3d6 straight down. Using roll under with that approach to character creation makes for potentially wildly ineffective or overpowered characters.
 
 ## Advantage and Disadvantage
 
@@ -46,7 +46,7 @@ Some situations can result in a test roll having **advantage** or **disadvantage
 
 ## Keep Criticals and Fumbles
 
-Other situations may allow a player to add to the result in various ways, or re-roll the result. This may allow them to change a miss into a weak success or a weak success into a strong success. However, **fumbles and criticals can't be altered after the roll**. That's the result.
+Other situations may allow a player to modify the result in various ways, or re-roll the result. This may allow them to change a miss into a weak success or a weak success into a strong success. However, **fumbles and criticals can't be altered after the roll**. That's the result.
 
 ## General Tests
 
@@ -89,7 +89,7 @@ Essentially, procedures tie together sequences of tests and moves, typically in 
 
 ### Blather
 
-The concept of moves come from [_Apocalypse World_](http://apocalypse-world.com/).  _Apocalypse World_ burst forth on the RPG scene in 2010 and certainly had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_. However, moves are not usually grounded in larger procedures, but rather are free floating things that trigger when the fictional situation they refer to occurs. This is the idea that RPGs are a conversation and moves trigger as part of that.
+The concept of moves come from [_Apocalypse World_](http://apocalypse-world.com/).  _Apocalypse World_ burst forth on the RPG scene in 2010 and had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games which leverage, to varying degrees of success, the tech from _Apocalypse World_. However, moves are not usually grounded in larger procedures, but rather are free floating things that trigger when the fictional situation they refer to occurs. This is the idea that RPGs are a conversation and moves trigger as part of that.
 
 For myself, I like the idea of more free flowing mechanical widgets which can be triggered to push the fiction in all sorts of interesting directions. However, I really like structured mini-games as well, such as Duel of Wits in [_Burning Wheel_](https://www.burningwheel.com/) or combat in [_The One Ring_](http://cubicle7.co.uk/our-games/the-one-ring/). Turns have an advantage over moves in that the spotlight tends to get deliberately shared more, and mini-games add tactical diversity and strategy to the system.
 
@@ -115,7 +115,7 @@ This process of rolling a usage die, checking the result, and then determining i
 
 ## Usage Save
 
-If players are forced to roll a d20 usage die, the result is almost never good! Each type of usage die has a set of general test results that is used for this purpose. Rolling a d20 usage die is referred to as **making a usage save**. The spotlight player rolls the usage die and looks up the related save results to determine what happens!
+If players are forced to roll a d20 usage die, the result is almost never good! Each type of usage die has a set of general test results that is used for this purpose. Rolling a d20 usage die is referred to as **making a usage save**. The spotlight player rolls the usage die and looks up the related save results to determine the value and what happens!
 
 ### Blather
 
