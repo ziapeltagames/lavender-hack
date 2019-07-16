@@ -24,7 +24,7 @@ The rules contents are all markdown files located in the docs directory. They ar
     * [The Wise](docs/WISE.md)
     * [The Deft](docs/DEFT.md)
     * [The Weird](docs/WEIRD.md)
-* [Valuables](docs/Valuables.md)
+* [Valuables](docs/VALUABLES.md)
     * [Resources](docs/RESOURCES.md)
     * [Equipment](docs/EQUIPMENT.md)
 * [Exploration](docs/EXPLORATION.md)
