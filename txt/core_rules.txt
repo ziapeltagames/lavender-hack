@@ -1,0 +1,96 @@
+Core Rules
+They’ll certainly kill you if you ever show up back at the manor house. But you have no intention of going back. Who wants to barely survive, serving every sadistic whim of some wealthy asshole? Not you.
+They say there are devils out there. Things that will suck the lifeforce right out of you and leave you as a drooling husk. But there are treasures! Treasures of such grandiosity that you can raise an army and come back and lay those bastards low. Won’t that be nice.
+Or, maybe you’ll be ripped apart or poisoned or fall in a pit. Better that than spending one more second here.
+Lavender Hack is a fantasy tabletop role-playing game with a focus on strict time records, exploration, diplomacy, trade, downtime, and getting as much wealth as possible.
+In many places, it works like 80’s era old school fantasy role-playing games, but it has some newer tech, such as success with cost, aspects, usage dice, and tighter procedures to support strategic modes of play.
+Hi! I’m Phil Lewis. I wrote much of the text and designed a few new widgets, but most of Lavender Hack is heavily inspired by other games. The big influences are Whitehack, Black Hack, Macchiato Monsters, Fate Core, Dungeon Crawl Classics, Czege House Rules, Knave, Dreams of Adventure, The One Ring, Into the Odd, Sharp Swords and Sinister Spells, Ironsworn, Torchbearer, Dungeon World, Adventurer Conquerer King, Advanced Dungeons & Dragons, and Old School Essentials. I’m going to use these highlighted commentary sections to rant and ramble and add more context. Skip them if you’re just looking for rules.
+“Strict Time Records” is a Gygaxian reference to the first edition Advanced Dungeons and Dragons Dungeon Master’s Guide which claimed that without meaningful time records, you couldn’t play the game effectively. There is much truth to this, but I’ve never been very satisfied with the particular way time is handled in the various D&D editions. One of the core goals of this system is to make time pressure and resource management central to the game while keeping the fiddly bits manageable. That’s kind of my jam. I wrote another game called Wrath of the Autarch which is fun if you want a really deep dive on domain management. Word of warning: WotA is very fiddly, and feels more like a boardgame.
+There is also a primary design goal to hew close to the 1981 Basic/Expert D&D core popular in Old School Renaissance (OSR) circles. In particular, I’m interested in using hexcrawl content like Barrowmaze or Hot Springs Island or Night’s Dark Terror or Dwimmermount without too much pain. Torchbearer and The One Ring both manage time in very interesting ways, but aren’t close enough to B/X to make that content very easy to use. That said, those two are among my favorite RPGs, so if you haven’t played them, you should!
+What makes something compatible or easy to convert is somewhat a matter of opinion. In the case of Lavender Hack, most of the conversion involves converting monster armor class and using abstract values for treasure rather than a gold piece standard. Both of which aren’t too difficult to manage.
+Not sure if Lavender Hack fits into the OSR or not, but it’s close enough that you can use B/X to cover up any holes in the rules, and you’ll be in pretty good shape. It also might go without saying, but it helps if you’ve played B/X D&D and even newer games like Dungeon World and Fate Core to make sense of this. There’s a lot left unspoken. If you’re completely new, I’d recommend starting with 5th Edition Dungeons and Dragons and come back after you’ve played a few games.
+Getting Started
+The best way to learn how to play fantasy tabletop role-playing games is to find a group, or watch videos online. In Lavender Hack, one player, the gamemaster, facilitates the game for the rest of the players, who each control a character they create. Characters in Lavender Hack explore a dangerous and fantastical world, inhabited by different factions to interact and trade with. The characters form a company, the purpose of which is to make enough money to escape their miserable existences.
+To play Lavender Hack, you will need 4, 6, 8, 10, 12, and 20 sided dice. The shorthand d20 refers to the twenty-sided die. The shorthand 3d6 refers to rolling three six-sided dice and adding the results together. The shorthand d100 refers to rolling two ten sided dice and using one die for the tens digit to generate a number from 1 to 100.
+Each player will need a copy of a character sheet, and the group will need a copy of the company sheet. There are also exploration sheets which can be useful during exploration. All of these sheets are located at the back of the book, as well as at ziapeltagames.com.
+Ability Scores
+Ability scores are central to the game. They are the first thing you calculate when making a character. There are six, and they should come as no surprise: Strength (Str), Dexterity (Dex), Wisdom (Wis), Intelligence (Int), Constitution (Con), and Charisma (Cha).
+Ability scores are on a scale from 3-18, and they have modifiers ranging from -3 to +3. The modifiers are based on the ability score as follows.
+Score	Modifier
+18	+3
+16-17	+2
+13-15	+1
+9-12	+0
+6-8	-1
+4-5	-2
+3	-3
+
+Ability score modifiers are more important to the game than the actual score. If the game text says something like add Con or +Str, that means adding the ability score modifier, never the original ability score. The modifier added may be negative, thus lowering the result! Ability scores can change over the course of the game (particularly as your character grows in experience), which may also change the associated modifier.
+Tests
+One of the core mechanics in Lavender Hack is the test, a d20 roll added to  an ability score modifier.
+If the total is an 8 or higher, the test succeeds. If it’s below that number, the test fails. Frequently, finer granularity is needed beyond just determining whether a test succeeds or fails. In that case, the following degrees of success and failure are used.
+Total	Result
+Natural 20	Critical Success
+18+	Strong Success
+8+	Weak Success
+7-	Miss
+Natural 1	Fumble
+
+The natural above refers to a d20 roll that shows the exact number in question, regardless of ability score modifiers. For example, if a player has a +2 modifier to a roll, and rolls an 18, the result is not a critical even though the total is a 20. Only an unmodified roll of 20 is a critical.
+I really wanted to keep the widely known d20 interpretations of 1 as a fumble or massive failure and 20 as a critical success. The roll under ability score OSR variants like Black Hack or Whitehack are cleanly designed, but there’s a ton of cultural inertia around what rolling a 20 means. I also really like the historical precedent of rolling 3d6 straight down for ability scores during character creation. Using roll under with that approach makes for wildly ineffective or overpowered characters without tweaking how ability scores are generated. Keeping modifiers between -3 and +3 and success on 8+ means that even very high or low ability scores aren’t going to wildly skew success or failure. At the worst, there’s still about a 50% chance of success.
+Advantage and Disadvantage
+Some situations can result in a test roll having advantage or disadvantage. If a player has advantage on a test, they roll two dice and take the highest result. If they have disadvantage, they roll two dice and take the lowest result. This frequently applies to tests (d20 rolls), but could apply to any dice rolls, of any dice type, as specified. If a player has both advantage and disadvantage on a roll, they cancel each other out and the die is rolled straight.
+Keep Criticals and Fumbles!
+Some situations may allow a player to modify a test result in various ways, or re-roll the result. This may allow them to change a miss into a weak success or a weak success into a strong success. However, fumbles and criticals can’t be altered after the roll. That’s the result!
+General Tests
+Sometimes a test is called for that does not use any ability score modifier. This is referred to as a general test. Frequently this is rolled by the gamemaster, with the results being interpreted based on the degree of success or failure. Random events in the dungeon and wilderness are an example of this sort of test.
+Saves
+Saves or saving throws are tests which are reactive. They work the same way as other tests, but they tend to be driven by the gamemaster or as a consequence of some action taken by the player. For instance, if a poisonous beast bites a character, they may have to make a save using their Constitution. As usual, an 8+ is successful. Degrees of success and failure may be used to further distinguish results as normal.
+Procedures
+The game consists of an ongoing dialog between the players. The gamemaster gets the ball rolling by setting scenes and situations that the characters find themselves in.
+As this narrative unfolds, some fictional situations have explicit steps to follow when they occur. These steps are called procedures. Most procedures use tests, and include results for each degree of success and failure. If there isn’t an entry for a particular result, assume nothing happens. Some procedures specify which ability score to use, with phrases like test Str or make a Cha test.
+The choice of which procedure to use is not just up to the fictional situation, however! There may be multiple procedures that apply to a situation: some are simple and some are involved. Choosing which to use depends on what sounds fun and interesting to everyone at the table.
+Overcome and Create Advantage
+Two core procedures are overcome and create advantage. These workshorse procedures will drive the narrative forward when no other procedures quite work. They will become second nature.
+Overcome
+When you wish to accomplish a task that is both uncertain and interesting, make a test using a relevant ability. Briefly outline what the character is attempting to do, waiting until after the roll to fill in details. On a
+Critical, the character has amazing success! Either the effect is much greater or it takes less time than anticipated.
+Strong success, the character succeeds at the task.
+Weak success, the character succeeds at the task, but there is a complication of some sort! Perhaps resources are used or a different problem has emerged.
+Miss, the character fails at the task.
+Fumble, whatever can go wrong, does. This is the worst possible result.
+Create Advantage
+Choose an ally to help with a test. Helping takes the same amount of time as the target ally’s action. Narrate how your character is helping and test the most relevant ability. On a
+Critical, the ally’s test is made with advantage, and they receive an additional +2 on the result.
+Strong success, the ally’s test is made with advantage, and they receive an additional +1 on the result.
+Weak success, your help is appreciated! The ally’s test is made with advantage.
+Miss, there are too many cooks in the kitchen! The ally does not get advantage and no one else can create an advantage for this test.
+Fumble, you’re doing more harm than good! The ally’s test is made with disadvantage and no one else can create advantage for this test.
+Inevitably in role-playing games, one player wishes to help another one. Create Advantage was crafted for this reason. The name of this procedure, along with the name for Overcome, were stolen from Fate Core. The goal here is to provide an avenue for characters to help each other in a careful, deliberate manner.
+It’s important to note that creating an advantage takes as much time as the action the advantage is for. So, in combat, creating an advantage takes a short amount of time, since actions are measured in ten second rounds. During wilderness exploration, creating an advantage takes longer, since actions in wilderness exploration are measured in four hour watches.
+Minigames
+Some procedures are involved, and inject strategy into Lavender Hack. These procedures are called minigames. Minigames have players take turns and choose from a variety of options during their turn. The minigames in Lavender Hack are wilderness exploration, ocean exploration, dungeon exploration, court, combat, and downtime.
+It’s possible to resolve fictional situations using just overcome and create advantage, but Lavender Hack is more fun with the time pressure and difficult choices that minigames provide. Also, you paid for 80 pages of rules, not two!
+Many of the procedures in Lavender Hack look like moves from Apocalypse World. Apocalypse World burst forth on the RPG scene in 2010 and had a major impact on game design. There are quite a few PbtA (Powered by the Apocalypse) games, which leverage, to varying degrees of success, the tech from Apocalypse World. Moves are also mechanical widgets triggered by fictional situations, although they usually aren’t nested within more involved turn based procedures. They also tend to be less prescriptive than what I’m doing here, so I didn’t want to use that word.
+I like the free flowing behavior of moves to push the fiction in all sorts of interesting directions. However, I also really like structured minigames, such as Duel of Wits in Burning Wheel or Combat in The One Ring. Those minigames need turns to work well. Turns have an advantage over moves in that the spotlight tends to get deliberately shared more, and minigames add tactical diversity and strategy. Relying too much on minigames may result in an overly regimented game that may become a little dry. However, only relying on moves makes the game less strategic, which I don’t personally enjoy as much.
+Lavender Hack mixes free flowing procedures with minigames. Apocalypse World purists might blanch at this approach, but I see no incompatibility from switching between the freeform “talk in the funny voices” parts of rpgs and the “win at a game” parts of rpgs. It’s easy enough to tell which is which and when to use either.
+Spotlight Player
+Lavender Hack occasionally has choices and die rolls that aren’t directly related to any particular character. A spotlight player makes these choices and die rolls. The spotlight player should be chosen at the beginning of the session. Rotate the spotlight around, so that players alternate the responsibility. Occasionally the spotlight player endures further complications or hardships for their character! Being in the spotlight isn’t always a purely beneficial experience.
+Usage Dice
+Usage dice are a general purpose tracking mechanism heavily featured in Lavender Hack. Usage dice change die type based on situations in the game. This forms a ladder of sorts, going from d2 at the lowest to d12 at the highest.
+d2(0) - d4 - d6 - d8 - d10 - d12
+A d20 is used for the lowest step. A usage die can never be above a d12 or below a d20.
+Usage dice may reflect an amount of something, in which case the d12 represents having a lot of it and the d20 represents just scraping by. For example, a d12 food die means the characters have plenty of food of all different kinds, and a d20 means they have a few very questionable berries found while foraging.
+Usage dice may reflect the quality of something, in which case the d12 represents something of the highest quality, while a d20 represents something very shoddy and makeshift. For example, if used for light, a d12 is a number of lanterns with plenty of oil, while a d2 is a torch scrapped together from a torn bit of clothing.
+If the rules instruct you to step up a usage die, you increase the die by one step. For example, a d8 would get swapped out with a d10. If the rules instruct you to step down a usage die, you lower the die by one step. For example, a d8 would get swapped with a d6. There are a variety of ways and reasons usage dice are stepped up and down. A d12 can’t be stepped up and a d20 can’t be stepped down. A d20 usage die is referred to as broken.
+Usage Test
+Usage dice might be rolled for a variety of reasons. If the result of rolling a usage die is a 1-3, the die is stepped down in addition to any other potential effects. The more usage dice are rolled, the more they’re used up! A 1, 2, or 3 result means the thing was used, and can occasionally trigger an additional effect besides stepping the die type down.
+This process of rolling a usage die, checking the result, and then determining if it should be stepped down is called a usage test. Frequently the only thing that matters in a usage test is if the die is stepped down or not.
+Usage Save
+If players are forced to roll a d20 usage die, the result is almost never good! Each type of usage die has a set of general test results that are used for this purpose. Rolling a d20 usage die is referred to as making a usage save. A usage save is also made if the d20 die is stepped down for some reason.
+The spotlight player rolls the usage die and looks up the related save results to determine the value and what happens!
+Usage dice come from the game Black Hack, although they are also used very effectively and extensively in Macchiato Monsters. In Black Hack they lower on a 1-2. I used the MM version, which is where the 1-3 comes from. Stepping down on a 1-3 ensures a little more movement, even for larger die types.
+I love the concept of usage dice, although getting them to function well as an economy is one of the most active parts of development. Who knows, maybe they won’t be as good of a fit as simple counters. In order for them to be viable, they need to be rolled frequently!
+Resources
+There are important party level resources, each tracked with a usage die. The core resources are gear, food, light, and fellowship. Party resources are discussed in detail in Party Resources (page 26).
+Some games modify how resources used. For example, in ocean exploration, a hull resource is used to track the stability of the boat, and light isn’t used at all.

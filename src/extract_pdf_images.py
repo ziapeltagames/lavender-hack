@@ -83,10 +83,16 @@ def tiff_header_for_CCITT(width, height, img_size, CCITT_group=4):
 def extract_images_from_pdf_page(xObject):
     image_list = []
 
+    if not '/Resources' in xObject:
+        return
+    
+    if not '/XObject' in xObject['/Resources']:
+        return
+
     xObject = xObject['/Resources']['/XObject'].getObject()
 
     for obj in xObject:
-        o = xObject[obj]
+
         if xObject[obj]['/Subtype'] == '/Image':
             size = (xObject[obj]['/Width'], xObject[obj]['/Height'])
             # getData() does not work for CCITTFaxDecode or DCTDecode
@@ -145,13 +151,16 @@ def extract_images_from_pdf_page(xObject):
             else:
                 print ('Unhandled image type: {}'.format(xObject[obj]['/Filter']))
         else:
-            image_list += extract_images_from_pdf_page(xObject[obj])
+            next_image_list = extract_images_from_pdf_page(xObject[obj])
+            if next_image_list is not None:
+                image_list.append(next_image_list)
     
     return image_list
 
 if __name__ == '__main__':
     try:
-        filename = 'C:\\Users\\phill\\Downloads\\pg\\pantagruel.pdf' # sys.argv[1]
+#        filename = 'C:\\Users\\phill\\Downloads\\pg\\pantagruel.pdf' # sys.argv[1]
+        filename = "C:\\Users\\phill\\Dropbox\\Role-playing Games\\Longform\\Dungeons and Dragons\\AD&D 1st Edition\\MI_AD&D2CharacterRecordSheets.pdf"
 #        pages = sys.argv[2:]
 #        pages = list(map(int, pages))
         abspath = path.abspath(filename)
@@ -166,13 +175,16 @@ if __name__ == '__main__':
     for p in range(file.getNumPages()):
         page0 = file.getPage(p - 1)
         image_list = extract_images_from_pdf_page(page0)
-        number += len(image_list)
         
-        for pdf_image in image_list:
-            img = Image.open(pdf_image.data)
-            image_path = "{} - p. {} - {}.{}".format(
-                abspath[:-4], p, pdf_image.image_name,pdf_image.format)
-            img.save(image_path)
+        if image_list is not None:
+            
+            number += len(image_list)
+            
+            for pdf_image in image_list:
+                img = Image.open(pdf_image.data)
+                image_path = "{} - p. {} - {}.{}".format(
+                    abspath[:-4], p, pdf_image.image_name,pdf_image.format)
+                img.save(image_path)
 
     print('-' * 20)
     print('{} extracted images'.format(number))

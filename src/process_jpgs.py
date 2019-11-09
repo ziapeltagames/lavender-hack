@@ -6,6 +6,7 @@ Created on Tue Sep 10 22:19:23 2019
 """
 
 from skimage import io
+from skimage import color
 from skimage import exposure
 from skimage import feature
 from skimage import restoration
@@ -59,15 +60,23 @@ def process_image(img_file):
     
     fpath, fname = os.path.split(img_file)
     fname = fname[:-4] + '.tif'
-    io.imsave(os.path.join(fpath, fname), img.astype('uint8')*255)
+    img = img.astype('uint8')*255
+    io.imsave(os.path.join(fpath, fname), img)
     
+    fname = fname[:-4]+'_lav.tif'
+    for i in range(img.shape[0]):
+        for j in range(img.shape[1]):
+            if img[i,j,0] == 0:
+                img[i,j,0] = 115
+                img[i,j,1] = 79
+                img[i,j,2] = 150
+    io.imsave(os.path.join(fpath, fname), img)                
+
     return
 
 if __name__ == '__main__':
     
-#    process_image('C:\\Users\\phill\\Downloads\\pg\\pantagruel - p. 28 - img0.JPG')
-    
-    directory = 'C:\\Users\\phill\\Downloads\\pg'
+    directory = 'C:\\Users\\phill\\Dropbox\\Ziapelta Games\\Games\\Lavender Hack\\pg'
     
     for filename in os.listdir(directory):
         if filename.endswith(".jpg") or filename.endswith(".JPG"):
