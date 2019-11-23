@@ -1,0 +1,104 @@
+The High Sea
+Ocean exploration is used when the characters have access to a seaworthy vessel and wish to travel the open seas. Weather features prominently in ocean travel, as it can greatly dictate progress.
+Days and Hexes
+Time on the ocean is measured in days. Distance is measured in hexes, as in wilderness travel. However, the hexes represent much more area. A standard ocean hex is 24 miles across.
+The Crew
+Managing a larger ship is not an easy task. There are lots of jobs and rankings, most mundane and backbreaking.
+Players can take any of the following prominent roles, or defer that responsibility to NPCs. Roles they don’t take can be handled using general tests, although it’s much more fun for players to take these roles.
+Minimum Crew
+In addition, ships have a number of crew members to handle a variety of tasks. This number is tracked on the High Seas exploration sheet.
+The starting crew is listed in Ocean Transport (page 30). Keeping track of the number of crew available is important, because if it falls below a certain number, it will be impossible to perform all of the necessary tasks.
+The second crew number in the equipment section lists the minimum crew needed to travel. Without this, the boat is drifting, at the mercy of winds and currents.
+The third number in the equipment section lists crew needed to handle attacks and obstacles, mainly coming into play in Naval Combat (page 55).
+Captain
+The captain makes the big decisions and orders the crew around. This can be accomplished using the overcome procedure with Charisma, as necessary. The captain has the final say on what happens on the ship.
+Quartermaster
+The quartermaster follows the navigation procedure each day to determine how well the route is followed. Quartmasters are also important for maneuvering in combat. Wisdom is important for these tasks.
+Bosun
+The bosun keeps the equipment and crew in order. This is particularly important during combat, but it can come into play anytime quick action and readiness is important. Charisma is important for ordering crew around, while Constitution may be used when the bosun needs to get their hands dirty and pitch in.
+Gunners
+Gunner is a broad term referring to any crew manning naval weaponry. Players may be in charge of individual pieces of naval weaponry.
+There are not many OSR products that feature ocean travel. The impetus for this chapter was my love for Hot Springs Island. However, in HSI, the larger island chain is not mapped out, so actual ocean travel doesn’t feature prominently. Due to binging on sea shanties while writing, Lavender Hack is certainly very focused on the ocean. My main inspiration for the eight mile hex size are the old D&D Gazetteers, such as GAZ4: Kingdom of Ierendi and GAZ9: The Minrothad Guilds.
+Ocean Exploration Minigame
+Roll d10 for number of days in leg.
+Roll wind die.
+Check for ocean events.
+At end of leg, roll food die.
+Resources at Sea
+A hull usage die is used at sea to track the structural integrity of the ship. Along with the hull die, the food, fellowship, and gear dice are used as well. The light die is not used at sea.
+The resource saves in Party Resources (page 26) are written  for travel in the dungeons or wilds. For ship travel, use the following procedures instead.
+Food Save at Sea
+When a d20 food die is used or stepped down during ocean exploration, make a save. On a
+Critical, secret stores of food have been found! The value is four and step up the food die to a d4.
+Strong Success, the value is two.
+Weak Success, the value is one.
+Miss, the value is zero and half the crew is very weak, unable to contribute.
+Fumble, the value is zero and the entire crew is starving to death, unable to contribute.
+Fellowship Save at Sea
+When a d20 fellowship die is used or stepped down during ocean exploration, make a save. On a
+Critical, the crew has grown through adversity! The value is four and step up the fellowship die to a d4.
+Strong Success, the value is two.
+Weak Success, the value is one.
+Miss, the value is zero and half the crew mutinies! A fierce battle ensues!
+Fumble, the value is zero and the entire crew mutinies! Make the captain walk the plan!
+Damaged Hull
+Some events can cause the ships hull to become damaged. A ship with a damaged hull moves at half speed, and any navigation or maneuvering tests are made with disadvantage. Repairing the hull can be done as an action during downtime and requires spending the ship’s upkeep.
+Hull Save
+When a d20 hull die is used or stepped down during ocean exploration, make a save. On a
+Critical, she has some fight left in her yet! The value is four and step up the hull die to a d4.
+Strong Success, the value is treated as a two.
+Weak Success, she can’t take much more of this! The captain player rolls a d6, killing that many crew. The value is treated as a one.
+Miss, we’re food for sharks! The value is zero and the boat will sink in d10 turns.
+Fumble, the boat is shattered! Everyone on board is drowning. Time to drink potions of water breathing.
+Anchored
+When the boat anchors so that the company can be sent out to explore, the company uses the same die type for food, fellowship, and gear that the boat has. Set the light die to the same die type as the gear die.
+Record the current food die on the ocean exploration sheet. When the comapny returns, reset the food die to this type prior to setting off.
+The idea here is that the quality of food for overland exploration is based on the level found on the ship. During exploration, food will be used at a faster rate, so upon return, the ship’s food die is used, rather than the company’s food die.
+Wind
+Wind speed and direction has a great effect on ocean travel. The wind speed table lists movement modifiers that are applied to the number of hexes a ship can travel, based on the strength of the wind. Entries for +1 hex and -1 hex add or subtract one to the total hexes traveled, respectively.
+During calm, the only movement possible is with oars. However, each day that oar movement is used, the fellowship die must be rolled.
+The movement modifier for strong winds only applies if the boat is roughly going in the same direction as the wind. Otherwise, movement is reduced by half.
+In a gale, any maneuvering and navigation is made at a disadvantage. The boat will be pushed along in the general direction of the wind. If there is land in the boat’s path, it will crash against the shore, becoming shipwrecked.
+
+Starting Wind
+At the start of a new outing, roll a d8 to determine the starting wind speed and a d4 to determine the starting wind direction.
+For each week players delay their voyage, they may roll again to see how the wind changes, although they will need to perform actions as usual for Downtime (page 63).
+Ocean Events
+To determine ocean events, the gamemaster makes a general test, and rolls on the subtable indicated, if necessary.
+Ocean Events
+At the start of each leg of the voyage, make a general test for ocean events. On a
+Critical, the ship has taken damage! Step down the hull die.
+Strong Success, intense storms rain down on the ship. All navigation and maneuvering tests for the ship are made with disadvantage for the remainder of the day. Additionally, roll for a mission event.
+Weak Success, roll for a mission event.
+Miss, there is potential discord among the crew! Roll the fellowship die.
+Fumble, there is an ocean discovery!
+Mission Event
+The mission event result indicates another roll on a mission specific event table. Roll a d6 to determine the watch when the encounter will occur (dawn, day, day, dusk, night, night).
+Using an ocean based monster encounter table is fine, however ocean exploration tends to have fewer encounters with creatures, and more events on the ship itself. Such events can make the voyage more memorable.
+Discord
+The grind of being away from home slowly wears down the crew. Roll the fellowship die.
+Discovery
+A resource or valuable has been found! The specifics will depend on where the party is located and the type of valuable found. It could be a floating shipwreck or a small uncharted island. Alternatively, if the hex already has something of value that could be discovered, that is now found, without needing to search for it.
+Ocean Discovery
+The ship has made a discovery on the high seas. Make a general test to determine what has been found. On a
+Critical, step up the fellowship die. What happened? An inspiring shanty? A beautiful natural phenomena?
+Strong Success, step up the light die. What was found? Oil or plants useful for making torches.
+Weak Success, step up the gear die. What was found? Maybe a cache of equipment or medicinal kelp.
+Miss, step up the food die. What was found? Fish? Rain for the water supplies?
+Fumble, the party has made a discovery of valuables! Roll a d10 to determine the total value of what has been found, then describe it.
+Navigation
+At the start of each day on the ocean, the navigator should test Wis. On a
+Critical, the navigator has successfully used the currents to great advantage. Move two extra hexes for the day.
+Strong Success, the navigator reads the wind well. The navigator may change either the wind direction or degree one step.
+Weak Success, steady progress is made. Roll for shifting winds.
+Miss, unsteady progress is made. The gamemaster may change the wind direction or degree one step.
+Fumble, the ship smashes against an unseen rock and the hull is damaged! Step down the hull die.
+Shifting Winds
+When the winds shift, make a general test. On a
+Critical, the winds shift direction as shown below.
+N -> E -> S -> W -> N
+Strong Success, if the test roll was even, the wind speeds increase twice. If the test roll was odd, the wind speeds decrease twice.
+Weak Success, if the test roll was even, the wind speeds increase. If the test roll was odd, the wind speeds decrease.
+Fumble, the winds shift direction as shown below.
+N -> W -> S -> E -> N
+Unlike in wilderness travel, the hexes in ocean travel are usually fairly sparse. While events can greatly liven up the voyage, much of ocean travel is about the time and resources needed.
